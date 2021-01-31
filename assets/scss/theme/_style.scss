@@ -1273,7 +1273,6 @@ button:focus {
     8. Product Details Page Area End
 -------------------------------------------*/
 
-
 /*-------------------------------------------
     8. Flash Sale Slider Area Start
 -------------------------------------------*/
@@ -2199,6 +2198,22 @@ button:focus {
 
 /*-------------------------------------------
     20. Dashboard Page End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    21. Merchant Dashboard Start
+-------------------------------------------*/
+.merchant-product-table .card table th img {
+	height: 46px;
+}
+.merchant-product-table .card table {
+	font-size: 14px;
+}
+.merchant-product-table .card table thead th {
+    text-transform: capitalize;
+}
+/*-------------------------------------------
+    21. Merchant Dashboard End
 -------------------------------------------*/
 
 

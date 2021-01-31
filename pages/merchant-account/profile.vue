@@ -17,7 +17,7 @@
             <p><strong>Last Name:</strong></p> <p>Aysha</p>
           </div>
           <div class="info-row d-flex pb-2">
-            <p><strong>Contact Number:</strong></p> <p>0123456789</p>
+            <p><strong>Contact Number:</strong></p> <p>+99 954258714</p>
           </div>
           <div class="info-row d-flex pb-2">
             <p><strong>Gender:</strong></p> <p>female</p>

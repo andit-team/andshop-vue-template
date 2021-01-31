@@ -7,6 +7,7 @@ import ImageMagnifier from 'vue-image-magnifier'
 import VueToast from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-default.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
+import VueApexCharts from 'vue-apexcharts'
 
 Vue.use(BootstrapVueIcons)
 Vue.use(VueAwesomeSwiper)
@@ -20,3 +21,6 @@ Vue.use(VueGoogleMaps, {
     libraries: 'places', // This is required if you use the Autocomplete plugin
   },
 })
+
+Vue.use(VueApexCharts)
+Vue.component('apexchart', VueApexCharts)
