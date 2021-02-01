@@ -15,6 +15,7 @@
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
+    "nuxt-dropzone": "^1.0.4",
     "swiper": "^5.4.5",
     "vee-validate": "^3.4.5",
     "vue-apexcharts": "^1.6.0",
@@ -22,6 +23,7 @@
     "vue-image-magnifier": "^0.2.1",
     "vue-scrollto": "^2.17.1",
     "vue-slider-component": "^3.2.11",
+    "vue-tinymce-editor": "^1.6.2",
     "vue-toast-notification": "^0.6.0",
     "vue2-google-maps": "^0.10.7"
   },

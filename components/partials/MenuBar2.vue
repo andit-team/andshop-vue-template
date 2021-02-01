@@ -340,32 +340,9 @@
                     <li class="nav-item">
                       <nuxt-link to="/merchant-account/login" class="nav-link">Sell on Andshop</nuxt-link>
                     </li>
-
-                    <b-nav-item-dropdown right class="track-order-dropdown">
-                      <template #button-content>
-                        Track my order
-                      </template>
-
-                      <div class="last-order-list mb-3">
-                        <h6 class=" mb-2">My last order</h6>
-
-                        <li><nuxt-link to="/my-account/my-orders/1">21/12/2020- Order 61242536578912</nuxt-link></li>
-                        <li><nuxt-link to="/my-account/my-orders/2">21/12/2020- Order 61242536578912</nuxt-link></li>
-                        <li><nuxt-link to="/my-account/my-orders/3">21/12/2020- Order 61242536578912</nuxt-link></li>
-                        <li><nuxt-link to="/my-account/my-orders/4">21/12/2020- Order 61242536578912</nuxt-link></li>
-                      </div>
-
-                      <h6 class=" mb-2">Track my order</h6>
-
-                      <b-form inline>
-                        <label for="track_order">Your order number</label>
-
-                        <input type="text" class="form-control font-14" id="track_order" placeholder="eg.123456789">
-
-                        <button class="theme-button rounded-left-0 rounded-right"><i class="fas fa-chevron-right"></i></button>
-                        <span class="d-block font-12 mt-3">For any other inquiries, <nuxt-link to="/contact-us" class=" color-blue">Click here</nuxt-link> </span>
-                      </b-form>
-                    </b-nav-item-dropdown>
+                    <li class="nav-item">
+                      <nuxt-link to="/my-account/my-orders/1" class="nav-link">Track my order</nuxt-link>
+                    </li>
 
                   </ul>
                 </div>

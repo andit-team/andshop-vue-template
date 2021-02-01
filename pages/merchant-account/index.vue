@@ -3,21 +3,21 @@
     <!-- Top List Box -->
     <ul class="list-unstyled top-list d-flex justify-content-start mb-4">
       <li class="media bg-white rounded border-left border-left-5 border-danger p-3 mr-3 w-100" style="border-width: 3px !important">
-        <img :src='"@/assets/images/all-icon/dashboard-list-1.svg"' class="mr-3" alt="andgarivara" style="height: 50px">
+        <img :src='"@/assets/images/all-icon/dashboard-list-1.svg"' class="mr-3" alt="product" style="height: 50px">
         <div class="media-body">
           <h5 class="mt-0 mb-1">25</h5>
           <p class="text-black-color">Total Products</p>
           </div>
       </li>
       <li class="media bg-white rounded border-left border-left-5 border-danger p-3 mr-3 w-100" style="border-width: 3px !important">
-        <img :src='"@/assets/images/all-icon/dashboard-list-2.svg"' class="mr-3" alt="andgarivara" style="height: 50px">
+        <img :src='"@/assets/images/all-icon/dashboard-list-2.svg"' class="mr-3" alt="product" style="height: 50px">
         <div class="media-body">
           <h5 class="mt-0 mb-1">1225</h5>
           <p class="text-black-color">Total Sales</p>
           </div>
       </li>
       <li class="media bg-white rounded border-left border-left-5 border-danger p-3 mr-3 w-100" style="border-width: 3px !important">
-        <img :src='"@/assets/images/all-icon/dashboard-list-3.svg"' class="mr-3" alt="andgarivara" style="height: 50px">
+        <img :src='"@/assets/images/all-icon/dashboard-list-3.svg"' class="mr-3" alt="product" style="height: 50px">
         <div class="media-body">
           <h5 class="mt-0 mb-1">285</h5>
           <p class="text-black-color">Order Pending</p>
@@ -73,7 +73,7 @@
       <div class="col-lg-6">
         <div class="card border-0 p-3">
           <div class="card-body">
-           <h6 class="header-title mb-2">Total Revenue</h6>
+           <h6 class="header-title mb-2">Total Sales</h6>
             <div id="chart">
               <apexchart type="donut" :options="chartOptions1" :series="series1"></apexchart>
             </div>
@@ -86,7 +86,7 @@
 
     <div class="row merchant-product-table">
       <div class="col-lg-6">
-        <div class="card dashboard-table">
+        <div class="card dashboard-table border-0">
           <div class="card-body">
             <h6 class="header-title mb-3">Trending Products</h6>
             <table class="table mb-0">
@@ -100,19 +100,19 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded"></th>
+                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>neck velvet dress</td>
                   <td>$205</td>
                   <td>1000</td>
                 </tr>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded"></th>
+                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>belted trench coat</td>
                   <td>$350</td>
                   <td>800</td>
                 </tr>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded"></th>
+                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>man print tee</td>
                   <td>$150</td>
                   <td>750</td>
@@ -123,7 +123,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="card dashboard-table">
+        <div class="card dashboard-table border-0">
           <div class="card-body">
             <h6 class="header-title mb-3">Recent Orders</h6>
             <table class="table mb-0">

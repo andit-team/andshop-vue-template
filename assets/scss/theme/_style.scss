@@ -78,7 +78,8 @@ a {
 }
 /* Theme All Transitions
 ------------------------------- */
-a, #mainNav, .theme-button, .product-item, .best-seller-item, .featured-product-item, .popular-categories-item, .product-details-share button, #checkout-address-modal .btn-secondary {
+a, #mainNav, .theme-button, .product-item, .best-seller-item, .featured-product-item, .popular-categories-item, .product-details-share button, #checkout-address-modal .btn-secondary,
+.filtering-part form button {
     transition: all .5s ease-in-out;
 }
 
@@ -121,7 +122,7 @@ img::selection {
 
 /*----Form Control Reset CSS----*/
 
-.form-control {
+.form-control, .b-form-btn-label-control.form-control {
     border-radius: 5px;
     border: none;
     background-color: #fff;
@@ -657,29 +658,29 @@ button:focus {
 .bottom-menu, .breadcrumb-area {
     border-bottom: 1px solid var(--border-secondary);
 }
-.track-order-dropdown ul {
-	padding: 15px;
-	width: 278px;
-}
-.track-order-dropdown ul form #track_order {
-	width: 208px;
-	height: 40px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.track-order-dropdown ul form button, .track-order-dropdown ul form button.btn-secondary:focus, .track-order-dropdown ul form button.btn-secondary.focus {
-	width: auto;
-	border: none;
-	padding: 12px 14px;
-	height: 40px;
-    background-color: var(--red-color);
-    border: transparent;
-}
-.last-order-list li a {
-	font-size: 14px;
-	display: block;
-	padding: 5px 0;
-}
+// .track-order-dropdown ul {
+// 	padding: 15px;
+// 	width: 278px;
+// }
+// .track-order-dropdown ul form #track_order {
+// 	width: 208px;
+// 	height: 40px;
+//     border-top-right-radius: 0;
+//     border-bottom-right-radius: 0;
+// }
+// .track-order-dropdown ul form button, .track-order-dropdown ul form button.btn-secondary:focus, .track-order-dropdown ul form button.btn-secondary.focus {
+// 	width: auto;
+// 	border: none;
+// 	padding: 12px 14px;
+// 	height: 40px;
+//     background-color: var(--red-color);
+//     border: transparent;
+// }
+// .last-order-list li a {
+// 	font-size: 14px;
+// 	display: block;
+// 	padding: 5px 0;
+// }
 
 // Bottom Menu Categories Nav
 .categories_nav_dropdown {
@@ -1811,6 +1812,7 @@ button:focus {
 	display: block;
 	padding: 12px 22px 7px;
 	border-left: 3px solid transparent;
+    text-transform: capitalize;
 }
 .dashboard-left-menu-list li a:hover{
 	background-color: var(--bg-3);
@@ -2203,14 +2205,28 @@ button:focus {
 /*-------------------------------------------
     21. Merchant Dashboard Start
 -------------------------------------------*/
-.merchant-product-table .card table th img {
+.merchant-product-table .card table th img, .merchant-products-page table th img {
 	height: 46px;
 }
-.merchant-product-table .card table {
+.merchant-product-table .card table, .merchant-products-page table, .merchant-orders-page table {
 	font-size: 14px;
-}
-.merchant-product-table .card table thead th {
     text-transform: capitalize;
+}
+.merchant-products-page table td i {
+	font-size: 12px;
+}
+.filtering-part form button:hover {
+	background-color: var(--hover-color);
+}
+
+// Merchant Add Product
+.upload-product-img {
+	width: 150px;
+	text-align: center;
+	border: 1px solid var(--bg-3);
+}
+.upload-product-photo button {
+	width: 150px;
 }
 /*-------------------------------------------
     21. Merchant Dashboard End
