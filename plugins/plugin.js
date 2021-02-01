@@ -9,6 +9,7 @@ import 'vue-toast-notification/dist/theme-default.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import VueApexCharts from 'vue-apexcharts'
 import tinymce from 'vue-tinymce-editor'
+import OtpInput from "@bachdgvn/vue-otp-input";
 
 Vue.use(BootstrapVueIcons)
 Vue.use(VueAwesomeSwiper)
@@ -26,3 +27,4 @@ Vue.use(VueGoogleMaps, {
 Vue.use(VueApexCharts)
 Vue.component('apexchart', VueApexCharts)
 Vue.component('tinymce', tinymce)
+Vue.component("v-otp-input", OtpInput)

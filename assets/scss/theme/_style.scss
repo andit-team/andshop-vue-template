@@ -2232,6 +2232,79 @@ button:focus {
     21. Merchant Dashboard End
 -------------------------------------------*/
 
+/*-------------------------------------------
+    22. Blog Pages Start
+-------------------------------------------*/
+// Blog Leftsidebar
+.blog-sidebar-wrap .left-sidebar-content ul li a {
+	font-size: 14px;
+}
+
+// Blog Right Side
+.single-blog {
+    margin-bottom: 30px;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+}
+.single-blog:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.single-blog .blog-img {
+    position: relative;
+    overflow: hidden;
+}
+.single-blog .blog-img span {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+}
+.single-blog .blog-content {
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+}
+.single-blog .blog-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.single-blog .blog-content ul li {
+    font-size: 14px;
+}
+.single-blog .blog-content ul li i {
+    margin-right: 5px;
+}
+.single-blog .blog-content h3 {
+    margin-bottom: 18px;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    font-size: 21px;
+}
+.single-blog .blog-content p {
+    margin-bottom: 20px;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+}
+.read-more {
+    font-weight: 600;
+    font-size: 15px;
+    color: #0e0f11;
+}
+/*-------------------------------------------
+    22. Blog Pages End
+-------------------------------------------*/
+
 
 /*-------------------------------------------
     22. Responsive Design CSS

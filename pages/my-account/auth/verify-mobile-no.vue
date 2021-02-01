@@ -13,7 +13,7 @@
               <input type="text" class="form-control" id="phone" placeholder="Phone No" v-model="phone">
             </div>
             <div class="form-group">
-              <button type="submit" class="theme-button rounded w-100 justify-content-center">Send Verification Code</button>
+              <button @click.prevent="goVerifyOTP()" type="submit" class="theme-button rounded w-100 justify-content-center">Send Verification Code</button>
             </div>
           </form>
         </div>
@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import {user_verify_otp} from "@/api/urls";
 
 export default {
   name: "verifyMobileNo",
@@ -33,38 +32,14 @@ export default {
       phone:'',
       authFailed: false,
       authError: '',
-      api_base_url : this.$config.API_BASE_URL
     }
   },
-  methods:{
-    sendVerificationCode() {
-      let self = this;
-      let config = {
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-        },
-      }
-      let payload = {
-        phone: self.phone,
-      }
-
-      self.$axios.$post(this.api_base_url+user_verify_otp, payload, config).then((res) => {
-        if (res.error === true){
-          this.authFailed=true
-          this.authError=res.msg
-        }
-        else {
-          this.$store.commit('userinfo/updateAuthMobileNo',self.phone);
-          this.$router.push('/auth/verify-otp');
-        }
-      }).catch((error)=>{
-        console.log(error)
+  methods: {
+    goVerifyOTP() {
+      this.$router.push({
+        path: '/my-account/verify-otp'
       });
-    },
-  },
-  mounted() {
-    this.phone=this.$store.state.userinfo.auth.mobileNo;
+    }
   },
 }
 </script>

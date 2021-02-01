@@ -295,28 +295,27 @@
                           <li>
                             <a>Authentication<i class="fas fa-angle-right ml-2"></i></a>
                             <ul class="submenu">
-                              <li><nuxt-link to="/my-account/login">Login</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/registration">Register</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/forget-password">Forget Password</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/reset-password">Reset Password</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/verify-email-address">Verify Email Address</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/verify-mobile-no">Verify Mobile No.</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/verify-otp">Verify OTP</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/login">Login</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/registration">Register</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/forget-password">Forget Password</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/reset-password">Reset Password</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/verify-email-address">Verify Email Address</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/verify-mobile-no">Verify Mobile No.</nuxt-link></li>
+                              <li><nuxt-link to="/my-account/auth/verify-otp">Verify OTP</nuxt-link></li>
                             </ul>  
                           </li>
                           <li>
                             <a>Merchant Account<i class="fas fa-angle-right ml-2"></i></a>
                             <ul class="submenu">
-                              <li><nuxt-link to="/my-account">Dashboard</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/address-book">Address Book</nuxt-link></li>
-                              <li><nuxt-link to="/cart">Cart</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/wishlist">Wishlist</nuxt-link></li>
-                              <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/my-orders">My Orders</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/my-orders/1">Order Tracking</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/my-reviews">My Reviews</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/wallet">Wallet Service</nuxt-link></li>
-                              <li><nuxt-link to="/my-account/notifications">Notifications</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account">Dashboard</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/products">Products</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/products/add-product">Add Products</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/orders">Orders</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/profile">Profile</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/settings">Settings</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/login">Login</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/registration">Registration</nuxt-link></li>
+                              <li><nuxt-link to="/merchant-account/forget-password">Forget Password</nuxt-link></li>
                             </ul>  
                           </li>
                           <li><nuxt-link to="/terms-and-conditions">Terms & Conditions</nuxt-link></li>

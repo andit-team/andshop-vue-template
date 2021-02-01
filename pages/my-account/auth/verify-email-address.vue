@@ -28,9 +28,6 @@ export default {
       email:''
     }
   },
-  mounted() {
-    this.email=this.$store.state.userinfo.auth.emailAddress;
-  }
 }
 </script>
 
