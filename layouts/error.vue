@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  layout: 'ErrorLayout',
+  layout: 'error-layout',
   props: ['error'],
   methods: {
     goHome() {

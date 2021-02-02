@@ -33,11 +33,10 @@
                 <div class="form-group">
                   <label for="sort_bar">Sort By:</label>
                   <select class="form-control" id="sort_bar">
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
+                    <option selected>Default sort</option>
+                    <option>Low to high</option>
+                    <option>High to low</option>
+                    <option>New</option>
                   </select>
                 </div>
               </form>

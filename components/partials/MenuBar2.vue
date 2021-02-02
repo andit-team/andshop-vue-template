@@ -326,13 +326,13 @@
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Blog<i class="fas fa-angle-down ml-2"></i></a>
+                      <a class="nav-link">Blog<i class="fas fa-angle-down ml-2"></i></a>
                       <div class="submenu">
                         <ul>
-                          <li><nuxt-link to="#">Left Sidebar</nuxt-link></li>
-                          <li><nuxt-link to="#">Right Sidebar</nuxt-link></li>
-                          <li><nuxt-link to="#">No Sidebar</nuxt-link></li>
-                          <li><nuxt-link to="#">Blog Details</nuxt-link></li>
+                          <li><nuxt-link to="/blog/">Left Sidebar</nuxt-link></li>
+                          <li><nuxt-link to="/blog/right-sidebar">Right Sidebar</nuxt-link></li>
+                          <li><nuxt-link to="/blog/no-sidebar">No Sidebar</nuxt-link></li>
+                          <li><nuxt-link to="/blog/blog-details">Blog Details</nuxt-link></li>
                         </ul>
                       </div>
                     </li>

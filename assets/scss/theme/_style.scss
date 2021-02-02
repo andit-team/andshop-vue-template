@@ -317,9 +317,6 @@ section, .section-b-space {
 // .modal-backdrop {
 //     background-color: rgb(64,123,255);
 // }
-.modal-backdrop.show {
-    // opacity: .8;
-}
 /*--------------------------------
    2.5 Andshop Template Default CSS
 -----------------------------------*/
@@ -731,7 +728,7 @@ button:focus {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
-    /*color: var(--red-color);*/
+    color: var(--red-color);
 }
 
 // Hover Dropdown Menu CSS Start
@@ -858,15 +855,6 @@ button:focus {
     /*padding-right: .5rem;*/
     /*color: #6c757d;*/
     content: "/";
-}
-.breadcrumb-item + .breadcrumb-item::before {
-    /* display: inline-block; */
-    /* padding-right: .5rem; */
-    /* color: #6c757d; */
-    /*content: "\f107";*/
-    // background-image: url("/assets//images//others/angle-right-solid.svg") !important;
-    // content: '';
-    // font-family: "Font Awesome 5 Free";
 }
 
 /*-------------------------------------------
@@ -1339,9 +1327,6 @@ button:focus {
 /*-------------------------------------------
     9. Best Seller Slider Area Start
 -------------------------------------------*/
-.best-seller-slider-wrap:last-child .best-seller-item {
-    // margin-right: 0;
-}
 .best-seller-item {
     border: 1px solid var(--border-secondary);
     margin: 0 15px 0 0;
@@ -2239,12 +2224,27 @@ button:focus {
 .blog-sidebar-wrap .left-sidebar-content ul li a {
 	font-size: 14px;
 }
-
+.sidebar-widget.search .search-form {
+    .form-control {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .search-button {
+        width: 50px;
+        height: 45px;
+        color: #fff;
+        transition: all ease 0.5s;
+        background-color: var(--red-color);
+        font-size: 13px;
+    }
+}
 // Blog Right Side
 .single-blog {
     margin-bottom: 30px;
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
 }
 .single-blog:hover {
     -webkit-transform: translateY(-5px);
@@ -2253,6 +2253,12 @@ button:focus {
 .single-blog .blog-img {
     position: relative;
     overflow: hidden;
+    a img {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
 }
 .single-blog .blog-img span {
     position: absolute;
@@ -2271,6 +2277,9 @@ button:focus {
     background-color: #fff;
     -webkit-box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
     box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    &:hover h3 {
+        color: var(--hover-color);
+    }
 }
 .single-blog .blog-content ul {
     list-style-type: none;
@@ -2301,8 +2310,69 @@ button:focus {
     font-size: 15px;
     color: #0e0f11;
 }
+
+// Blog Details
+.blog-details-page {
+    .single-blog:hover {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+.blog-details-page .single-blog .blog-content ul li {
+	margin-right: 15px;
+}
+.blog-details-page { 
+    blockquote {
+    padding: 40px 30px;
+    background-color: var(--bg-3);
+        p {  
+        font-size: 17px;
+        } 
+    }
+    .leave-reply form, .blog-tags {
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+        box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+        padding: 30px;
+    }
+    .blog-tags ul li {
+        margin-right: 10px;
+        a {
+            border: 1px solid var(--border-color);
+            padding: 3px 10px 0;
+            border-radius: .25rem;
+            font-size: 14px;
+        }
+    }
+
+}
+
 /*-------------------------------------------
     22. Blog Pages End
+-------------------------------------------*/
+
+/*-------------------------------------------
+    23. Coming Soon Pages Start
+-------------------------------------------*/
+.coming-soon-page {
+	min-height: 500px;
+	height: 100vh;
+
+	.coming-soon-img img {
+        height: 250px;
+    }
+    .follow-us-social.d-flex li a {
+        padding: 6px;
+        margin: 3px;
+        font-size: 21px;
+        color: var(--hover-color);
+        &:hover {
+            color: var(--red-color);
+        }
+    }
+}
+/*-------------------------------------------
+    23. Coming Soon Pages End
 -------------------------------------------*/
 
 
@@ -2660,7 +2730,6 @@ button:focus {
         height: 329px;
     }
 
-    
     // About Page
     .why-choose-box {
         padding: 20px !important;
@@ -2673,6 +2742,12 @@ button:focus {
         padding-right: 15px;
         width: 35%;
         margin-right: 15px;
+    }
+    // Blog Pages
+    .blog-details-page blockquote {
+        .quote-img {
+            display: none;
+        }
     }
 
 }
@@ -2698,6 +2773,12 @@ button:focus {
     }
     .andbaazar-mobile-app {
         margin-top: -46px;
+    }
+
+    // Blog Pages
+    .recent-blog li {
+        flex-direction: column;
+        margin-bottom: 10px;
     }
 
 }
@@ -2791,6 +2872,11 @@ button:focus {
     .checkout-page .cart_product_box.media .media-body .d-flex.flex-column {
         flex-direction: row!important;
         margin: 5px 0;
+    }
+
+    // Coming Soon Page
+    .coming-soon-page .coming-soon-img img {
+        height: auto;
     }
 
   }

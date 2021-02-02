@@ -9,7 +9,7 @@
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
                 <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
                 <li class="breadcrumb-item"><nuxt-link to="/blog/">Blog</nuxt-link></li>
-                <li class="breadcrumb-item active" aria-current="page">Blog No Sidebar</li>
+                <li class="breadcrumb-item active" aria-current="page">No Sidebar</li>
               </ol>
             </nav>
           </div>
@@ -26,7 +26,7 @@
           <!-- Product Search Page Right Side-->
           <div class="col-12 col-md-12">
 
-            <div class="best-seller-items-wrap d-flex flex-wrap product-row">
+            <div class="d-flex flex-wrap product-row">
 
               <!-- Blog item start-->
               <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
@@ -39,12 +39,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -64,12 +64,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -89,12 +89,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -114,12 +114,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -139,12 +139,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -164,12 +164,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -189,12 +189,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>
@@ -214,12 +214,12 @@
                   </div>
                   <div class="blog-content">
                     <ul>
-                      <li><i class="far fa-user"></i><a href="#">By Admin</a></li>
+                      <li><i class="far fa-user"></i><a>By Admin</a></li>
                     </ul>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
                       <h3>Get Your Furniture Ready For The Summer</h3>
                     </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum vitae itaque autem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
                     <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
                       Read More
                     </nuxt-link>

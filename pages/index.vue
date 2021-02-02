@@ -19,9 +19,9 @@
                 <img :src="require('@/assets/images/services-img/ecommerce.png')" alt="Ecommerce">
               </div>
               <div class="media-body">
-                <h3 class="mt-0"><nuxt-link to="/fashion" target="_blank">Fashion</nuxt-link></h3>
+                <h3 class="mt-0"><nuxt-link to="/fashion">Fashion</nuxt-link></h3>
                 <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
-                <nuxt-link to="/fashion" target="_blank" class="color-red font-weight-600">Explore now</nuxt-link>
+                <nuxt-link to="/fashion" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
           </div>
@@ -31,9 +31,9 @@
                 <img :src="require('@/assets/images/services-img/krishi-baazar.png')" alt="Krishibaazar">
               </div>
               <div class="media-body">
-                <h3 class="mt-0"><nuxt-link to="/electronics" target="_blank">Electronics</nuxt-link></h3>
+                <h3 class="mt-0"><nuxt-link to="/electronics" >Electronics</nuxt-link></h3>
                 <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
-                <nuxt-link to="/electronics" target="_blank" class="color-red font-weight-600">Explore now</nuxt-link>
+                <nuxt-link to="/electronics" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
           </div>
@@ -43,9 +43,9 @@
                 <img :src="require('@/assets/images/services-img/auction.png')" alt="Auction">
               </div>
               <div class="media-body">
-                <h3 class="mt-0"><nuxt-link to="/furniture" target="_blank">Furniture</nuxt-link></h3>
+                <h3 class="mt-0"><nuxt-link to="/furniture">Furniture</nuxt-link></h3>
                 <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
-                <nuxt-link to="/furniture" target="_blank" class="color-red font-weight-600">Explore now</nuxt-link>
+                <nuxt-link to="/furniture" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
           </div>
@@ -55,9 +55,9 @@
                 <img :src="require('@/assets/images/services-img/sme.png')" alt="SME">
               </div>
               <div class="media-body">
-                <h3 class="mt-0"><nuxt-link to="/groceries" target="_blank">Groceries</nuxt-link></h3>
+                <h3 class="mt-0"><nuxt-link to="/groceries">Groceries</nuxt-link></h3>
                 <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
-                <nuxt-link to="/groceries" target="_blank" class="color-red font-weight-600">Explore now</nuxt-link>
+                <nuxt-link to="/groceries" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
           </div>

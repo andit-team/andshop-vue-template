@@ -14,10 +14,8 @@
           <div class="col-md-12 col-lg-6">
             <form
               class="form-inline subscribe-form rounded-left"
-              method="post"
               id="subscribe-form"
               name="subscribe-form"
-              target="_blank"
             >
               <div class="form-group mb-0">
                 <input
@@ -29,7 +27,7 @@
                   required="required"
                 />
               </div>
-              <button type="submit" class="theme-button rounded-right">subscribe</button>
+              <button class="theme-button rounded-right">subscribe</button>
             </form>
           </div>
         </div>

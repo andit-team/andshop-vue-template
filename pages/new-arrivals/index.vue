@@ -7,8 +7,8 @@
           <div class="col">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Product</a></li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+                <li class="breadcrumb-item"><nuxt-link to="/search-results/">Product</nuxt-link></li>
                 <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
               </ol>
             </nav>
@@ -33,11 +33,10 @@
                 <div class="form-group">
                   <label for="sort_bar">Sort By:</label>
                   <select class="form-control" id="sort_bar">
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
+                    <option selected>Default sort</option>
+                    <option>Low to high</option>
+                    <option>High to low</option>
+                    <option>New</option>
                   </select>
                 </div>
               </form>
@@ -49,9 +48,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -75,9 +74,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -101,9 +100,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -127,9 +126,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/4.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -153,9 +152,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/5.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -179,9 +178,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -205,9 +204,9 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -231,9 +230,113 @@
               <!-- Best Seller item start-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
                 <div class="product-item rounded bg-white">
-                  <nuxt-link to="/products/potato">
+                  <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
+                    </div>
+                    <div class="product-content">
+                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-title font-bold">Cornboat Holders</p>
+                      <div class="rating_wrap mb-1">
+                        <div class="rating">
+                          <div class="product_rate" style="width:87%"></div>
+                        </div>
+                      </div>
+                      <p>
+                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discounted-price mr-1 color-red">$2.00</span>
+                        <span class="special-tag badge bg-red white-color">Sale</span>
+                      </p>
+                    </div>
+                  </nuxt-link>
+                </div>
+              </div>
+              <!-- Best Seller item end-->
+
+              <!-- Best Seller item start-->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
+                <div class="product-item rounded bg-white">
+                  <nuxt-link to="/product-details/">
+                    <div class="img-wrap mb-2">
+                      <img :src="require('@/assets/images/best-sellers/5.jpg')" alt="products" class="rounded-top">
+                    </div>
+                    <div class="product-content">
+                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-title font-bold">Cornboat Holders</p>
+                      <div class="rating_wrap mb-1">
+                        <div class="rating">
+                          <div class="product_rate" style="width:87%"></div>
+                        </div>
+                      </div>
+                      <p>
+                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discounted-price mr-1 color-red">$2.00</span>
+                        <span class="special-tag badge bg-red white-color">Sale</span>
+                      </p>
+                    </div>
+                  </nuxt-link>
+                </div>
+              </div>
+              <!-- Best Seller item end-->
+
+              <!-- Best Seller item start-->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
+                <div class="product-item rounded bg-white">
+                  <nuxt-link to="/product-details/">
+                    <div class="img-wrap mb-2">
+                      <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
+                    </div>
+                    <div class="product-content">
+                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-title font-bold">Cornboat Holders</p>
+                      <div class="rating_wrap mb-1">
+                        <div class="rating">
+                          <div class="product_rate" style="width:87%"></div>
+                        </div>
+                      </div>
+                      <p>
+                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discounted-price mr-1 color-red">$2.00</span>
+                        <span class="special-tag badge bg-red white-color">Sale</span>
+                      </p>
+                    </div>
+                  </nuxt-link>
+                </div>
+              </div>
+              <!-- Best Seller item end-->
+
+              <!-- Best Seller item start-->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
+                <div class="product-item rounded bg-white">
+                  <nuxt-link to="/product-details/">
+                    <div class="img-wrap mb-2">
+                      <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
+                    </div>
+                    <div class="product-content">
+                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-title font-bold">Cornboat Holders</p>
+                      <div class="rating_wrap mb-1">
+                        <div class="rating">
+                          <div class="product_rate" style="width:87%"></div>
+                        </div>
+                      </div>
+                      <p>
+                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discounted-price mr-1 color-red">$2.00</span>
+                        <span class="special-tag badge bg-red white-color">Sale</span>
+                      </p>
+                    </div>
+                  </nuxt-link>
+                </div>
+              </div>
+              <!-- Best Seller item end-->
+
+              <!-- Best Seller item start-->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
+                <div class="product-item rounded bg-white">
+                  <nuxt-link to="/product-details/">
+                    <div class="img-wrap mb-2">
+                      <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase">bath & body, football, tennis</p>

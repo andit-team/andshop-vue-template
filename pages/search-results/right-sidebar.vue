@@ -33,11 +33,10 @@
                 <div class="form-group">
                   <label for="sort_bar">Sort By:</label>
                   <select class="form-control" id="sort_bar">
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
-                    <option>Default sort</option>
+                    <option selected>Default sort</option>
+                    <option>Low to high</option>
+                    <option>High to low</option>
+                    <option>New</option>
                   </select>
                 </div>
               </form>
@@ -283,25 +282,24 @@
 
                 <b-collapse id="product_categories_collapse" visible class="left-sidebar-content">
                   <ul>
-                    <li><a href="#">Product categories</a></li>
-                    <li><a href="#">Fitness</a></li>
-                    <li><a href="#">Football</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Make Up</a></li>
-                    <li><a href="#">Men's</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Football</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Make Up</a></li>
-                    <li><a href="#">Men's</a></li>
-                    <li><a href="#">Hair care</a></li>
+                    <li><nuxt-link to="/search-results">Fashion</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Furniture</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Hair care</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Make Up</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Men's</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Women's</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Baby</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Watch</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Make Up</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Bags</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Electronics</nuxt-link></li>
                   </ul>
                 </b-collapse>
               </div>
               <!-- Left side bar box end-->
 
               <!-- Left side bar box start-->
-              <div class="search-left-sidebar-box search-right-sidebar-box mb-4">
+              <div class="search-left-sidebar-box mb-4">
                 <b-navbar-toggle target="filter_by_price_collapse" class="left-sidebar-title text-uppercase w-100 mb-4 d-flex">
                   <template #default="{ expanded }">
                     <h6>Filter by price</h6>
@@ -333,8 +331,7 @@
 
                 <b-collapse id="product_tags_collapse" visible class="left-sidebar-content">
                   <div class="tags">
-                    <span class="active">Product categories</span>
-                    <span>Fitness</span>
+                    <span class="active">Fitness</span>
                     <span>Football</span>
                     <span>Hair care</span>
                     <span>Make Up</span>

@@ -17,7 +17,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/1.jpg')" alt="products" class="rounded-left">
             </div>
@@ -41,7 +41,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/2.jpg')" alt="products" class="rounded-left">
             </div>
@@ -65,7 +65,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/3.jpg')" alt="products" class="rounded-left">
             </div>
@@ -89,7 +89,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/4.jpg')" alt="products" class="rounded-left">
             </div>
@@ -113,7 +113,7 @@
       
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/5.jpg')" alt="products" class="rounded-left">
             </div>
@@ -137,7 +137,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/6.jpg')" alt="products" class="rounded-left">
             </div>
@@ -161,7 +161,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/7.jpg')" alt="products" class="rounded-left">
             </div>
@@ -185,7 +185,7 @@
 
         <!-- Featured item start-->
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/upcoming-products" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
+          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
             <div class="img-wrap mr-2" style="width: 135px">
               <img :src="require('@/assets/images/featured-products/8.jpg')" alt="products" class="rounded-left">
             </div>

@@ -38,18 +38,17 @@
 
                 <b-collapse id="product_categories_collapse" visible class="left-sidebar-content">
                   <ul>
-                    <li><a href="#">Product categories</a></li>
-                    <li><a href="#">Fitness</a></li>
-                    <li><a href="#">Football</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Make Up</a></li>
-                    <li><a href="#">Men's</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Football</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Make Up</a></li>
-                    <li><a href="#">Men's</a></li>
-                    <li><a href="#">Hair care</a></li>
+                    <li><nuxt-link to="/search-results">Fashion</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Furniture</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Hair care</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Make Up</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Men's</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Women's</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Baby</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Watch</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Make Up</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Bags</nuxt-link></li>
+                    <li><nuxt-link to="/search-results">Electronics</nuxt-link></li>
                   </ul>
                 </b-collapse>
               </div>
@@ -88,8 +87,7 @@
 
                 <b-collapse id="product_tags_collapse" visible class="left-sidebar-content">
                   <div class="tags">
-                    <span class="active">Product categories</span>
-                    <span>Fitness</span>
+                    <span class="active">Fitness</span>
                     <span>Football</span>
                     <span>Hair care</span>
                     <span>Make Up</span>
@@ -133,7 +131,7 @@
 
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="/rising-star/teer">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -143,7 +141,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details-page">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/2.png" alt="shops">
                       </div>
@@ -153,7 +151,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/3.png" alt="shops">
                       </div>
@@ -163,7 +161,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/4.png" alt="shops">
                       </div>
@@ -173,7 +171,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/5.png" alt="shops">
                       </div>
@@ -183,7 +181,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -193,7 +191,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -203,7 +201,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/2.png" alt="shops">
                       </div>
@@ -213,7 +211,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/3.png" alt="shops">
                       </div>
@@ -223,7 +221,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/4.png" alt="shops">
                       </div>
@@ -233,7 +231,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/5.png" alt="shops">
                       </div>
@@ -243,7 +241,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -253,7 +251,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -263,7 +261,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/2.png" alt="shops">
                       </div>
@@ -273,7 +271,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/3.png" alt="shops">
                       </div>
@@ -283,7 +281,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/4.png" alt="shops">
                       </div>
@@ -293,7 +291,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/5.png" alt="shops">
                       </div>
@@ -303,7 +301,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -313,7 +311,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>
@@ -323,7 +321,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/2.png" alt="shops">
                       </div>
@@ -333,7 +331,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/3.png" alt="shops">
                       </div>
@@ -343,7 +341,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/4.png" alt="shops">
                       </div>
@@ -353,7 +351,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/5.png" alt="shops">
                       </div>
@@ -363,7 +361,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
                   <div class="shop-box rounded">
-                    <nuxt-link to="#">
+                    <nuxt-link to="/shops/shop-details">
                       <div class="shop-img-wrap">
                         <img src="~/assets/images/shops/1.png" alt="shops">
                       </div>

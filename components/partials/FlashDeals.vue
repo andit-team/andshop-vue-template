@@ -20,9 +20,9 @@
         <!-- Flash sale item start-->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="flash-sale-item my-3">
-            <a href="#">
+            <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img src="~/assets/images/products/1.jpg" alt="products">
+                <img :src="require('@/assets/images/products/1.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -47,7 +47,7 @@
                 </div>
 
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <!-- Flash sale item end-->
@@ -55,9 +55,9 @@
         <!-- Flash sale item start-->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="flash-sale-item my-3">
-            <a href="#">
+            <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img src="~/assets/images/products/2.jpg" alt="products">
+                <img :src="require('@/assets/images/products/2.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -82,7 +82,7 @@
                 </div>
 
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <!-- Flash sale item end-->
@@ -90,9 +90,9 @@
         <!-- Flash sale item start-->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="flash-sale-item my-3">
-            <a href="#">
+            <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img src="~/assets/images/products/3.jpg" alt="products">
+                <img :src="require('@/assets/images/products/3.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -117,7 +117,7 @@
                 </div>
 
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <!-- Flash sale item end-->
@@ -125,9 +125,9 @@
         <!-- Flash sale item start-->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="flash-sale-item my-3">
-            <a href="#">
+            <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img src="~/assets/images/products/4.jpg" alt="products">
+                <img :src="require('@/assets/images/products/4.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -152,7 +152,7 @@
                 </div>
 
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <!-- Flash sale item end-->
@@ -160,9 +160,9 @@
         <!-- Flash sale item start-->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="flash-sale-item my-3">
-            <a href="#">
+            <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img src="~/assets/images/products/5.jpg" alt="products">
+                <img :src="require('@/assets/images/products/5.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -187,7 +187,7 @@
                 </div>
 
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <!-- Flash sale item end-->
@@ -195,9 +195,9 @@
         <!-- Flash sale item start-->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
           <div class="flash-sale-item my-3">
-            <a href="#">
+            <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img src="~/assets/images/products/6.jpg" alt="products">
+                <img :src="require('@/assets/images/products/6.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -222,7 +222,7 @@
                 </div>
 
               </div>
-            </a>
+            </nuxt-link>
           </div>
         </div>
         <!-- Flash sale item end-->

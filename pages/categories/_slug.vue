@@ -7,9 +7,8 @@
           <div class="col">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Product</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Product Search</li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+                <li class="breadcrumb-item active" aria-current="page">Categories</li>
               </ol>
             </nav>
           </div>
@@ -19,7 +18,7 @@
     <!-- Breadcrumb Area End -->
 
     <!-- Product Search Page Area Start -->
-    <section class="product-search-page best-seller-area section-t-space bg-white">
+    <section class="product-search-page best-seller-area section-t-space bg-white" >
       <div class="container">
         <div class="row">
           <!-- Product Search Page Left Side-->
@@ -133,9 +132,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -159,9 +158,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -185,9 +184,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -211,9 +210,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/4.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -237,9 +236,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/5.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -263,9 +262,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -289,9 +288,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -315,9 +314,9 @@
                 <!-- Best Seller item start-->
                 <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
                   <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
+                    <nuxt-link to="/product-details">
                       <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
+                        <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
                       </div>
                       <div class="product-content">
                         <p class="product-tags text-uppercase">bath & body, football, tennis</p>
@@ -348,35 +347,39 @@
 
           </div>
           <!-- Product Search Page Right Side-->
+
         </div>
       </div>
     </section>
     <!-- Product Search Page Area End -->
 
     <PaymentMethods/>
-    
+
   </div>
 </template>
 
 <script>
-
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
 
 export default {
-  name: "searchResults",
-
-  components: {
+  name: "categoryWiseProduct",
+    components: {
     VueSlider
   },
 
   data() {
     return {
-      searchCategory: this.$route.query.category,
-      searchQuery: this.$route.query.query,
-      range: [0,5000],
+      totalRow: 0,
+      perPage: 20,
+      currentCategory: [],
+      selectedTags: [],
+      nextLink: null,
+      sortBy: 'newest',
+      searchParams: '', 
+      range: [0,2000],
     }
-  }
+  },
 }
 </script>
 

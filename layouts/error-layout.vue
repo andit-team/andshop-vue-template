@@ -11,7 +11,7 @@
 </style>
 <script>
   export default {
-    name: 'ErrorLayout',
+    name: 'error-layout',
 
   head() {
     return {
