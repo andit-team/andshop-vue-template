@@ -62,6 +62,6 @@
 <script>
 
 export default {
-  name: 'Fashion',
+  name: 'Electronics',
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
-  <!-- Menu Area Start ------->
-  <section class="menu-section-area">
+  <!-- Menu Area Start -->
+  <section class="menu-section-area orientation-menu-area">
     <!--Top Menu-->
     <div class="top-menu bg-different py-2">
       <div class="container">
@@ -207,12 +207,12 @@
                               <nuxt-link to="/groceries" class="nav-link">Groceries</nuxt-link>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Sell on Andbaazar</a>
+                              <nuxt-link to="/merchant-account/login" class="nav-link">Sell on Andshop</nuxt-link>
                             </li>
                             <li class="nav-item">
                               <nuxt-link class="nav-link" to="/my-account/my-orders/1">Track my order</nuxt-link>
                             </li>
-                        </ul>
+                          </ul>
                         </div>
                       </b-sidebar>
                     <!-- Sidebar Menu General -->
@@ -228,7 +228,7 @@
       </div>
     </div>
   </section>
-  <!-- Menu Area End --------->
+  <!-- Menu Area End -->
 </template>
 
 <script>
@@ -236,7 +236,3 @@
     name: 'menuBar1',
   }
 </script>
-
-<style scoped>
-
-</style>

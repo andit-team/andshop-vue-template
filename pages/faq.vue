@@ -1,13 +1,13 @@
 <template>
   <div>
-    <!-- Breadcrumb Area Start ------------->
+    <!-- Breadcrumb Area Start -->
     <div class="breadcrumb-area bg-white">
       <div class="container">
         <div class="row">
           <div class="col">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
                 <li class="breadcrumb-item active" aria-current="page">FAQ</li>
               </ol>
             </nav>
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <!-- Breadcrumb Area End ------------->
+    <!-- Breadcrumb Area End -->
 
     <section class="section-t-space">
       <div class="container">

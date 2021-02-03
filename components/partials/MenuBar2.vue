@@ -1,6 +1,6 @@
 <template>
-  <!-- Menu Area Start ------->
-  <section class="menu-section-area">
+  <!-- Menu Area Start -->
+  <section class="menu-section-area default-menu-area">
     <!--Top Menu-->
     <div class="top-menu bg-different py-2">
       <div class="container">
@@ -238,7 +238,7 @@
                   <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Home<i class="fas fa-angle-down ml-2"></i></a>
+                      <a class="nav-link">Home<i class="fas fa-angle-down ml-2"></i></a>
                       <div class="submenu">
                         <ul>
                           <li><nuxt-link to="/fashion">Fashion</nuxt-link></li>
@@ -248,7 +248,6 @@
                         </ul>
                       </div>
                     </li>
-
                     <li class="nav-item">
                       <nuxt-link class="nav-link" to="/shops">Shop</nuxt-link>
                     </li>
@@ -321,7 +320,7 @@
                           <li><nuxt-link to="/terms-and-conditions">Terms & Conditions</nuxt-link></li>
                           <li><nuxt-link to="/return-policy">Return Policy</nuxt-link></li>
                           <li><nuxt-link to="/404">404</nuxt-link></li>
-                          <li><nuxt-link to="#">Coming Soon</nuxt-link></li>
+                          <li><nuxt-link to="/coming-soon">Coming Soon</nuxt-link></li>
                         </ul>
                       </div>
                     </li>
@@ -372,32 +371,130 @@
 
                     <b-sidebar id="sidebar_general_menu" right shadow backdrop>
                       <div class="px-3 py-2">
-                        <ul>
-                          <b-nav-item-dropdown right>
-                            <template #button-content>
-                              Home<i class="fas fa-angle-down ml-2"></i>
-                            </template>
-                            <b-dropdown-item href="#">Fashion</b-dropdown-item>
-                            <b-dropdown-item href="#">Electronics</b-dropdown-item>
-                            <b-dropdown-item href="#">Furniture</b-dropdown-item>
-                            <b-dropdown-item href="#">Groceries</b-dropdown-item>
-                          </b-nav-item-dropdown>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+
+                        <ul class="accordion" role="tablist">
+                          <li class="mb-0 custom-accordion position-relative">
+                            <a v-b-toggle.home class="text-hover-color" href="javascript: void(0);">
+                              Home
+                              <i class="fas fa-minus accordion-arrow"></i>
+                            </a>
+                            <b-collapse class="mobile-submenu" id="home" accordion="my-accordion2" role="tabpanel">
+                              <li><nuxt-link to="/fashion">Fashion</nuxt-link></li>
+                              <li><nuxt-link to="/electronics">Electronics</nuxt-link></li>
+                              <li><nuxt-link to="/furniture">Furniture</nuxt-link></li>
+                              <li><nuxt-link to="/groceries">Groceries</nuxt-link></li>
+                            </b-collapse>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+
+                          <li class="mb-0 custom-accordion position-relative">
+                            <nuxt-link to="/shops">Shop</nuxt-link>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+
+                          <li class="mb-0 custom-accordion position-relative">
+                            <a v-b-toggle.m-products-dropdown class="text-hover-color" href="javascript: void(0);">
+                              Products
+                              <i class="fas fa-minus accordion-arrow"></i>
+                            </a>
+                            <b-collapse class="mobile-submenu" id="m-products-dropdown" accordion="my-accordion2" role="tabpanel">
+                              <li><nuxt-link to="/search-results">Left Sidebar</nuxt-link></li>
+                              <li><nuxt-link to="/search-results/right-sidebar">Right Sidebar</nuxt-link></li>
+                              <li><nuxt-link to="/best-sellers">No Sidebar</nuxt-link></li>
+                              <li><nuxt-link to="/product-details">Product Details</nuxt-link></li>
+                            </b-collapse>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Pages</a>
+
+                          <li class="mb-0 custom-accordion position-relative">
+                            <a v-b-toggle.pages class="text-hover-color" href="javascript: void(0);">
+                              Pages
+                              <i class="fas fa-minus accordion-arrow"></i>
+                            </a>
+                            <b-collapse class="mobile-submenu" id="pages" accordion="my-accordion2" role="tabpanel">
+                              <li><nuxt-link to="/about-us">About Us</nuxt-link></li>
+                              <li><nuxt-link to="/contact-us">Contact Us</nuxt-link></li>
+                              <li><nuxt-link to="/news-feed/">News Feeds</nuxt-link></li>
+                              <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
+                              <li class="mb-0 custom-accordion">
+                                <div class="m-0 position-relative">
+                                  <a v-b-toggle.account class="text-hover-color">Account <i class="fas fa-minus accordion-arrow"></i></a>
+                                </div>
+                                <b-collapse id="account" class="mobile-submenu">
+                                  <ul>
+                                    <li><nuxt-link to="/my-account">Dashboard</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/address-book">Address Book</nuxt-link></li>
+                                    <li><nuxt-link to="/cart">Cart</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/wishlist">Wishlist</nuxt-link></li>
+                                    <li><nuxt-link to="/checkout">Checkout</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/my-orders">My Orders</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/my-orders/1">Order Tracking</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/my-reviews">My Reviews</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/wallet">Wallet Service</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/notifications">Notifications</nuxt-link></li>
+                                  </ul>
+                                </b-collapse>
+                              </li>
+                              <li class="mb-0 custom-accordion">
+                                <div class="m-0 position-relative">
+                                  <a v-b-toggle.authentication class="text-hover-color">Authentication <i class="fas fa-minus accordion-arrow"></i></a>
+                                </div>
+                                <b-collapse id="authentication" class="mobile-submenu">
+                                  <ul>
+                                    <li><nuxt-link to="/my-account/auth/login">Login</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/registration">Register</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/forget-password">Forget Password</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/reset-password">Reset Password</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/verify-email-address">Verify Email Address</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/verify-mobile-no">Verify Mobile No.</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/verify-otp">Verify OTP</nuxt-link></li>
+                                  </ul>
+                                </b-collapse>
+                              </li>
+                              <li class="mb-0 custom-accordion">
+                                <div class="m-0 position-relative">
+                                  <a v-b-toggle.mobile-merchant-dropdown class="text-hover-color">Merchant Account <i class="fas fa-minus accordion-arrow"></i></a>
+                                </div>
+                                <b-collapse id="mobile-merchant-dropdown" class="mobile-submenu">
+                                  <ul>
+                                    <li><nuxt-link to="/my-account/auth/login">Login</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/registration">Register</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/forget-password">Forget Password</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/reset-password">Reset Password</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/verify-email-address">Verify Email Address</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/verify-mobile-no">Verify Mobile No.</nuxt-link></li>
+                                    <li><nuxt-link to="/my-account/auth/verify-otp">Verify OTP</nuxt-link></li>
+                                  </ul>
+                                </b-collapse>
+                              </li>
+                              <li><nuxt-link to="/terms-and-conditions">Terms & Conditions</nuxt-link></li>
+                              <li><nuxt-link to="/return-policy">Return Policy</nuxt-link></li>
+                              <li><nuxt-link to="/404">404</nuxt-link></li>
+                              <li><nuxt-link to="/coming-soon">Coming Soon</nuxt-link></li>
+
+                            </b-collapse>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+
+                          <li class="mb-0 custom-accordion position-relative">
+                            <a v-b-toggle.m-blog-dropdown class="text-hover-color" href="javascript: void(0);">
+                              Blog
+                              <i class="fas fa-minus accordion-arrow"></i>
+                            </a>
+                            <b-collapse class="mobile-submenu" id="m-blog-dropdown" accordion="my-accordion2" role="tabpanel">
+                              <li><nuxt-link to="/blog/">Left Sidebar</nuxt-link></li>
+                              <li><nuxt-link to="/blog/right-sidebar">Right Sidebar</nuxt-link></li>
+                              <li><nuxt-link to="/blog/no-sidebar">No Sidebar</nuxt-link></li>
+                              <li><nuxt-link to="/blog/blog-details">Blog Details</nuxt-link></li>
+                            </b-collapse>
                           </li>
-                      </ul>
+
+                          <li class="mb-0 custom-accordion position-relative">
+                            <nuxt-link to="/merchant-account/login">Sell on Andshop</nuxt-link>
+                          </li>
+                          
+                          <li class="mb-0 custom-accordion position-relative">
+                            <nuxt-link to="/my-account/my-orders/1">Track my order</nuxt-link>
+                          </li>
+
+                        </ul>
+
                       </div>
                     </b-sidebar>
                   <!-- Sidebar Menu General -->

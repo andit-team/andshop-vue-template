@@ -470,8 +470,9 @@ export default {
       reqularSaleQty: 0,
       wholeSaleQty: 0,
       flashSaleQty: 0,
-      selectedImg : require('@/assets/images/products/product-details-600x600.jpg'),
+      selectedImg : require('@/assets/images/fashion/1.jpg'),
       productImages: [
+        require('@/assets/images/fashion/1.jpg'),
         require('@/assets/images/products/product-details-600x600.jpg'),
         require('@/assets/images/products/product-details2-600x600.jpg'),
         require('@/assets/images/products/product-details3-600x600.jpg'),

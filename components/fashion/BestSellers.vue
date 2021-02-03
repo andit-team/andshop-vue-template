@@ -23,7 +23,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -48,7 +48,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -73,7 +73,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -98,7 +98,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/4.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -123,7 +123,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/5.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -148,7 +148,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -173,7 +173,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -198,7 +198,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -239,9 +239,10 @@ export default {
         slidesPerView: 5,
         spaceBetween: 30,
         slidesPerGroup: 1,
-        loop: true,
+        loop: false,
         loopFillGroupWithBlank: true,
         autoplay: {
+          autoplay: false,
           delay: 2500,
           disableOnInteraction: false
         },

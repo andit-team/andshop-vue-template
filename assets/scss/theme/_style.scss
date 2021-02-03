@@ -314,9 +314,6 @@ section, .section-b-space {
 .container-1170 {
 	max-width: 1170px;
 }
-// .modal-backdrop {
-//     background-color: rgb(64,123,255);
-// }
 /*--------------------------------
    2.5 Andshop Template Default CSS
 -----------------------------------*/
@@ -655,6 +652,10 @@ button:focus {
 .bottom-menu, .breadcrumb-area {
     border-bottom: 1px solid var(--border-secondary);
 }
+.breadcrumb {
+    padding-left: 0;
+    padding-right: 0;
+}
 // .track-order-dropdown ul {
 // 	padding: 15px;
 // 	width: 278px;
@@ -737,24 +738,29 @@ button:focus {
 	margin-left: 10px;
 }
 #main_menu_wrap ul li .submenu, #main_menu_wrap ul li .submenu ul li .submenu {
+    margin-top: 20px;
 	position: absolute;
 	min-width: 200px;
-	background-color: #fff;
-	border: 1px solid #e5e8eb;
-	border: 1px solid var(--border-secondary);
-	/* border-top: 1px solid #1d2531; */
-	/* border-top: 1px solid var(--bg-dark); */
-	border-bottom: 2px solid #c9151b;
-	border-bottom: 2px solid var(--red-color);
 	z-index: 9;
 	opacity: 0;
 	visibility: hidden;
-	top: 56px;
+	top: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	padding: 5px 0;
+    transition: all .3s ease-in-out;
+}
+#main_menu_wrap ul li .submenu {
+    background-color: var(--bg-dark);
+	border-bottom: 2px solid var(--red-color);
+    ul li {
+        a:hover {
+        color: var(--red-color);
+        }
+    }
 }
 #main_menu_wrap ul li:hover .submenu { 
+	margin-top: 0;
 	opacity: 1;
     visibility: visible;
 }
@@ -763,15 +769,19 @@ button:focus {
 }
 #main_menu_wrap ul li .submenu ul li a {
 	display: flex;
-	padding: 10px 15px;
+	padding: 9px 15px;
 	align-items: center;
 	justify-content: space-between;
+	font-size: 14px;
+	color: var(--white-color);
 }
 #main_menu_wrap ul li .submenu ul li .submenu {
 	right: -200px;
-	top: 0;
+    margin-top: 0px;
+    top: 100%;
 }
-#main_menu_wrap ul li .submenu ul li:hover .submenu { 
+#main_menu_wrap ul li .submenu ul li:hover .submenu {
+    margin-top: -40px;
 	opacity: 1;
     visibility: visible;
 }
@@ -829,12 +839,52 @@ button:focus {
 }
 
 // Mobile Sidebar Category Menu
-#sidebar_category_menu .parent_category_list {
-	height: auto!important;
+#sidebar_category_menu {
+    .parent_category_list {
+        height: auto!important;
+        li {
+            a {
+                font-weight: 600;
+                color: #02010A;
+                span img {
+                    height: 20px;
+	                margin-right: 10px;
+                }
+                &:hover {
+                color: var(--hover-color);
+                }
+            }
+        }
+    }
 }
-.parent_category_list li a span img {
-	height: 20px;
-	margin-right: 10px;
+
+// Mobile Right Sidebar General Menu
+#sidebar_general_menu ul li {
+    a {
+	font-weight: 600;
+	padding: 7px;
+	display: block;
+	color: #02010A;
+        .accordion-arrow {
+            position: absolute;
+            right: 0;
+            font-size: 12px;
+        }
+        
+        &:hover {
+            color: var(--red-color);
+        }
+        &.not-collapsed {
+            background-color: var(--bg-3);
+            color: var(--red-color);
+        }
+    }
+    .mobile-submenu {
+	    padding-left: 10px;
+    }
+    .mobile-submenu.collapse.show {
+        background-color: var(--bg-3);
+    }
 }
 
 // Andshop Main Menu
@@ -850,12 +900,9 @@ button:focus {
 /*-------------------------------------------
     5. Breadcrumb Area CSS Start
 -------------------------------------------*/
-.breadcrumb-item + .breadcrumb-item::before {
-    /*display: inline-block;*/
-    /*padding-right: .5rem;*/
-    /*color: #6c757d;*/
-    content: "/";
-}
+// .breadcrumb-item + .breadcrumb-item::before {
+//     content: "/";
+// }
 
 /*-------------------------------------------
     5. Breadcrumb Area CSS End
@@ -871,11 +918,10 @@ button:focus {
 }
 .parent_category_list {
     height: 430px;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 .parent_category_list > li {
     padding: 0 10px;
+    position: relative;
 }
 .parent_category_list li a {
     padding: 10px 8px;
@@ -890,23 +936,23 @@ button:focus {
 
 // Parent Categories Mega Menu
 .mega-menu {
+	margin-top: 0;
 	position: absolute;
-	left: 332px;
-	background-color: #fff;
-	width: 100%;
+	left: 102%;
+	background-color: #ffffff;
+	width: 750px;
 	z-index: 9;
 	opacity: 0;
 	visibility: hidden;
-	border: 1px solid #e5e8eb;
 	border: 1px solid var(--border-secondary);
-	height: 100%;
-	top: 0;
 	padding: 15px 0;
 	display: flex;
 	flex-wrap: wrap;
-	min-width: 430px;
+	min-width: 500px;
+	transition: all 0.3s ease-in-out;
 }
 .parent_category_list li:hover .mega-menu {
+    margin-top: -42px;
     opacity: 1;
     visibility: visible;
 }
@@ -967,8 +1013,12 @@ button:focus {
 /*-------------------------------------------
     7. Client Logo Slider Area Start
 -------------------------------------------*/
-.logo-item, .logo-item img  {
-    height: 130px;
+.logo-item {
+    background-color: var(--bg-3);
+    padding: 10px;
+    img {
+	    height: 47px;
+    }
 }
 /*-------------------------------------------
     7. Client Logo Slider Area End
@@ -1026,8 +1076,8 @@ button:focus {
 -------------------------------------------*/
 /*Product Item CSS Start*/
 .product-row {
-	margin-right: -4px;
-	margin-left: -4px;
+	margin-right: -15px;
+	margin-left: -15px;
 }
 // Data Loader
 .product-row .loading-page img {
@@ -1036,12 +1086,12 @@ button:focus {
 // Data Loader
 
 .product-item-col {
-	padding-right: 4px;
-	padding-left: 4px;
+	// padding-right: 4px;
+	// padding-left: 4px;
 }
 .product-item {
     border: 1px solid var(--border-secondary);
-    margin-bottom: 8px;
+    margin-bottom: 30px;
 }
 .product-item:hover, .best-seller-item:hover, .featured-product-item:hover, .popular-categories-item:hover  {
     box-shadow: 0 0 8px 4px rgba(0,0,0,0.05);
@@ -1063,6 +1113,15 @@ button:focus {
 .product-search-page {
     border-bottom: 1px solid var(--border-secondary);
 }
+
+// Product No sidebar Start
+.product-no-sidebar-page {
+    .product-row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+// Product No sidebar End
 
 /*Left side css*/
 .left-sidebar-title {
@@ -2424,9 +2483,9 @@ button:focus {
     body, p, #mainNav .navbar-nav .nav-item .nav-link, .theme-button {
         font-size: 14px;
     }
-    .theme-button {
-        line-height: 1.9;
-    }
+    // .theme-button {
+    //     line-height: 1.9;
+    // }
     h2 {
         font-size: 1.75rem;
     }
@@ -2569,6 +2628,12 @@ button:focus {
     .navbar-brand img{
         height: 30px!important;
     }
+
+    // Menu CSS
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 16px 0 16px 17px;
+    }
+
     // Customer Panel
     .info-row-wrap .info-row p {
         width: 35%;
@@ -2603,6 +2668,12 @@ button:focus {
     #mainNav .mobile_menu_search_wrap .search_2nd_box .navbar-nav .nav-item .nav-link {
         padding: .5rem;
     }
+
+    // Mobile Menu Left Sidebar
+    .mega-menu{
+        display: none;
+    }
+
     // Menu CSS
 
     .payment-system-area .row div:not(:last-child) .payment-box {
@@ -2752,6 +2823,13 @@ button:focus {
 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    // Menu CSS
+    .default-menu-area .mobile_right_menu_wrap {
+        width: 78%;
+    }
+    // Menu CSS
+
+
     .left-sidebar-title h5 {
         font-size: 18px;
     }
@@ -2795,9 +2873,9 @@ button:focus {
     .mobile_right_menu_wrap {
         width: 100%;
     }
-    // .mobile_right_menu_wrap {
-    //     width: 90%;
-    // }
+    .default-menu-area .mobile_right_menu_wrap {
+        width: 90%;
+    }
     .home-promotion-area-1 .promotion-img-wrap {
         margin-bottom: 30px;
         text-align: center;
