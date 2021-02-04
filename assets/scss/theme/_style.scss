@@ -356,7 +356,7 @@ button:focus {
 .theme-button {
 	background-color: var(--red-color);
 	outline: none;
-	padding: 10px 25px;
+	padding: 12px 25px;
 	font-weight: 700;
 	text-transform: capitalize;
 	cursor: pointer;
@@ -741,7 +741,7 @@ button:focus {
     margin-top: 20px;
 	position: absolute;
 	min-width: 200px;
-	z-index: 9;
+	z-index: 99;
 	opacity: 0;
 	visibility: hidden;
 	top: 100%;
@@ -1015,7 +1015,7 @@ button:focus {
 -------------------------------------------*/
 .logo-item {
     background-color: var(--bg-3);
-    padding: 10px;
+    padding: 30px 10px;
     img {
 	    height: 47px;
     }
@@ -1334,9 +1334,11 @@ button:focus {
 .product-title {
     color: var(--heading-color);
 }
-.flash-sale-item .img-wrap,.flash-sale-item .img-wrap img {
-    height: 150px;
+.flash-sale-item .img-wrap {
     text-align: center;
+    img {
+        width: 100%;
+    }
 }
 .rating_wrap .rating {
     overflow: hidden;
@@ -2960,7 +2962,7 @@ button:focus {
   }
 
   /*========================================
-            For large mobile
+        For large mobile
   =========================================*/
 
 @media only screen and (max-width: 766px){
@@ -3073,7 +3075,6 @@ button:focus {
 }
 @media only screen and (max-width: 415px){
     .logo-item, .logo-item img {
-        height: 122px;
         text-align: center;
     }
 }

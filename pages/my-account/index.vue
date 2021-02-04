@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="info-box-wrap d-flex">
-      <div class="icon-wrap mr-3 rounded-circle"><i class="fas fa-clipboard-list"></i></div>
+    <div class="info-box-wrap">
 
       <div class="info-box w-100">
         <div class="d-flex justify-content-between align-content-center mb-4 info-box-title"><h4>Personal information</h4> <button @click="openUpdateForm= true" class="theme-button2 rounded">Edit</button></div>
@@ -17,10 +16,10 @@
             <p><strong>Last Name:</strong></p> <p>Aysha</p>
           </div>
           <div class="info-row d-flex pb-2">
-            <p><strong>Contact Number:</strong></p> <p>0123456789</p>
+            <p><strong>Contact Number:</strong></p> <p>+99 458 25 45</p>
           </div>
           <div class="info-row d-flex pb-2">
-            <p><strong>Gender:</strong></p> <p>female</p>
+            <p><strong>Gender:</strong></p> <p>Female</p>
           </div>
           <div class="info-row d-flex pb-2">
             <p><strong>Email:</strong></p> <p>demo@example.com</p>

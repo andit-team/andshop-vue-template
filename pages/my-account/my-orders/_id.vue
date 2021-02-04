@@ -12,7 +12,7 @@
     <div class="order-list-wrap">
       <div class="order-list-wrap-title d-flex justify-content-between">
         <div>
-          <p><img src="https://www.flaticon.com/svg/static/icons/svg/1244/1244359.svg" alt="icon" style="height: 20px;"> Package 1 </p>
+          <p><img :src='"@/assets/images/all-icon/package.svg"' alt="icon" style="height: 17px;"> Package 1 </p>
           <p class="font-14">Sold by <nuxt-link to="#" class="color-blue">Khan Agro Merchant</nuxt-link></p>
         </div>
         <nuxt-link to="/my-account/my-orders/1" class=" color-blue"><i class="far fa-comment-alt"></i> Chat Now</nuxt-link>
@@ -34,15 +34,15 @@
         </div>
 
         <div class="show-more-less">
-          <p>2021-01-10 16:15:12 <strong>An item(s) from your order has been cancelled.</strong>
+          <p>2021-01-10 16:15:12 <span>An item(s) from your order has been cancelled.</span>
           <span v-if="readMore"></span>
             <span v-else>...</span>
           </p>
 
           <div v-show="readMore">
-            <p>2021-01-10 16:15:12 <strong>An item(s) from your order has been cancelled 1.</strong></p>
-            <p>2021-01-10 16:15:12 <strong>An item(s) from your order has been cancelled 2.</strong></p>
-            <p>2021-01-10 16:15:12 <strong>An item(s) from your order has been cancelled 3.</strong></p>
+            <p>2021-01-10 16:15:12 <span>An item(s) from your order has been cancelled 1.</span></p>
+            <p>2021-01-10 16:15:12 <span>An item(s) from your order has been cancelled 2.</span></p>
+            <p>2021-01-10 16:15:12 <span>An item(s) from your order has been cancelled 3.</span></p>
           </div>
           <button class="color-blue" @click="readMore =! readMore">
             <span v-if="readMore">View Less</span>
@@ -135,14 +135,14 @@
               <h6 class="mb-2">Shipping Address</h6>
               <p class="user-name">Suraiya aysha</p>
               <p> <span class="bg-red white-color rounded px-1">Home</span> H-120, R-12, East Park, Australia.</p>
-              <p class="user-mobile">1923456789</p>
+              <p class="user-mobile">+99 441524</p>
             </div>
 
             <div class="address bg-white p-3 mt-3">
               <h6 class="mb-2">Shipping Address</h6>
               <p class="user-name">Suraiya aysha</p>
-              <p> <span class="bg-red white-color rounded px-1">Home</span>  H-120, R-12, East Park, Australia.</p>
-              <p class="user-mobile">1923456789</p>
+              <p> <span class="bg-red white-color rounded px-1">Office</span>  H-05, R-11, North Lake, Australia.</p>
+              <p class="user-mobile">+99 12587125</p>
             </div>
 
           </div>
@@ -174,12 +174,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .show-more-less {
 	background-color: #fff;
 	border: 1px solid var(--border-secondary);
 	margin: 20px 0;
 	padding: 20px;
 	text-align: center;
+    font-size: 14px;
+  p {
+    font-size: 14px;
+  }
 }
 </style>

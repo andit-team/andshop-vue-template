@@ -64,7 +64,7 @@
 
                 <div class="cart_list">
 
-                  <b-dropdown-item to="#">
+                  <b-dropdown-item to="/product-details">
                     <img src="~/assets/images/products/1.jpg" class="mr-3" alt="product">
                     <div class="media-body">
                       <h6 class="mt-0 mb-1 d-flex justify-content-between align-items-center font-14 text-capitalize"><span>product name</span><i class="fas fa-times"></i></h6>
@@ -72,16 +72,16 @@
                     </div>
                   </b-dropdown-item>
 
-                  <b-dropdown-item to="#">
-                    <img src="~/assets/images/products/1.jpg" class="mr-3" alt="product">
+                  <b-dropdown-item to="/product-details/left-thumb">
+                    <img src="~/assets/images/products/2.jpg" class="mr-3" alt="product">
                     <div class="media-body">
                       <h6 class="mt-0 mb-1 d-flex justify-content-between align-items-center font-14 text-capitalize"><span>product name</span><i class="fas fa-times"></i></h6>
-                      <p>1x$81.00</p>
+                      <p>1x$21.00</p>
                     </div>
                   </b-dropdown-item>
 
                   <div class="cart_footer">
-                    <p class="cart_total d-flex align-items-center justify-content-between"><strong>Subtotal:</strong> <span class="cart_price"> <span class="price_symbole">$159.00</span></span></p>
+                    <p class="cart_total d-flex align-items-center justify-content-between"><strong>Subtotal:</strong> <span class="cart_price"> <span class="price_symbole">$102.00</span></span></p>
                     <p class="cart_buttons d-flex justify-content-center"><nuxt-link class="theme-button font-12 rounded view-cart" to="/cart">View Cart</nuxt-link><nuxt-link to="/checkout" class="theme-button font-12 rounded checkout">Checkout</nuxt-link></p>
                   </div>
 
@@ -115,7 +115,7 @@
                     <div class="mr-3"><i class="far fa-bell"></i></div>
                     <div class="media-body d-flex justify-content-align-content-between">
                       <div class="notification-content pr-2">
-                        <p class="font-14 text-break" style="white-space: pre-line"><strong>Morgan Mor</strong> says something about him. Says something....</p>
+                        <p class="font-14 text-break" style="white-space: pre-line"><strong>Jenifar Lee</strong> says something about him. Says something....</p>
                         <p class="font-12"><i class="far fa-clock"></i> 1 day</p>
                       </div>
                       <div class="notification-buttons fon-12 d-flex flex-column justify-content-around">
@@ -129,7 +129,7 @@
                     <div class="mr-3"><i class="far fa-bell"></i></div>
                     <div class="media-body d-flex justify-content-align-content-between">
                       <div class="notification-content pr-2">
-                        <p class="font-14 text-break" style="white-space: pre-line"><strong>Morgan Mor</strong> says something about him. Says something....</p>
+                        <p class="font-14 text-break" style="white-space: pre-line"><strong>Asif Ak</strong> says something about him. Says something....</p>
                         <p class="font-12"><i class="far fa-clock"></i> 1 day</p>
                       </div>
                       <div class="notification-buttons fon-12 d-flex flex-column justify-content-around">
@@ -152,32 +152,46 @@
                 <div class="cart_list user_dropdown_list">
                   <!--  For Authenticate Users -->
                   <span>
-                    <b-dropdown-item :href="$config.CUSTOMER_PANEL_URL">
+                    <b-dropdown-item to="/my-account">
                       <div class="mr-3"><i class="far fa-smile"></i></div>
                       <div class="media-body">
                         <p>Manage my account</p>
                       </div>
                     </b-dropdown-item>
 
-                    <b-dropdown-item :href="$config.CUSTOMER_PANEL_URL+'/wishlist'">
+                    <b-dropdown-item to="/my-account/wishlist">
                       <div class="mr-3"><i class="far fa-heart"></i></div>
                       <div class="media-body">
                         <p>My wishlist</p>
                       </div>
                     </b-dropdown-item>
 
-                    <b-dropdown-item :href="$config.CUSTOMER_PANEL_URL+'/my-orders'">
+                    <b-dropdown-item to="/my-account/my-reviews">
                       <div class="mr-3"><i class="far fa-star"></i></div>
                       <div class="media-body">
                         <p>My reviews</p>
                       </div>
                     </b-dropdown-item>
 
-                    <b-dropdown-item :href="$config.CUSTOMER_PANEL_URL+'/my-orders'">
+                    <b-dropdown-item to="/my-account/my-orders/">
                       <div class="mr-3"><i class="far fa-times-circle"></i></div>
                       <div class="media-body">
-                        <p>My returns and cancellations</p>
+                        <p>My Orders</p>
                       </div>
+                    </b-dropdown-item>
+                    
+                    <b-dropdown-item to="/my-account/auth/registration">
+                      <div class="mr-3"><i class="far fa-user"></i></div>
+                        <div class="media-body">
+                          <p>Signup</p>
+                        </div>
+                    </b-dropdown-item>
+
+                    <b-dropdown-item to="/my-account/auth/login">
+                      <div class="mr-3"><i class="fas fa-key"></i></div>
+                        <div class="media-body">
+                          <p>Login</p>
+                        </div>
                     </b-dropdown-item>
 
                     <b-dropdown-item @click.prevent="logout">
@@ -187,23 +201,7 @@
                       </div>
                     </b-dropdown-item>
                   </span>
-
-                  <!--  For UnAuthenticate Users -->
-                  <span>
-                    <b-dropdown-item to="/auth/registration">
-                      <div class="mr-3"><i class="far fa-user"></i></div>
-                        <div class="media-body">
-                          <p>Signup</p>
-                        </div>
-                    </b-dropdown-item>
-
-                    <b-dropdown-item to="/auth/login">
-                      <div class="mr-3"><i class="fas fa-key"></i></div>
-                        <div class="media-body">
-                          <p>Login</p>
-                        </div>
-                    </b-dropdown-item>
-                  </span>
+                  
                 </div>
               </b-dropdown>
 

@@ -24,7 +24,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details">
                     <div class="img-wrap mb-2">
-                      <img :src="require('@/assets/images/best-sellers/1.jpg')" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/fashion/7.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -49,7 +49,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details">
                     <div class="img-wrap mb-2">
-                      <img :src="require('@/assets/images/best-sellers/2.jpg')" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/fashion/8.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -74,7 +74,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details">
                     <div class="img-wrap mb-2">
-                      <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/fashion/9.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -99,7 +99,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details">
                     <div class="img-wrap mb-2">
-                      <img :src="require('@/assets/images/best-sellers/4.jpg')" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/fashion/10.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -124,7 +124,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details">
                     <div class="img-wrap mb-2">
-                      <img :src="require('@/assets/images/best-sellers/5.jpg')" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/fashion/11.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -149,7 +149,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details">
                     <div class="img-wrap mb-2">
-                      <img :src="require('@/assets/images/best-sellers/3.jpg')" alt="products" class="rounded-top">
+                      <img :src="require('@/assets/images/fashion/12.jpg')" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -182,7 +182,6 @@
 </template>
 
 <script>
-import {get_new_arrival_products} from "@/api/urls";
 
 export default {
   data() {
@@ -237,40 +236,10 @@ export default {
           }
         },
       },
-      api_base_url : this.$config.API_BASE_URL
     }
   },
-  methods:{
-    getNewArrivalProducts(){
-      let self = this;
-      let config = {
-        headers: {'Content-Type': 'application/json'}
-      };
-      this.$axios.$get(this.api_base_url+get_new_arrival_products, config).then((res) => {
-        if (res.error === false) {
-          self.$store.commit('siteinfo/updateNewArrivalProducts',res.data);
-        }
-        else {
-          console.log(res.msg)
-        }
-      }).catch((error) => {
-        console.log(error);
-      });
-    }
-  },
-  computed:{
-    newArrivalProducts(){
-      return this.$store.state.siteinfo.newArrivalProducts;
-    }
-  },
-  mounted() {
-    if (this.newArrivalProducts.length<=0){
-      this.getNewArrivalProducts();
-    }
-  }
 }
 </script>
 
 <style scoped>
-
 </style>

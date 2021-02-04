@@ -22,7 +22,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/1.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-1.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -57,7 +57,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/2.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-2.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -92,7 +92,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/3.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-3.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -127,7 +127,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/4.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-4.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -162,7 +162,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/5.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-5.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -197,7 +197,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/6.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-6.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>

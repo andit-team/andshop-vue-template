@@ -48,7 +48,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/2.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -73,7 +73,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/3.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -98,7 +98,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/4.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -123,7 +123,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/5.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -148,7 +148,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/6.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -173,7 +173,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/2.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
@@ -198,7 +198,7 @@
                     <div class="product-item rounded bg-white">
                       <nuxt-link to="/product-details">
                         <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
+                          <img :src="require('@/assets/images/fashion/3.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
                           <p class="product-tags text-uppercase">Alu, Morich</p>
