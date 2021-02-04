@@ -26,8 +26,8 @@
                           <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Sunglass</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -51,8 +51,8 @@
                           <img :src="require('@/assets/images/fashion/2.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Fashion Sunglass</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -76,8 +76,8 @@
                           <img :src="require('@/assets/images/fashion/3.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Winter coat</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -101,8 +101,8 @@
                           <img :src="require('@/assets/images/fashion/4.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Tops</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -126,8 +126,8 @@
                           <img :src="require('@/assets/images/fashion/5.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">T-Shirt</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -151,8 +151,8 @@
                           <img :src="require('@/assets/images/fashion/6.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Long Coat</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -176,8 +176,8 @@
                           <img :src="require('@/assets/images/fashion/2.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Sunglass</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>
@@ -201,8 +201,8 @@
                           <img :src="require('@/assets/images/fashion/3.jpg')" alt="products" class="rounded-top">
                         </div>
                         <div class="product-content">
-                          <p class="product-tags text-uppercase">Alu, Morich</p>
-                          <p class="product-title font-bold">Product Title Here</p>
+                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
+                          <p class="product-title font-bold">Tops</p>
                           <div class="rating_wrap mb-1">
                             <div class="rating">
                               <div class="product_rate" style="width:87%"></div>

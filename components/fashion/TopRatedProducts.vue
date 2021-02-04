@@ -27,7 +27,7 @@
                       <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
@@ -53,7 +53,7 @@
                       <img src="~/assets/images/best-sellers/2.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
@@ -79,7 +79,7 @@
                       <img src="~/assets/images/best-sellers/3.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
@@ -105,7 +105,7 @@
                       <img src="~/assets/images/best-sellers/4.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
@@ -131,7 +131,7 @@
                       <img src="~/assets/images/best-sellers/5.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
@@ -154,10 +154,10 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/5.jpg" alt="products" class="rounded-top">
+                      <img src="~/assets/images/best-sellers/2.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
@@ -183,7 +183,7 @@
                       <img src="~/assets/images/best-sellers/3.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
-                      <p class="product-tags text-uppercase">bath & body, football, tennis</p>
+                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
                       <p class="product-title font-bold">Cornboat Holders</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">

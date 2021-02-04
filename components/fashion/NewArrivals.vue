@@ -28,7 +28,7 @@
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Product Title</p>
+                      <p class="product-title font-bold">Fashion Sunglass</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
                           <div class="product_rate" style="width:87%"></div>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Product Title</p>
+                      <p class="product-title font-bold">Black Cap</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
                           <div class="product_rate" style="width:87%"></div>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Product Title</p>
+                      <p class="product-title font-bold">Jeans coat</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
                           <div class="product_rate" style="width:87%"></div>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Product Title</p>
+                      <p class="product-title font-bold">T-Shirt</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
                           <div class="product_rate" style="width:87%"></div>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Product Title</p>
+                      <p class="product-title font-bold">Coat</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
                           <div class="product_rate" style="width:87%"></div>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Product Title</p>
+                      <p class="product-title font-bold">Sunglass</p>
                       <div class="rating_wrap mb-1">
                         <div class="rating">
                           <div class="product_rate" style="width:87%"></div>
