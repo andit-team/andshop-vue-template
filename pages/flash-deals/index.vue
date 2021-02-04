@@ -1,648 +1,223 @@
 <template>
-  <!-- Flash Deals Page Start -->
-  <section class="flash-deals-page section-t-40-space section-b-40-space">
-    <div class="container">
-      <div class="row flash-deals-page-wrap">
 
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/1.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
+  <div>
+    <!-- Breadcrumb Area Start -->
+    <div class="breadcrumb-area bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+                <li class="breadcrumb-item active" aria-current="page">Flash Deals</li>
+              </ol>
+            </nav>
           </div>
         </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/2.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/3.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/4.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/5.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/6.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/1.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/2.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/3.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/4.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/5.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/6.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/1.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/2.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/3.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/4.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/5.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/6.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
       </div>
     </div>
-  </section>
-  <!-- Flash Deals Page End -->
+    <!-- Breadcrumb Area End -->
+
+    <!-- Flash Deals Page Start -->
+    <section class="flash-deals-page section-t-40-space section-b-40-space">
+      <div class="container">
+        <div class="row flash-deals-page-wrap">
+
+          <!-- Flash sale item start-->
+          <div v-for="(flashItem, index) in flashItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <FlashDealsItem :flashItem = 'flashItem' />
+          </div>
+          <!-- Flash sale item end-->
+
+        </div>
+      </div>
+    </section>
+    <!-- Flash Deals Page End -->
+  </div>
+
 </template>
 
 <script>
+import FlashDealsItem from '../../components/product-box/FlashDealsItem'
 export default {
-  name: "flashDeals"
+  name: "flashDealsPage",
+  components: { 
+    FlashDealsItem,
+  },
+  data() {
+    return {
+      flashDealExist : false,
+      flashItems: [
+        {
+          "id": 1,
+          "title": "Sunglass",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 2,
+          "title": "Shoe",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-2.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "unit": "8",
+        },
+        {
+          "id": 3,
+          "title": "Modern Watch",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-3.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 4,
+          "title": "Wear Set",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-4.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 5,
+          "title": "Merun Bag",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-5.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 6,
+          "title": "Cloth Package",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-6.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 7,
+          "title": "Sunglass",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 8,
+          "title": "Shoe",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-2.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "unit": "8",
+        },
+        {
+          "id": 9,
+          "title": "Modern Watch",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-3.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 10,
+          "title": "Wear Set",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-4.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 11,
+          "title": "Merun Bag",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-5.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 12,
+          "title": "Cloth Package",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-6.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 13,
+          "title": "Sunglass",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 14,
+          "title": "Shoe",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-2.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "unit": "8",
+        },
+        {
+          "id": 15,
+          "title": "Modern Watch",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-3.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 16,
+          "title": "Wear Set",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-4.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 17,
+          "title": "Merun Bag",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-5.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+        {
+          "id": 18,
+          "title": "Cloth Package",
+          "shop": "Sun Farm",
+          "image": require('@/assets/images/fashion/flash-deals-6.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "unit": "4",
+        },
+      ]
+    }
+  },
+  head() {
+    return {
+      title: 'Flash Deals'
+    }
+  },
 }
 </script>
 

@@ -22,7 +22,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/1.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-1.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -31,7 +31,7 @@
                   <span class="discount mr-1 color-red">25% Off</span>
                 </h6>
                 <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
+                <p class="product-title font-bold">Sunglass</p>
                 <p class="product-unit font-14">4 per pack</p>
                 <div class="rating_wrap mb-1">
                   <div class="rating">
@@ -57,7 +57,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/2.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-2.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -66,7 +66,7 @@
                   <span class="discount mr-1 color-red">25% Off</span>
                 </h6>
                 <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
+                <p class="product-title font-bold">Shoe</p>
                 <p class="product-unit font-14">4 per pack</p>
                 <div class="rating_wrap mb-1">
                   <div class="rating">
@@ -92,7 +92,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/3.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-3.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -101,7 +101,7 @@
                   <span class="discount mr-1 color-red">25% Off</span>
                 </h6>
                 <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
+                <p class="product-title font-bold">Modern Watch</p>
                 <p class="product-unit font-14">4 per pack</p>
                 <div class="rating_wrap mb-1">
                   <div class="rating">
@@ -127,7 +127,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/4.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-4.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -136,7 +136,7 @@
                   <span class="discount mr-1 color-red">25% Off</span>
                 </h6>
                 <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
+                <p class="product-title font-bold">Wear Set</p>
                 <p class="product-unit font-14">4 per pack</p>
                 <div class="rating_wrap mb-1">
                   <div class="rating">
@@ -162,7 +162,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/5.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-5.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -171,7 +171,7 @@
                   <span class="discount mr-1 color-red">25% Off</span>
                 </h6>
                 <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
+                <p class="product-title font-bold">Merun Bag</p>
                 <p class="product-unit font-14">4 per pack</p>
                 <div class="rating_wrap mb-1">
                   <div class="rating">
@@ -197,7 +197,7 @@
           <div class="flash-sale-item my-3">
             <nuxt-link to="/product-details">
               <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/products/6.jpg')" alt="products">
+                <img :src="require('@/assets/images/fashion/flash-deals-6.jpg')" alt="products">
               </div>
               <div class="product-content">
                 <h6>
@@ -206,7 +206,7 @@
                   <span class="discount mr-1 color-red">25% Off</span>
                 </h6>
                 <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cornboat Holders</p>
+                <p class="product-title font-bold">Cloth Package</p>
                 <p class="product-unit font-14">4 per pack</p>
                 <div class="rating_wrap mb-1">
                   <div class="rating">

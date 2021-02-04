@@ -154,7 +154,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/5.jpg" alt="products" class="rounded-top">
+                      <img src="~/assets/images/best-sellers/3.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
@@ -180,7 +180,7 @@
                 <div class="product-item rounded bg-white">
                   <nuxt-link to="/product-details/">
                     <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/3.jpg" alt="products" class="rounded-top">
+                      <img src="~/assets/images/best-sellers/4.jpg" alt="products" class="rounded-top">
                     </div>
                     <div class="product-content">
                       <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>

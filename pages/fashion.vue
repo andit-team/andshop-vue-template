@@ -5,7 +5,7 @@
 
     <RisingStar />
 
-    <FlashDeals />
+    <FashionFlashDeals />
 
     <BestSellers />
 
@@ -61,7 +61,17 @@
 
 <script>
 
+import FashionFlashDeals from '../components/fashion/FashionFlashDeals'
+
 export default {
   name: 'Fashion',
+  components: {
+    FashionFlashDeals,
+  },
+  head() {
+    return {
+      title: 'Fashion - Andshop'
+    }
+    },
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Breadcrumb Area Start ------------->
+    <!-- Breadcrumb Area Start -->
     <div class="breadcrumb-area bg-white">
       <div class="container">
         <div class="row">
@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <!-- Breadcrumb Area End ------------->
+    <!-- Breadcrumb Area End -->
 
     <section class="who-we-are section-t-space">
       <div class="container container-1170">
