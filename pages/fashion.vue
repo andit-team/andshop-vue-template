@@ -1,17 +1,17 @@
 <template>
   <div>
 
-    <MainSlider />
+    <FashionMainSlider />
 
     <RisingStar />
 
     <FashionFlashDeals />
 
-    <BestSellers />
+    <FashionBestSellers />
 
     <PopularCategories />
 
-    <NewArrivals />
+    <FashionNewArrivals />
 
     <!-- Home promotion 1 Area Start -->
     <section class="home-promotion-area-1 section-t-space">
@@ -53,7 +53,7 @@
     </section>
     <!-- Home promotion 2 Area End -->
 
-    <TopRatedProducts/>
+    <FashionTopRatedProducts />
 
     <PaymentMethods/>
   </div>
@@ -61,17 +61,25 @@
 
 <script>
 
+import FashionMainSlider from '../components/fashion/FashionMainSlider'
 import FashionFlashDeals from '../components/fashion/FashionFlashDeals'
+import FashionBestSellers from '../components/fashion/FashionBestSellers'
+import FashionNewArrivals from '../components/fashion/FashionNewArrivals'
+import FashionTopRatedProducts from '../components/fashion/FashionTopRatedProducts'
 
 export default {
   name: 'Fashion',
   components: {
+    FashionMainSlider,
     FashionFlashDeals,
+    FashionBestSellers,
+    FashionNewArrivals,
+    FashionTopRatedProducts
   },
   head() {
     return {
       title: 'Fashion - Andshop'
     }
-    },
+  },
 }
 </script>

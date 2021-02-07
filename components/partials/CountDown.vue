@@ -1,21 +1,17 @@
 <template>
   <span class="timer">
     <span id="demo">
-      <span>
-        <span class="timer-num">{{ days }}</span>
-        <span class="padding-l">Day :</span>
-      </span>
-      <span>
+      <span class="single-counter-box">
         <span class="timer-num">{{ hours }}</span>
-        <span class="padding-l">Hours :</span>
+        <span class="timing-unit">Hours</span>
       </span>
-      <span>
+      <span class="single-counter-box">
         <span class="timer-num">{{ minutes }}</span>
-        <span class="padding-l">Mins :</span>
+        <span class="timing-unit">Mins</span>
       </span>
-      <span>
+      <span class="single-counter-box">
         <span class="timer-num">{{ seconds }}</span>
-        <span class="padding-l">Sec</span>
+        <span class="timing-unit">Sec</span>
       </span>
     </span>
   </span>
@@ -51,7 +47,4 @@ export default {
 }
 </script>
 <style>
-.timer-num {
-	padding: 0 4px;
-}
 </style>

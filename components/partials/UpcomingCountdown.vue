@@ -50,10 +50,3 @@ export default {
   }
 }
 </script>
-<style>
-.timer-num, .padding-l {
-	padding: 0;
-	font-size: 12px;
-	font-weight: 700;
-}
-</style>

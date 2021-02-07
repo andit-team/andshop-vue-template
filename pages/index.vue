@@ -40,7 +40,7 @@
           <div class="col-12 col-lg-6">
             <div class="andbaazar-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
-                <img :src="require('@/assets/images/services-img/auction.png')" alt="Auction">
+                <img :src="require('@/assets/images/services-img/auction.png')" alt="Furniture">
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/furniture">Furniture</nuxt-link></h3>

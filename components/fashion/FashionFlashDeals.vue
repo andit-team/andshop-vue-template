@@ -1,6 +1,6 @@
 <template>
   <!-- Flash Deals Area Start -->
-  <section class="flash-deals-area section-t-space">
+  <section class="flash-deals-area fashion-flash-deals-area section-t-space">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,7 +8,7 @@
             <div class="section-title d-flex align-items-center">
               <h4>Flash Deals</h4>
               <span class="d-flex align-items-center ml-4">
-                Ends in:<CountDown date="December 20, 2021" class="rounded ml-2"></CountDown>
+                Ends in:<CountDown date="December 20, 2030" class="rounded ml-2"></CountDown>
               </span>
             </div>
             <nuxt-link to="/flash-deals" class="color-red">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
@@ -18,8 +18,8 @@
       <div class="row flash-sale-slider-wrap m-0">
 
         <!-- Flash sale item start-->
-        <div v-for="(flashItem, index) in flashItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <FlashDealsItem :flashItem = 'flashItem' />
+        <div v-for="(flashItemAsa, index) in flashItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <FlashDealsItem :flashItem = 'flashItemAsa' />
         </div>
         <!-- Flash sale item end-->
 
@@ -44,56 +44,44 @@ export default {
         {
           "id": 1,
           "title": "Sunglass",
-          "shop": "Sun Farm",
           "image": require('@/assets/images/fashion/flash-deals-1.jpg'),
           "price": "150.00",
           "discount": "10",
-          "unit": "4",
         },
         {
           "id": 2,
           "title": "Shoe",
-          "shop": "Sun Farm",
           "image": require('@/assets/images/fashion/flash-deals-2.jpg'),
           "price": "110.00",
           "discount": "7",
-          "unit": "8",
         },
         {
           "id": 3,
           "title": "Modern Watch",
-          "shop": "Sun Farm",
           "image": require('@/assets/images/fashion/flash-deals-3.jpg'),
           "price": "100.00",
           "discount": "10",
-          "unit": "4",
         },
         {
           "id": 4,
           "title": "Wear Set",
-          "shop": "Sun Farm",
           "image": require('@/assets/images/fashion/flash-deals-4.jpg'),
           "price": "80.00",
           "discount": "10",
-          "unit": "4",
         },
         {
           "id": 5,
           "title": "Merun Bag",
-          "shop": "Sun Farm",
           "image": require('@/assets/images/fashion/flash-deals-5.jpg'),
           "price": "150.00",
           "discount": "10",
-          "unit": "4",
         },
         {
           "id": 6,
           "title": "Cloth Package",
-          "shop": "Sun Farm",
           "image": require('@/assets/images/fashion/flash-deals-6.jpg'),
           "price": "150.00",
           "discount": "10",
-          "unit": "4",
         },
       ]
     }
@@ -101,10 +89,18 @@ export default {
 }
 </script>
 
-<style scoped>
-.timer {
-	background-color: var(--red-color);
-	color: #fff;
-	padding: 10px;
+<style lang="scss">
+.fashion-flash-deals-area {
+  .timer {
+    color: #fff;
+    #demo {
+      .single-counter-box {
+        background-color: var(--red-color);
+        padding: 5px 10px;
+        border-radius: 0.25rem !important;
+      }
+    }
+  }
+
 }
 </style>
