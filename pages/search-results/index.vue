@@ -7,8 +7,8 @@
           <div class="col">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Product</a></li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+                <li class="breadcrumb-item"><nuxt-link to="/new-arrivals">Product</nuxt-link></li>
                 <li class="breadcrumb-item active" aria-current="page">Product Search</li>
               </ol>
             </nav>
@@ -24,85 +24,7 @@
         <div class="row">
           <!-- Product Search Page Left Side-->
           <div class="col-12 col-md-3 col-lg-3">
-            <div class="product-search-left-side">
-              <!-- Left side bar box start-->
-              <div class="search-left-sidebar-box mb-4">
-                <b-navbar-toggle target="product_categories_collapse" class="left-sidebar-title text-uppercase w-100 mb-4 d-flex">
-                  <template #default="{ expanded }">
-                    <h6>Product categories</h6>
-                    <span v-if="expanded"><i class="fas fa-angle-up"></i></span>
-                    <span v-else ><i class="fas fa-angle-down"></i></span>
-                  </template>
-
-                </b-navbar-toggle>
-
-                <b-collapse id="product_categories_collapse" visible class="left-sidebar-content">
-                  <ul>
-                    <li><nuxt-link to="/search-results">Fashion</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Furniture</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Hair care</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Make Up</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Men's</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Women's</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Baby</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Watch</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Make Up</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Bags</nuxt-link></li>
-                    <li><nuxt-link to="/search-results">Electronics</nuxt-link></li>
-                  </ul>
-                </b-collapse>
-              </div>
-              <!-- Left side bar box end-->
-
-              <!-- Left side bar box start-->
-              <div class="search-left-sidebar-box mb-4">
-                <b-navbar-toggle target="filter_by_price_collapse" class="left-sidebar-title text-uppercase w-100 mb-4 d-flex">
-                  <template #default="{ expanded }">
-                    <h6>Filter by price</h6>
-                    <span v-if="expanded"><i class="fas fa-angle-up"></i></span>
-                    <span v-else ><i class="fas fa-angle-down"></i></span>
-                  </template>
-                </b-navbar-toggle>
-                <b-collapse id="filter_by_price_collapse" visible class="left-sidebar-content range-slider-box">
-                  <vue-slider  
-                    :min="0" 
-                    :max="5000"
-                    v-model="range"
-                    :enable-cross="false"
-                  ></vue-slider>
-                  <p class="mt-3">Price: <span>$0 - $5000</span></p>
-                </b-collapse>
-              </div>
-              <!-- Left side bar box end-->
-
-              <!-- Left side bar box start-->
-              <div class="search-left-sidebar-box mb-4">
-                <b-navbar-toggle target="product_tags_collapse" class="left-sidebar-title text-uppercase w-100 mb-4 d-flex">
-                  <template #default="{ expanded }">
-                    <h6>Product tags</h6>
-                    <span v-if="expanded"><i class="fas fa-angle-up"></i></span>
-                    <span v-else ><i class="fas fa-angle-down"></i></span>
-                  </template>
-                </b-navbar-toggle>
-
-                <b-collapse id="product_tags_collapse" visible class="left-sidebar-content">
-                  <div class="tags">
-                    <span class="active">Fitness</span>
-                    <span>Football</span>
-                    <span>Hair care</span>
-                    <span>Make Up</span>
-                    <span>Men's</span>
-                    <span>Hair care</span>
-                    <span>Football</span>
-                    <span>Hair care</span>
-                    <span>Make Up</span>
-                    <span>Men's</span>
-                    <span>Hair care</span>
-                  </div>
-                </b-collapse>
-              </div>
-              <!-- Left side bar box end-->
-            </div>
+            <ProductPageSidebar />
           </div>
           <!-- Product Search Page Left Side-->
 
@@ -131,215 +53,12 @@
               <div class="best-seller-items-wrap d-flex flex-wrap product-row">
 
                 <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <!-- Best Seller item end-->
-
-                <!-- Best Seller item start-->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                  <div class="product-item rounded bg-white">
-                    <nuxt-link to="/products/potato">
-                      <div class="img-wrap mb-2">
-                        <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                      </div>
-                      <div class="product-content">
-                        <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                        <p class="product-title font-bold">Cornboat Holders</p>
-                        <div class="rating_wrap mb-1">
-                          <div class="rating">
-                            <div class="product_rate" style="width:87%"></div>
-                          </div>
-                        </div>
-                        <p>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="special-tag badge bg-red white-color">Sale</span>
-                        </p>
-                      </div>
-                    </nuxt-link>
-                  </div>
+                <div v-for="(productItem, index) in productItems" :key="index" class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
+                  <ProductItem :productItem ='productItem' />
                 </div>
                 <!-- Best Seller item end-->
 
                 <!-- Load more button-->
-                <div class="col-12 d-block mt-4 text-center"><Loading /></div>
                 <div class="col-12 d-block mt-4 text-center"><button class="theme-button rounded load-more-button">Load more</button></div>
 
               </div>
@@ -359,22 +78,183 @@
 </template>
 
 <script>
-
-import VueSlider from 'vue-slider-component'
-import 'vue-slider-component/theme/default.css'
+import ProductItem from '../../components/product-box/ProductItem'
+import ProductPageSidebar from '../../components/partials/ProductPageSidebar'
 
 export default {
   name: "searchResults",
 
   components: {
-    VueSlider
+    ProductItem,
+    ProductPageSidebar
   },
 
   data() {
     return {
       searchCategory: this.$route.query.category,
       searchQuery: this.$route.query.query,
-      range: [0,5000],
+      productItems: [
+        {
+          "id": 1,
+          "title": "Sunglass",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 2,
+          "title": "Fashion Sunglass",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/2.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "priceRange": "150.00",
+          "offerSeal": "New"
+        },
+        {
+          "id": 3,
+          "title": "Winter coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/3.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 4,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/4.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Hot"
+        },
+        {
+          "id": 5,
+          "title": "T-Shirt",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/5.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 6,
+          "title": "Long Coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/6.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "New"
+        },
+        {
+          "id": 7,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/7.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 8,
+          "title": "Sunglass",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/8.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 9,
+          "title": "Fashion Sunglass",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/9.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "priceRange": "150.00",
+          "offerSeal": "New"
+        },
+        {
+          "id": 10,
+          "title": "Winter coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/10.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 11,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/11.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Hot"
+        },
+        {
+          "id": 12,
+          "title": "T-Shirt",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/12.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 13,
+          "title": "Long Coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/13.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "New"
+        },
+        {
+          "id": 14,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/14.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 15,
+          "title": "Long Coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/15.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "New"
+        },
+        {
+          "id": 16,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/16.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        }
+      ]
     }
   }
 }

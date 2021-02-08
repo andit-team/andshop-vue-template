@@ -18,191 +18,13 @@
           <div class="best-seller-slider-wrap d-flex flex-wrap justify-content-between">
 
             <swiper class="swiper" :options="swiperOption">
-
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
+                
+              <!-- Best Seller item start-->
+              <swiper-slide v-for="(productItem, index) in productItems" :key="index">
+                <ProductItem :productItem ='productItem' />
               </swiper-slide>
-              <!-- Top Rated item end-->
+              <!-- Best Seller item end-->
 
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/2.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
-              </swiper-slide>
-              <!-- Top Rated item end-->
-
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/3.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
-              </swiper-slide>
-              <!-- Top Rated item end-->
-
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/4.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
-              </swiper-slide>
-              <!-- Top Rated item end-->
-
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/5.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
-              </swiper-slide>
-              <!-- Top Rated item end-->
-
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/3.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
-              </swiper-slide>
-              <!-- Top Rated item end-->
-
-              <!-- Top Rated item start-->
-              <swiper-slide>
-                <div class="product-item rounded bg-white">
-                  <nuxt-link to="/product-details/">
-                    <div class="img-wrap mb-2">
-                      <img src="~/assets/images/best-sellers/4.jpg" alt="products" class="rounded-top">
-                    </div>
-                    <div class="product-content">
-                      <p class="product-tags text-uppercase font-12">bath & body, football, tennis</p>
-                      <p class="product-title font-bold">Cornboat Holders</p>
-                      <div class="rating_wrap mb-1">
-                        <div class="rating">
-                          <div class="product_rate" style="width:87%"></div>
-                        </div>
-                      </div>
-                      <p>
-                        <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                        <span class="discounted-price mr-1 color-red">$2.00</span>
-                        <span class="special-tag badge bg-red white-color">Sale</span>
-                      </p>
-                    </div>
-                  </nuxt-link>
-                </div>
-              </swiper-slide>
-              <!-- Top Rated item end-->
-
-              <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
-              <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
             </swiper>
 
           </div>
@@ -215,23 +37,20 @@
 
 <script>
 
+import ProductItem from '../product-box/ProductItem'
+
 export default {
+  name: 'ElectronicsTopRatedProducts',
+  components: {
+    ProductItem,
+  },
   data() {
     return {
       swiperOption: {
         slidesPerView: 5,
         spaceBetween: 30,
         slidesPerGroup: 1,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        },
+        loop: false,
         breakpoints: {
           1400: {
             slidesPerView: 5
@@ -263,11 +82,79 @@ export default {
           400: {
             slidesPerView: 2
           },
+          399: {
+            slidesPerView: 1
+          },
           0: {
             slidesPerView: 1
           }
         }
       },
+      productItems: [
+        {
+          "id": 1,
+          "title": "Fashion Sunglass",
+          "tags": "bath & body, football, tennis",
+          "image": require('@/assets/images/electronics/1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 2,
+          "title": "Black Cap",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/2.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "offerSeal": "New"
+        },
+        {
+          "id": 3,
+          "title": "Jeans coat",
+          "tags": "bath & body, football, tennis",
+          "image": require('@/assets/images/electronics/3.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 4,
+          "title": "T-Shirt",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/7.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "offerSeal": "Hot"
+        },
+        {
+          "id": 5,
+          "title": "Coat",
+          "tags": "bath & body, football, tennis",
+          "image": require('@/assets/images/electronics/5.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 6,
+          "title": "Long Coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/6.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "New"
+        },
+        {
+          "id": 6,
+          "title": "Tops",
+          "tags": "bath & body, football, tennis",
+          "image": require('@/assets/images/electronics/4.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        }
+      ]
     }
   },
 }

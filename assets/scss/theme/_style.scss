@@ -413,7 +413,6 @@ button:focus {
     5. Navbar Area CSS Start
 -------------------------------------------*/
 /*Top Menu*/
-
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
     border: none;
     background: transparent;
@@ -427,12 +426,10 @@ button:focus {
 	border: none;
 	color: initial;
 }
-
 .dropdown-item.active, .dropdown-item:active {
 	color: inherit;
 	background-color: transparent;
 }
-
 .header_topbar_info, .header_topbar_info a, .lng_dropdown .dropdown-toggle {
 	color: var(--heading-color);
 	font-size: 14px;
@@ -452,6 +449,9 @@ button:focus {
     padding: 7px;
     color: var(--red-color);
     font-size: 16px;
+}
+.top-menu a.dropdown-item:hover, .middle-menu a.dropdown-item:hover {
+    background-color: var(--gray-color1);
 }
 .lng_dropdown.dropdown img {
     height: 14px;
@@ -498,7 +498,6 @@ button:focus {
     border-left: 0;
 	padding-left: 0!important;
 }
-
 .product_search_form .form-control, .product_search_form input {
 	border-radius: 30px;
 	padding: 10px 20px;
@@ -592,15 +591,11 @@ button:focus {
 }
 .middle-menu-dropdown .dropdown-menu {
     width: 300px;
-    /*transform: translate3d(-205px, 24px, 0px) !important;*/
-
     -webkit-transform: scale(0.75) translateY(0px) translate3d(-300px, 24px, 0px) !important;
     -ms-transform: scale(0.75) translateY(0px) translate3d(-300px, 24px, 0px) !important;
     transform: scale(0.75) translateY(0px) translate3d(-300px, 24px, 0px) !important;
     -webkit-transition: all 0.2s , opacity 0.15s ease;
     transition: all 0.2s , opacity 0.15s ease;
-    /*-webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;*/
-    /*transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;*/
     display: block !important;
     opacity: 0;
     visibility: hidden !important;
@@ -608,7 +603,6 @@ button:focus {
     top: 32px;
     z-index: 1;
 }
-
 .middle-menu-dropdown .dropdown-menu.show {
     z-index: 9999;
     opacity: 1;
@@ -618,15 +612,20 @@ button:focus {
     -ms-transform: scale(1) translateY(0) translate3d(-226px, 24px, 0px) !important;
     transform: scale(1) translateY(0) translate3d(-226px, 24px, 0px) !important;
 }
-
 .middle-menu-dropdown {
     margin-left: 25px;
 }
-.middle-menu-dropdown ul li {
-    border-top: 1px solid var(--border-color);
-    padding: 10px 14px;
+.middle-menu-dropdown {
+    ul {
+        li {
+            a{
+                padding: 10px 14px;
+                border-top: 1px solid var(--border-color);
+            }
+        }
+    }
 }
-.middle-menu-dropdown ul li:first-child {
+.middle-menu-dropdown ul li:first-child a {
     border-top: 1px solid transparent;
     padding: 10px 14px;
 }
@@ -649,37 +648,13 @@ button:focus {
 /*Middle Menu End*/
 
 /*Bottom Menu CSS Start*/
-.bottom-menu, .breadcrumb-area {
+.breadcrumb-area {
     border-bottom: 1px solid var(--border-secondary);
 }
 .breadcrumb {
     padding-left: 0;
     padding-right: 0;
 }
-// .track-order-dropdown ul {
-// 	padding: 15px;
-// 	width: 278px;
-// }
-// .track-order-dropdown ul form #track_order {
-// 	width: 208px;
-// 	height: 40px;
-//     border-top-right-radius: 0;
-//     border-bottom-right-radius: 0;
-// }
-// .track-order-dropdown ul form button, .track-order-dropdown ul form button.btn-secondary:focus, .track-order-dropdown ul form button.btn-secondary.focus {
-// 	width: auto;
-// 	border: none;
-// 	padding: 12px 14px;
-// 	height: 40px;
-//     background-color: var(--red-color);
-//     border: transparent;
-// }
-// .last-order-list li a {
-// 	font-size: 14px;
-// 	display: block;
-// 	padding: 5px 0;
-// }
-
 // Bottom Menu Categories Nav
 .categories_nav_dropdown {
     height: 56px;
@@ -698,8 +673,8 @@ button:focus {
 	justify-content: space-between;
 	text-transform: uppercase;
 }
-
 /*Bottom Menu CSS End*/
+
 .menu-section-area {
     padding: 0;
     z-index: 999;
@@ -727,15 +702,24 @@ button:focus {
     font-weight: bold;
     padding: 16px 0 16px 20px;
 }
-
-#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: var(--red-color);
+#mainNav ul li:hover > a, #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: $color-red!important;
 }
 
 // Hover Dropdown Menu CSS Start
-#main_menu_wrap ul li {
-	position: relative;
-	margin-left: 10px;
+#main_menu_wrap ul {
+     li {
+        position: relative;
+        margin-left: 10px;
+            a i{
+                transition: all 0.3s ease-in-out;
+            }
+        &:hover a{
+            i {
+               transform: rotate(180deg); 
+            }
+        }
+    }
 }
 #main_menu_wrap ul li .submenu, #main_menu_wrap ul li .submenu ul li .submenu {
     margin-top: 20px;
@@ -749,6 +733,9 @@ button:focus {
 	border-bottom-right-radius: 5px;
 	padding: 5px 0;
     transition: all .3s ease-in-out;
+}
+#mainNav ul li a.nav-link.nuxt-link-exact-active.nuxt-link-active {
+    color: $color-red;
 }
 #main_menu_wrap ul li .submenu {
     background-color: var(--bg-dark);
@@ -787,7 +774,6 @@ button:focus {
 }
 // Hover Dropdown Menu CSS End
 
-
 /*Top Menu Dropdown CSS*/
 .dropdown-menu {
     min-width: auto !important;
@@ -800,8 +786,6 @@ button:focus {
     transform: scale(0.75) translateY(-21px) translate3d(-32px, 23px, 0px) !important;
     -webkit-transition: all 0.2s , opacity 0.15s ease;
     transition: all 0.2s , opacity 0.15s ease;
-    /*-webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;*/
-    /*transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;*/
     display: block !important;
     opacity: 0;
     visibility: hidden !important;
@@ -817,7 +801,6 @@ button:focus {
     -ms-transform: scale(1) translateY(0) translate3d(-32px, 23px, 0px) !important;
     transform: scale(1) translateY(0) translate3d(-32px, 23px, 0px) !important;
 }
-
 .dropdown-toggle::after {
     display: none;
 }
@@ -887,11 +870,43 @@ button:focus {
     }
 }
 
-// Andshop Main Menu
+// Andshop Orientation Menu
 #mainNav #navbarSupportedContent ul.navbar-nav .nav-item:first-child .nav-link {
 	padding-left: 0;
 }
-// Andshop Main Menu
+.orientation-menu-area {
+    .middle-menu {
+        ul li {
+            a{
+            display: inline-block;
+            margin-left: 15px;
+            position: relative;
+            color: $color-heading;
+            &:before {
+                position: absolute;
+                content: "";
+                background-color: $color-heading;
+                left: -7px;
+                height: 13px;
+                z-index: 9;
+                width: 1px;
+                top: 4px;
+            }
+            &:hover {
+                color: $color-red;
+            }
+            }
+            &:first-child {
+                a{
+                    &:before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+// Andshop Orientation Menu
 
 /*-------------------------------------------
     5. Navbar Area CSS End
@@ -1143,13 +1158,13 @@ button:focus {
         }
     &:hover {
         .img-wrap {
-                img {
-                    transform: scale(1.2) rotate(10deg);
-                }
-                .product_action_box {
-                    top: 41%;
-                    opacity: 1;
-                }
+            img {
+                transform: scale(1.2) rotate(10deg);
+            }
+            .product_action_box {
+                top: 41%;
+                opacity: 1;
+            }
             &:before {
                 opacity: 1;
             }
@@ -1178,9 +1193,7 @@ button:focus {
 //     box-shadow: 0 0 8px 4px rgba(0,0,0,0.05);
 //     // transform: translateY(-5px)
 // }
-.product-item .img-wrap {
 
-}
 .product-item .img-wrap img {
 	width: 100%;
 }
@@ -1300,6 +1313,13 @@ button:focus {
 .rating_wrap .given-rating i {
 	font-size: 14px;
 }
+.product-details-share button {
+    background-color: $color-heading;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
 
 // Product Details Photo Tab CSS
 .product-details-photo-tab .tab-img-list {
@@ -1416,14 +1436,35 @@ button:focus {
 }
 .flash-sale-item {
     .img-wrap {
+        // height: 240px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        position: relative;
         text-align: center;
         img {
             width: 100%;
             transition: all 0.5s ease-in-out;
         }
+        &:before {
+            background-color: rgba(0,0,0,0.2);
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 1;
+            transition: all 0.5s ease-in-out;
+        }
     }
     &:hover {
-
+        .img-wrap {
+            img {
+                transform: scale(1.2) rotate(10deg);
+            }
+            &:before {
+                opacity: 1;
+            }
+        }
     }
     .given-rating i {
         font-size: 11px;

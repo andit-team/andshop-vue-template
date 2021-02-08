@@ -1,17 +1,17 @@
 <template>
   <div>
 
-    <MainSlider />
+    <ElectronicsMainSlider />
 
     <RisingStar />
 
-    <FlashDeals />
+    <ElectronicsFlashDeals />
 
-    <BestSellers />
+    <ElectronicsBestSellers />
 
-    <PopularCategories />
+    <ElectronicsPopularCategories />
 
-    <NewArrivals />
+    <ElectronicsNewArrivals />
 
     <!-- Home promotion 1 Area Start -->
     <section class="home-promotion-area-1 section-t-space">
@@ -37,7 +37,7 @@
     </section>
     <!-- Home promotion 1 Area End -->
 
-    <UpcomingProducts/>
+    <ElectronicsUpcomingProducts/>
 
     <!-- Home promotion 2 Area Start -->
     <section class="home-promotion-area-2 bg-different p-0">
@@ -53,7 +53,7 @@
     </section>
     <!-- Home promotion 2 Area End -->
 
-    <TopRatedProducts/>
+    <ElectronicsTopRatedProducts />
 
     <PaymentMethods/>
   </div>
@@ -61,7 +61,33 @@
 
 <script>
 
+import ElectronicsMainSlider from '../components/electronics/MainSlider'
+import RisingStar from '../components/partials/RisingStar'
+import ElectronicsFlashDeals from '../components/electronics/FlashDeals'
+import ElectronicsPopularCategories from '../components/electronics/PopularCategories'
+import ElectronicsBestSellers from '../components/electronics/BestSellers'
+import ElectronicsNewArrivals from '../components/electronics/NewArrivals'
+import ElectronicsUpcomingProducts from '../components/electronics/UpcomingProducts'
+import ElectronicsTopRatedProducts from '../components/electronics/TopRatedProducts'
+import PaymentMethods from '../components/partials/PaymentMethods'
+
 export default {
   name: 'Electronics',
+  components: {
+    ElectronicsMainSlider,
+    RisingStar,
+    ElectronicsFlashDeals,
+    ElectronicsPopularCategories,
+    ElectronicsBestSellers,
+    ElectronicsNewArrivals,
+    ElectronicsUpcomingProducts,
+    ElectronicsTopRatedProducts,
+    PaymentMethods
+  },
+  head() {
+    return {
+      title: 'Electronics - Andshop'
+    }
+  },
 }
 </script>

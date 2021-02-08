@@ -1,17 +1,17 @@
 <template>
   <div>
 
-    <MainSlider />
+    <FurnitureMainSlider />
 
     <RisingStar />
 
-    <FlashDeals />
+    <FurnitureFlashDeals />
 
-    <BestSellers />
+    <FurnitureBestSellers />
 
-    <PopularCategories />
+    <FurniturePopularCategories />
 
-    <NewArrivals />
+    <FurnitureNewArrivals />
 
     <!-- Home promotion 1 Area Start -->
     <section class="home-promotion-area-1 section-t-space">
@@ -37,7 +37,7 @@
     </section>
     <!-- Home promotion 1 Area End -->
 
-    <UpcomingProducts/>
+    <FurnitureUpcomingProducts />
 
     <!-- Home promotion 2 Area Start -->
     <section class="home-promotion-area-2 bg-different p-0">
@@ -53,15 +53,41 @@
     </section>
     <!-- Home promotion 2 Area End -->
 
-    <TopRatedProducts/>
+    <FurnitureTopRatedProducts />
 
-    <PaymentMethods/>
+    <PaymentMethods />
   </div>
 </template>
 
 <script>
 
+import FurnitureMainSlider from '../components/furniture/MainSlider'
+import RisingStar from '../components/partials/RisingStar'
+import FurnitureFlashDeals from '../components/furniture/FlashDeals'
+import FurniturePopularCategories from '../components/furniture/PopularCategories'
+import FurnitureBestSellers from '../components/furniture/BestSellers'
+import FurnitureNewArrivals from '../components/furniture/NewArrivals'
+import FurnitureUpcomingProducts from '../components/furniture/UpcomingProducts'
+import FurnitureTopRatedProducts from '../components/furniture/TopRatedProducts'
+import PaymentMethods from '../components/partials/PaymentMethods'
+
 export default {
-  name: 'Fashion',
+  name: 'Furniture',
+  components: {
+    FurnitureMainSlider,
+    RisingStar,
+    FurnitureFlashDeals,
+    FurniturePopularCategories,
+    FurnitureBestSellers,
+    FurnitureNewArrivals,
+    FurnitureUpcomingProducts,
+    FurnitureTopRatedProducts,
+    PaymentMethods
+  },
+  head() {
+    return {
+      title: 'Furniture - Andshop'
+    }
+  },
 }
 </script>

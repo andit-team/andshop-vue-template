@@ -14,196 +14,9 @@
         </div>
       </div>
       <div class="row">
-
         <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/1.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="February 17, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/2.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="October 15, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/3.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="August 17, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/4.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="February 17, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-      
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/5.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="February 17, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/6.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="October 15, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/7.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="August 17, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- Featured item End-->
-
-        <!-- Featured item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-          <nuxt-link to="/search-results/right-sidebar" class="featured-product-item rounded d-flex align-items-center bg-white" style="min-height: 160px">
-            <div class="img-wrap mr-2" style="width: 135px">
-              <img :src="require('@/assets/images/featured-products/8.jpg')" alt="products" class="rounded-left">
-            </div>
-            <div class="product-content">
-              <p class="product-tags text-uppercase font-12">Fashion, Electronics</p>
-              <p class="product-title font-bold">Pasta Shop</p>
-              <div class="rating_wrap mb-1">
-                <div class="rating">
-                  <div class="product_rate" style="width:87%"></div>
-                </div>
-              </div>
-              <p>
-                <span class="price mr-1 text-muted">50$ - 40$</span>
-              </p>
-
-              <UpcomingCountdown date="February 17, 2027" class="rounded"></UpcomingCountdown>
-            </div>
-          </nuxt-link>
+        <div v-for="(productItem, index) in productItems" :key="index" class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <UpcomingProductItem :productItem ='productItem' />
         </div>
         <!-- Featured item End-->
       </div>
@@ -213,17 +26,75 @@
 </template>
 
 <script>
+import UpcomingProductItem from '../product-box/UpcomingProductItem'
 
 export default {
-  name: "UpcomingProducts",
+  name: "ElectronicsUpcomingProducts",
+  components: {
+    UpcomingProductItem
+  },
   data(){
     return {
+      productItems: [
+        {
+          "id": 1,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/1.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 2,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/2.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 3,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/3.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 4,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/4.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 5,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/5.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 6,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/6.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 7,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/7.jpg'),
+          "priceRange": "$50 - $40"
+        },
+        {
+          "id": 8,
+          "productCategory": "Fashion, Electronics",
+          "shopName": "Pasta Shop",
+          "image": require('@/assets/images/featured-products/8.jpg'),
+          "priceRange": "$50 - $40"
+        }
+      ]
     }
   },
 
 }
 </script>
-
-<style scoped>
-
-</style>

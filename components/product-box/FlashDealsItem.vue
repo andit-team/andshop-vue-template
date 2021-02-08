@@ -1,7 +1,7 @@
 <template>
   <div class="flash-sale-item my-3">
     <nuxt-link to="/product-details">
-      <div class="img-wrap mb-2">
+      <div class="img-wrap">
         <img :src="flashItem.image" alt="products" class="rounded-top">
       </div>
       <div class="product-content">

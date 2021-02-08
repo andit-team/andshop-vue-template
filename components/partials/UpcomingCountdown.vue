@@ -2,10 +2,6 @@
   <span class="timer">
     <span id="demo">
       <span>
-        <span class="timer-num">{{ days }}</span>
-        <span class="padding-l">D :</span>
-      </span>
-      <span>
         <span class="timer-num">{{ hours }}</span>
         <span class="padding-l">H :</span>
       </span>

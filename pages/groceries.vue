@@ -1,17 +1,17 @@
 <template>
   <div>
 
-    <MainSlider />
+    <GroceriesMainSlider />
 
     <RisingStar />
 
-    <FlashDeals />
+    <GroceriesFlashDeals />
 
-    <BestSellers />
+    <GroceriesBestSellers />
 
-    <PopularCategories />
+    <GroceriesPopularCategories />
 
-    <NewArrivals />
+    <GroceriesNewArrivals />
 
     <!-- Home promotion 1 Area Start -->
     <section class="home-promotion-area-1 section-t-space">
@@ -37,7 +37,7 @@
     </section>
     <!-- Home promotion 1 Area End -->
 
-    <UpcomingProducts/>
+    <GroceriesUpcomingProducts/>
 
     <!-- Home promotion 2 Area Start -->
     <section class="home-promotion-area-2 bg-different p-0">
@@ -53,7 +53,7 @@
     </section>
     <!-- Home promotion 2 Area End -->
 
-    <TopRatedProducts/>
+    <GroceriesTopRatedProducts />
 
     <PaymentMethods/>
   </div>
@@ -61,7 +61,33 @@
 
 <script>
 
+import GroceriesMainSlider from '../components/groceries/MainSlider'
+import RisingStar from '../components/partials/RisingStar'
+import GroceriesFlashDeals from '../components/groceries/FlashDeals'
+import GroceriesPopularCategories from '../components/groceries/PopularCategories'
+import GroceriesBestSellers from '../components/groceries/BestSellers'
+import GroceriesNewArrivals from '../components/groceries/NewArrivals'
+import GroceriesUpcomingProducts from '../components/groceries/UpcomingProducts'
+import GroceriesTopRatedProducts from '../components/groceries/TopRatedProducts'
+import PaymentMethods from '../components/partials/PaymentMethods'
+
 export default {
-  name: 'Fashion',
+  name: 'Groceries',
+  components: {
+    GroceriesMainSlider,
+    RisingStar,
+    GroceriesFlashDeals,
+    GroceriesPopularCategories,
+    GroceriesBestSellers,
+    GroceriesNewArrivals,
+    GroceriesUpcomingProducts,
+    GroceriesTopRatedProducts,
+    PaymentMethods
+  },
+  head() {
+    return {
+      title: 'Groceries - Andshop'
+    }
+  },
 }
 </script>

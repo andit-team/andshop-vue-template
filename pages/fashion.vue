@@ -9,7 +9,7 @@
 
     <FashionBestSellers />
 
-    <PopularCategories />
+    <FashionPopularCategories />
 
     <FashionNewArrivals />
 
@@ -37,7 +37,7 @@
     </section>
     <!-- Home promotion 1 Area End -->
 
-    <UpcomingProducts/>
+    <FashionUpcomingProducts/>
 
     <!-- Home promotion 2 Area Start -->
     <section class="home-promotion-area-2 bg-different p-0">
@@ -61,20 +61,28 @@
 
 <script>
 
-import FashionMainSlider from '../components/fashion/FashionMainSlider'
-import FashionFlashDeals from '../components/fashion/FashionFlashDeals'
-import FashionBestSellers from '../components/fashion/FashionBestSellers'
-import FashionNewArrivals from '../components/fashion/FashionNewArrivals'
-import FashionTopRatedProducts from '../components/fashion/FashionTopRatedProducts'
+import FashionMainSlider from '../components/fashion/MainSlider'
+import RisingStar from '../components/partials/RisingStar'
+import FashionFlashDeals from '../components/fashion/FlashDeals'
+import FashionPopularCategories from '../components/fashion/PopularCategories'
+import FashionBestSellers from '../components/fashion/BestSellers'
+import FashionNewArrivals from '../components/fashion/NewArrivals'
+import FashionUpcomingProducts from '../components/fashion/UpcomingProducts'
+import FashionTopRatedProducts from '../components/fashion/TopRatedProducts'
+import PaymentMethods from '../components/partials/PaymentMethods'
 
 export default {
   name: 'Fashion',
   components: {
     FashionMainSlider,
+    RisingStar,
     FashionFlashDeals,
+    FashionPopularCategories,
     FashionBestSellers,
     FashionNewArrivals,
-    FashionTopRatedProducts
+    FashionUpcomingProducts,
+    FashionTopRatedProducts,
+    PaymentMethods
   },
   head() {
     return {

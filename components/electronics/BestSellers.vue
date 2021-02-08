@@ -18,207 +18,11 @@
           <div class="best-seller-slider-wrap d-flex flex-wrap justify-content-between">
             <client-only>
               <swiper class="swiper" :options="swiperOption">
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/1.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Sunglass</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/2.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Fashion Sunglass</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/3.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Winter coat</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/4.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Tops</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/5.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">T-Shirt</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/6.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Long Coat</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/2.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Sunglass</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-
-                  <!-- Best Seller item start-->
-                  <swiper-slide>
-                    <div class="product-item rounded bg-white">
-                      <nuxt-link to="/product-details">
-                        <div class="img-wrap mb-2">
-                          <img :src="require('@/assets/images/fashion/3.jpg')" alt="products" class="rounded-top">
-                        </div>
-                        <div class="product-content">
-                          <p class="product-tags text-uppercase font-12">Alu, Morich</p>
-                          <p class="product-title font-bold">Tops</p>
-                          <div class="rating_wrap mb-1">
-                            <div class="rating">
-                              <div class="product_rate" style="width:87%"></div>
-                            </div>
-                          </div>
-                          <p>
-                            <span class="price mr-1 text-muted">20$ - 50$</span>
-                            <span class="special-tag badge bg-red white-color">Sale</span>
-                          </p>
-                        </div>
-                      </nuxt-link>
-                    </div>
-                  </swiper-slide>
-                  <!-- Best Seller item end-->
-                <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
-                <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
+                <!-- Best Seller item start-->
+                <swiper-slide v-for="(bestSellerItem, index) in bestSellerItems" :key="index">
+                  <ProductItem :productItem ='bestSellerItem' />
+                </swiper-slide>
+                <!-- Best Seller item end-->
               </swiper>
             </client-only>
           </div>
@@ -230,9 +34,12 @@
 </template>
 
 <script>
-
+import ProductItem from '../product-box/ProductItem'
 export default {
-  name : 'BestSellerProducts',
+  name : 'ElectronicsBestSellers',
+  components: {
+    ProductItem,
+  },
   data() {
     return {
       swiperOption: {
@@ -240,16 +47,6 @@ export default {
         spaceBetween: 30,
         slidesPerGroup: 1,
         loop: false,
-        loopFillGroupWithBlank: true,
-        autoplay: {
-          autoplay: false,
-          delay: 2500,
-          disableOnInteraction: false
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        },
         breakpoints: {
           1400: {
             slidesPerView: 5
@@ -289,6 +86,71 @@ export default {
           }
         }
       },
+      bestSellerItems: [
+        {
+          "id": 1,
+          "title": "Sunglass",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/7.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 2,
+          "title": "Fashion Sunglass",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/6.jpg'),
+          "price": "110.00",
+          "discount": "7",
+          "offerSeal": "New"
+        },
+        {
+          "id": 3,
+          "title": "Winter coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/5.jpg'),
+          "price": "100.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 4,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/4.jpg'),
+          "price": "80.00",
+          "discount": "10",
+          "offerSeal": "Hot"
+        },
+        {
+          "id": 5,
+          "title": "T-Shirt",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/3.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 6,
+          "title": "Long Coat",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/2.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "New"
+        },
+        {
+          "id": 6,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/electronics/1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "offerSeal": "Sale"
+        }
+      ]
     }
   },
 }

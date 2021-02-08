@@ -129,249 +129,11 @@
 
               <div class="all-shops-wrap best-seller-items-wrap d-flex flex-wrap product-row">
 
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details-page">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/2.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/3.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/4.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/5.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/2.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/3.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/4.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/5.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/2.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/3.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/4.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/5.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/2.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/3.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/4.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/5.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="shop-box rounded">
-                    <nuxt-link to="/shops/shop-details">
-                      <div class="shop-img-wrap">
-                        <img src="~/assets/images/shops/1.png" alt="shops">
-                      </div>
-                      <p class="shop-name">Teer</p>
-                    </nuxt-link>
-                  </div>
+                <div v-for="(shopItem, index) in shopItems" :key="index" class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <ShopItem :shopItem='shopItem' />
                 </div>
 
                 <!-- Load more button-->
-                <div class="col-12 d-block mt-4 text-center"><Loading /></div>
                 <div class="col-12 d-block mt-4 text-center"><button class="theme-button rounded load-more-button">Load more</button></div>
 
               </div>
@@ -392,6 +154,7 @@
 </template>
 
 <script>
+import ShopItem from '../../components/product-box/ShopItem'
 
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
@@ -400,11 +163,94 @@ export default {
   name: "RisingStar",
 
   components: {
+    ShopItem,
     VueSlider
   },
   data() {
     return {
       range: [0,5000],
+      shopItems: [
+        {
+          "id": 1,
+          "image": require('@/assets/images/shops/1.png'),
+          "title": 'Cheer Shop'
+        },
+        {
+          "id": 2,
+          "image": require('@/assets/images/shops/2.png'),
+          "title": 'Magic Shop'
+        },
+        {
+          "id": 3,
+          "image": require('@/assets/images/shops/3.png'),
+          "title": 'Aka Shop'
+        },
+        {
+          "id": 4,
+          "image": require('@/assets/images/shops/4.png'),
+          "title": 'Magic Shop'
+        },
+        {
+          "id": 5,
+          "image": require('@/assets/images/shops/5.png'),
+          "title": 'Cheer Shop'
+        },
+        {
+          "id": 6,
+          "image": require('@/assets/images/shops/6.png'),
+          "title": 'AKa Shop'
+        },
+        {
+          "id": 7,
+          "image": require('@/assets/images/shops/7.png'),
+          "title": 'KFG Shop'
+        },
+        {
+          "id": 8,
+          "image": require('@/assets/images/shops/8.png'),
+          "title": 'Magic Shop'
+        },
+        {
+          "id": 9,
+          "image": require('@/assets/images/shops/9.png'),
+          "title": 'Cheer Shop'
+        },
+        {
+          "id": 10,
+          "image": require('@/assets/images/shops/10.png'),
+          "title": 'Magic Shop'
+        },
+        {
+          "id": 11,
+          "image": require('@/assets/images/shops/1.png'),
+          "title": 'Aka Shop'
+        },
+        {
+          "id": 12,
+          "image": require('@/assets/images/shops/2.png'),
+          "title": 'Magic Shop'
+        },
+        {
+          "id": 13,
+          "image": require('@/assets/images/shops/3.png'),
+          "title": 'Cheer Shop'
+        },
+        {
+          "id": 14,
+          "image": require('@/assets/images/shops/4.png'),
+          "title": 'AKa Shop'
+        },
+        {
+          "id": 15,
+          "image": require('@/assets/images/shops/5.png'),
+          "title": 'KFG Shop'
+        },
+        {
+          "id": 16,
+          "image": require('@/assets/images/shops/6.png'),
+          "title": 'Magic Shop'
+        },
+      ]
     }
   }
 }

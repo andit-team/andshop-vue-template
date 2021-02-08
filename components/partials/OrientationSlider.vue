@@ -5,29 +5,26 @@
         <div class="col-12 p-0">
           <swiper class="swiper" :options="swiperOption">
             <swiper-slide>
-              <a href="#">
-                <img :src="require('@/assets/images/slider-img/main-slider.jpg')" alt="Slider" class="img-fluid">
-              </a>
+              <nuxt-link to="/fashion">
+                <img :src="require('@/assets/images/fashion/slider/1.jpg')" alt="Slider" class="img-fluid">
+              </nuxt-link>
             </swiper-slide>
             <swiper-slide>
-              <a href="#">
-                <img :src="require('@/assets/images/slider-img/main-slider.jpg')" alt="Slider" class="img-fluid">
-              </a>
+              <nuxt-link to="/electronics">
+                <img :src="require('@/assets/images/electronics/slider/1.jpg')" alt="Slider" class="img-fluid">
+              </nuxt-link>
             </swiper-slide>
             <swiper-slide>
-              <a href="#">
-                <img :src="require('@/assets/images/slider-img/main-slider.jpg')" alt="Slider" class="img-fluid">
-              </a>
+              <nuxt-link to="/furniture">
+                <img :src="require('@/assets/images/furniture/slider/1.jpg')" alt="Slider" class="img-fluid">
+              </nuxt-link>
             </swiper-slide>
             <swiper-slide>
-              <a href="#">
-                <img :src="require('@/assets/images/slider-img/main-slider.jpg')" alt="Slider" class="img-fluid">
-              </a>
+              <nuxt-link to="/groceries">
+                <img :src="require('@/assets/images/groceries/slider/1.jpg')" alt="Slider" class="img-fluid">
+              </nuxt-link>
             </swiper-slide>
             <swiper-slide>
-              <a href="#">
-                <img :src="require('@/assets/images/slider-img/main-slider.jpg')" alt="Slider" class="img-fluid">
-              </a>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
           </swiper>
@@ -60,7 +57,3 @@ export default {
   
 }
 </script>
-
-<style>
-
-</style>

@@ -15,74 +15,8 @@
       <div class="row">
 
         <!-- Popular category item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-          <div class="popular-categories-item rounded" :style="{ 'background-image': 'url(' + require('@/assets/images/categories/1.jpg') + ')' }">
-            <nuxt-link to="/categories/furniture" class="product-content">
-              <p class="product-title font-bold heading-color">Lorem ipsum category</p>
-              <p class="product-quantity">35 products</p>
-              <button class="text-capitalize d-flex align-items-center color-red font-bold font-14">Shop Now<i class="fas fa-angle-right ml-1 font-13"></i></button>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Popular category item end-->
-
-        <!-- Popular category item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-          <div class="popular-categories-item rounded" :style="{ 'background-image': 'url(' + require('@/assets/images/categories/2.jpg') + ')' }">
-            <nuxt-link to="/categories/electronics" class="product-content">
-              <p class="product-title font-bold heading-color">Psum dolor sit category</p>
-              <p class="product-quantity">35 products</p>
-              <button class="text-capitalize d-flex align-items-center color-red font-bold font-14">Shop Now<i class="fas fa-angle-right ml-1 font-13"></i></button>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Popular category item end-->
-
-        <!-- Popular category item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-          <div class="popular-categories-item rounded" :style="{ 'background-image': 'url(' + require('@/assets/images/categories/3.jpg') + ')' }">
-            <nuxt-link to="/categories/furniture/" class="product-content">
-              <p class="product-title font-bold heading-color">Consectetur adipisicing</p>
-              <p class="product-quantity">35 products</p>
-              <button class="text-capitalize d-flex align-items-center color-red font-bold font-14">Shop Now<i class="fas fa-angle-right ml-1 font-13"></i></button>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Popular category item end-->
-
-        <!-- Popular category item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-          <div class="popular-categories-item rounded" :style="{ 'background-image': 'url(' + require('@/assets/images/categories/4.jpg') + ')' }">
-            <nuxt-link to="/categories/groceries/" class="product-content">
-              <p class="product-title font-bold heading-color">Psum dolor sit category</p>
-              <p class="product-quantity">35 products</p>
-              <button class="text-capitalize d-flex align-items-center color-red font-bold font-14">Shop Now<i class="fas fa-angle-right ml-1 font-13"></i></button>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Popular category item end-->
-
-        <!-- Popular category item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-          <div class="popular-categories-item rounded" :style="{ 'background-image': 'url(' + require('@/assets/images/categories/5.jpg') + ')' }">
-            <nuxt-link to="/categories/women/" class="product-content">
-              <p class="product-title font-bold heading-color">Consectetur adipisicing</p>
-              <p class="product-quantity">35 products</p>
-              <button class="text-capitalize d-flex align-items-center color-red font-bold font-14">Shop Now<i class="fas fa-angle-right ml-1 font-13"></i></button>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Popular category item end-->
-
-        <!-- Popular category item start-->
-        <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-          <div class="popular-categories-item rounded" :style="{ 'background-image': 'url(' + require('@/assets/images/categories/6.jpg') + ')' }">
-            <nuxt-link to="/categories/men/" class="product-content">
-              <p class="product-title font-bold heading-color">Lorem ipsum category</p>
-              <p class="product-quantity">35 products</p>
-              <button class="text-capitalize d-flex align-items-center color-red font-bold font-14">Shop Now<i class="fas fa-angle-right ml-1 font-13"></i></button>
-            </nuxt-link>
-          </div>
+        <div v-for="(categoryItem, index) in categoryItems" :key="index" class="col-12 col-sm-12 col-md-6 col-lg-4">
+         <CategoryItem :categoryItem="categoryItem" />
         </div>
         <!-- Popular category item end-->
 
@@ -93,11 +27,52 @@
 </template>
 
 <script>
-
+import CategoryItem from '../product-box/CategoryItem'
 export default {
-  name: "PopularCategories",
+  name: "FashionPopularCategories",
+  components: {
+    CategoryItem
+  },
   data(){
     return{
+      categoryItems: [
+        {
+          "id": 1,
+          "title": "Lorem ipsum category",
+          "image": require('@/assets/images/categories/1.jpg'),
+          "quantity": 35,
+        },
+        {
+          "id": 2,
+          "title": "Psum dolor sit category",
+          "image": require('@/assets/images/categories/2.jpg'),
+          "quantity": 35,
+        },
+        {
+          "id": 3,
+          "title": "Consectetur adipisicing",
+          "image": require('@/assets/images/categories/3.jpg'),
+          "quantity": 35,
+        },
+        {
+          "id": 4,
+          "title": "Psum dolor sit category",
+          "image": require('@/assets/images/categories/4.jpg'),
+          "quantity": 35,
+        },
+        {
+          "id": 5,
+          "title": "Consectetur adipisicing",
+          "image": require('@/assets/images/categories/5.jpg'),
+          "quantity": 35,
+        },
+        {
+          "id": 6,
+          "title": "Lorem ipsum category",
+          "image": require('@/assets/images/categories/6.jpg'),
+          "quantity": 35,
+        }
+      ]
     }
   },
 

@@ -1,6 +1,6 @@
 <template>
   <!-- Flash Deals Area Start -->
-  <section class="flash-deals-area section-t-space">
+  <section class="flash-deals-area fashion-flash-deals-area section-t-space">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,7 +8,7 @@
             <div class="section-title d-flex align-items-center">
               <h4>Flash Deals</h4>
               <span class="d-flex align-items-center ml-4">
-                Ends in:<CountDown date="December 20, 2021" class="rounded ml-2"></CountDown>
+                Ends in:<CountDown date="December 20, 2030" class="rounded ml-2"></CountDown>
               </span>
             </div>
             <nuxt-link to="/flash-deals" class="color-red">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
@@ -18,212 +18,8 @@
       <div class="row flash-sale-slider-wrap m-0">
 
         <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/fashion/flash-deals-1.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Sunglass</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/fashion/flash-deals-2.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Shoe</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/fashion/flash-deals-3.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Modern Watch</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/fashion/flash-deals-4.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Wear Set</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/fashion/flash-deals-5.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Merun Bag</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
-        </div>
-        <!-- Flash sale item end-->
-
-        <!-- Flash sale item start-->
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <div class="flash-sale-item my-3">
-            <nuxt-link to="/product-details">
-              <div class="img-wrap mb-2">
-                <img :src="require('@/assets/images/fashion/flash-deals-6.jpg')" alt="products">
-              </div>
-              <div class="product-content">
-                <h6>
-                  <span class="discounted-price mr-1 color-green">$2.00</span>
-                  <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                  <span class="discount mr-1 color-red">25% Off</span>
-                </h6>
-                <p class="brand-name mt-2 font-14"><span class="brand-icon mr-1"><i class="fas fa-home"></i></span> Sun Farm</p>
-                <p class="product-title font-bold">Cloth Package</p>
-                <p class="product-unit font-14">4 per pack</p>
-                <div class="rating_wrap mb-1">
-                  <div class="rating">
-                    <div class="product_rate" style="width:87%"></div>
-                  </div>
-                  <span class="rating_num">(25)</span>
-                </div>
-                <div class="sold-quantity mb-1">
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                  <p class="mt-1 font-bold">Sold: 0/40</p>
-                </div>
-
-              </div>
-            </nuxt-link>
-          </div>
+        <div v-for="(flashItemAsa, index) in flashItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <FlashDealsItem :flashItem = 'flashItemAsa' />
         </div>
         <!-- Flash sale item end-->
 
@@ -234,21 +30,77 @@
 </template>
 
 <script>
+import FlashDealsItem from '../product-box/FlashDealsItem'
 
 export default {
-  name: "FlashDeals",
+  name: "ElectronicsFlashDeals",
+  components: { 
+    FlashDealsItem,
+  },
   data() {
     return {
       flashDealExist : false,
+      flashItems: [
+        {
+          "id": 1,
+          "title": "Sunglass",
+          "image": require('@/assets/images/electronics/1.jpg'),
+          "price": "150.00",
+          "discount": "10",
+        },
+        {
+          "id": 2,
+          "title": "Shoe",
+          "image": require('@/assets/images/electronics/2.jpg'),
+          "price": "110.00",
+          "discount": "7",
+        },
+        {
+          "id": 3,
+          "title": "Modern Watch",
+          "image": require('@/assets/images/electronics/3.jpg'),
+          "price": "100.00",
+          "discount": "10",
+        },
+        {
+          "id": 4,
+          "title": "Wear Set",
+          "image": require('@/assets/images/electronics/4.jpg'),
+          "price": "80.00",
+          "discount": "10",
+        },
+        {
+          "id": 5,
+          "title": "Merun Bag",
+          "image": require('@/assets/images/electronics/5.jpg'),
+          "price": "150.00",
+          "discount": "10",
+        },
+        {
+          "id": 6,
+          "title": "Cloth Package",
+          "image": require('@/assets/images/electronics/6.jpg'),
+          "price": "150.00",
+          "discount": "10",
+        },
+      ]
     }
   },
 }
 </script>
 
-<style scoped>
-.timer {
-	background-color: var(--red-color);
-	color: #fff;
-	padding: 10px;
+<style lang="scss">
+.fashion-flash-deals-area {
+  .timer {
+    color: #fff;
+    #demo {
+      .single-counter-box {
+        background-color: var(--red-color);
+        padding: 5px 10px;
+        border-radius: 0.25rem !important;
+      }
+    }
+  }
+
 }
 </style>

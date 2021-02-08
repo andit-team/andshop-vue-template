@@ -17,64 +17,9 @@
           <div class="client-logo-slider-wrap d-flex justify-content-between">
 
             <swiper class="swiper" :options="swiperOption">
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/1.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
+                <swiper-slide v-for="(risingStarItem, index) in risingStarItems" :key="index">
+                  <RisingStarItem :risingStarItem='risingStarItem' />
                 </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/2.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/3.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/4.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/5.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/6.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/7.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-                <swiper-slide>
-                  <div class="logo-item">
-                    <nuxt-link to="/shops/1">
-                      <img :src="require('@/assets/images/client-logo/8.png')" alt="Shop Name">
-                    </nuxt-link>
-                  </div>
-                </swiper-slide>
-              <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
-              <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
             </swiper>
 
           </div>
@@ -86,9 +31,12 @@
 </template>
 
 <script>
-
+import RisingStarItem from '../product-box/RisingStarItem'
 export default {
   name: 'RisingStar',
+  components: {
+    RisingStarItem
+  },
   data() {
     return {
       swiperOption: {
@@ -96,15 +44,6 @@ export default {
         spaceBetween: 30,
         slidesPerGroup: 1,
         loop: true,
-        loopFillGroupWithBlank: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
-        },
         breakpoints: {
           1400: {
             slidesPerView: 7,
@@ -142,13 +81,45 @@ export default {
           }
         },
       },
+      risingStarItems: [
+        {
+          "id": 1,
+          "image": require('@/assets/images/client-logo/1.png'),
+          "title": 'Teergroup'
+        },
+        {
+          "id": 2,
+          "image": require('@/assets/images/client-logo/2.png'),
+          "title": 'As'
+        },
+        {
+          "id": 3,
+          "image": require('@/assets/images/client-logo/3.png'),
+          "title": 'SSSS'
+        },
+        {
+          "id": 4,
+          "image": require('@/assets/images/client-logo/4.png')
+        },
+        {
+          "id": 5,
+          "image": require('@/assets/images/client-logo/5.png')
+        },
+        {
+          "id": 6,
+          "image": require('@/assets/images/client-logo/6.png')
+        },
+        {
+          "id": 7,
+          "image": require('@/assets/images/client-logo/7.png')
+        },
+        {
+          "id": 8,
+          "image": require('@/assets/images/client-logo/8.png')
+        },
+      ]
     }
   },
 
-
 }
 </script>
-
-<style scoped>
-
-</style>

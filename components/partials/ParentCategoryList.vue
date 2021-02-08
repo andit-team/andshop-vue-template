@@ -163,6 +163,34 @@
         </span>
         <i class="fas fa-angle-right"></i>
       </nuxt-link>
+      <div class="mega-menu row">
+        <div class="col">
+          <ul>
+            <strong>Laptop</strong>
+            <li><nuxt-link to="/search-results">HDD & Pendrive</nuxt-link></li>
+            <li><nuxt-link to="/search-results">RAM & SSD</nuxt-link></li>
+            <li><nuxt-link to="/search-results">Graphics Card</nuxt-link></li>
+            <li><nuxt-link to="/search-results">Motherboard</nuxt-link></li>
+            <li><nuxt-link to="/search-results">Gaming Machine</nuxt-link></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <strong>Desktop</strong>
+            <li><nuxt-link to="/search-results">HDD & Pendrive</nuxt-link></li>
+            <li><nuxt-link to="/search-results">RAM & SSD</nuxt-link></li>
+            <li><nuxt-link to="/search-results">Graphics Card</nuxt-link></li>
+            <li><nuxt-link to="/search-results">Motherboard</nuxt-link></li>
+            <li><nuxt-link to="/search-results">Gaming PC</nuxt-link></li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li class="my-1"><img :src="require('@/assets/images/others/menu_banner2.jpg')" alt="20% off on Sale"></li>
+            <li class="my-1"><img :src="require('@/assets/images/others/menu_banner3.jpg')" alt="20% off on Sale"></li>
+          </ul>
+        </div>
+      </div>
     </li>
     <li>
       <nuxt-link to="/search-results">        
@@ -170,17 +198,15 @@
           <img :src="require('@/assets/images/all-icon/m-sunglasses.svg')" alt="andshop">
           Watches & Eyewear
         </span>
-        <i class="fas fa-angle-right"></i>
       </nuxt-link>
     </li>
     <li>
-    <nuxt-link to="/search-results">
-      <span>
-        <img :src="require('@/assets/images/all-icon/m-mobile.svg')" alt="andshop">
-        Mobiles & Tablets
-      </span>
-      <i class="fas fa-angle-right"></i>
-    </nuxt-link>
+      <nuxt-link to="/search-results">
+        <span>
+          <img :src="require('@/assets/images/all-icon/m-mobile.svg')" alt="andshop">
+          Mobiles & Tablets
+        </span>
+      </nuxt-link>
     </li>
     <li>
       <nuxt-link to="/search-results">
@@ -188,7 +214,6 @@
           <img :src="require('@/assets/images/all-icon/m-bags.svg')" alt="andshop">
           Bags
         </span>
-        <i class="fas fa-angle-right"></i>
       </nuxt-link>
     </li>
     <li>
@@ -197,17 +222,15 @@
           <img :src="require('@/assets/images/all-icon/m-jewellery.svg')" alt="andshop">
           Jewellery
         </span>
-        <i class="fas fa-angle-right"></i>
       </nuxt-link>
     </li>
     <li>
-    <nuxt-link to="/search-results">
-      <span>
-        <img :src="require('@/assets/images/all-icon/m-furniture.svg')" alt="andshop">
-        Furniture
-      </span>
-      <i class="fas fa-angle-right"></i>
-    </nuxt-link>
+      <nuxt-link to="/search-results">
+        <span>
+          <img :src="require('@/assets/images/all-icon/m-furniture.svg')" alt="andshop">
+          Furniture
+        </span>
+      </nuxt-link>
     </li>
   </ul>
 </template>
