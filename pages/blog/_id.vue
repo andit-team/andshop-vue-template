@@ -294,11 +294,11 @@
 
 <script>
 export default {
-  name: 'blogDetails'
-
+  name: 'BlogDetails',
+  head() {
+    return {
+      title: 'Blog Details'
+    }
+  }
 }
 </script>
-
-<style>
-
-</style>

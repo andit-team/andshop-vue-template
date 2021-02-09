@@ -95,7 +95,7 @@ export default {
           "id": 1,
           "title": "Fashion Sunglass",
           "tags": "bath & body, football, tennis",
-          "image": require('@/assets/images/groceries/1.jpg'),
+          "image": require('@/assets/images/groceries/9.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -104,7 +104,7 @@ export default {
           "id": 2,
           "title": "Black Cap",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/groceries/2.jpg'),
+          "image": require('@/assets/images/groceries/10.jpg'),
           "price": "110.00",
           "discount": "7",
           "offerSeal": "New"
@@ -113,7 +113,7 @@ export default {
           "id": 3,
           "title": "Jeans coat",
           "tags": "bath & body, football, tennis",
-          "image": require('@/assets/images/groceries/3.jpg'),
+          "image": require('@/assets/images/groceries/11.jpg'),
           "price": "100.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -122,7 +122,7 @@ export default {
           "id": 4,
           "title": "T-Shirt",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/groceries/1.jpg'),
+          "image": require('@/assets/images/groceries/12.jpg'),
           "price": "80.00",
           "discount": "10",
           "offerSeal": "Hot"
@@ -149,7 +149,7 @@ export default {
           "id": 6,
           "title": "Tops",
           "tags": "bath & body, football, tennis",
-          "image": require('@/assets/images/groceries/1.jpg'),
+          "image": require('@/assets/images/groceries/4.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"

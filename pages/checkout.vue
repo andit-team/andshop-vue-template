@@ -271,10 +271,11 @@
 
 <script>
 export default {
-  name: "Checkout"
+  name: "Checkout",
+  head() {
+    return {
+      title: 'Checkout'
+    }
+  }
 }
 </script>
-
-<style scoped>
-
-</style>

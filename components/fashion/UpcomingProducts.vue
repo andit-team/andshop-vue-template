@@ -40,56 +40,56 @@ export default {
           "id": 1,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/1.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/1.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 2,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/2.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/2.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 3,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/3.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/3.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 4,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/4.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/4.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 5,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/5.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/5.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 6,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/6.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/6.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 7,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/7.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/7.jpg'),
           "priceRange": "$50 - $40"
         },
         {
           "id": 8,
           "productCategory": "Fashion, Electronics",
           "shopName": "Pasta Shop",
-          "image": require('@/assets/images/featured-products/8.jpg'),
+          "image": require('@/assets/images/fashion/upcoming/8.jpg'),
           "priceRange": "$50 - $40"
         }
       ]

@@ -74,10 +74,15 @@ import 'vue-slider-component/theme/default.css'
 import ProductItem from '../../components/product-box/ProductItem'
 
 export default {
-  name: "newArrivals",
+  name: "NewArrivalsProducts",
   components: {
     VueSlider,
     ProductItem,
+  },
+  head() {
+    return {
+      title: 'New Arrivals Products'
+    }
   },
   data() {
     return {

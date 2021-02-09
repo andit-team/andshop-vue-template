@@ -433,10 +433,11 @@
 
 <script>
 export default {
-  name: "upcomingProducts"
+  name: "UpcomingProductsPage",
+  head() {
+    return {
+      title: 'Upcoming Products'
+    }
+  }
 }
 </script>
-
-<style scoped>
-
-</style>

@@ -85,9 +85,14 @@
 import ProductItem from '../../components/product-box/ProductItem'
 
 export default {
-  name: "RisingStarDetails",
+  name: "ShopDetails",
   components: {
     ProductItem
+  },
+  head() {
+    return {
+      title: 'Shop Details'
+    }
   },
   data() {
     return {

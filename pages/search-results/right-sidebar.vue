@@ -84,11 +84,15 @@ import ProductItem from '../../components/product-box/ProductItem'
 import ProductPageSidebar from '../../components/partials/ProductPageSidebar'
 
 export default {
-  name: "searchResults",
-
+  name: "SearchResultsPage",
   components: {
     ProductItem,
     ProductPageSidebar
+  },
+  head() {
+    return {
+      title: 'Products'
+    }
   },
 
   data() {

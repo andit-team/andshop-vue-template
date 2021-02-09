@@ -348,10 +348,11 @@
 
 <script>
 export default {
-  name: "Faq"
+  name: "FAQ",
+  head() {
+    return {
+      title: 'FAQ'
+    }
+  }
 }
 </script>
-
-<style scoped>
-
-</style>

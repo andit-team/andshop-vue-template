@@ -148,6 +148,12 @@
 <script>
 export default {
   layout: 'news-feed-layout',
+  name: 'NewsFeeds',
+  head() {
+    return {
+      title: 'News Feeds'
+    }
+  },
   data() {
     return {
       favorite: false,

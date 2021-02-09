@@ -70,11 +70,16 @@
 <script>
 import ProductItem from '../../components/product-box/ProductItem'
 export default {
-  name: "topRatedProducts",
+  name: "TopRatedProductsPage",
   components: {
     ProductItem,
   },
-    data() {
+  head() {
+    return {
+      title: 'Top Rated Products'
+    }
+  },
+  data() {
     return {
       productItems: [
         {

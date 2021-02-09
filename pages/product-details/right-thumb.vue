@@ -8,8 +8,8 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
                 <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
-                <li class="breadcrumb-item"><a href="#">Vegetables</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Orange and Fruits</li>
+                <li class="breadcrumb-item"><nuxt-link to="/fashion">Fashion</nuxt-link></li>
+                <li class="breadcrumb-item active" aria-current="page">Tops</li>
               </ol>
             </nav>
           </div>
@@ -59,7 +59,7 @@
 
             <!-- Sort Bar Start-->
             <div class="product-details-content">
-              <h2 class="product-title mb-2">Orange</h2>
+              <h2 class="product-title mb-2">Tops</h2>
               <div class="rating_wrap mb-3">
                 <div class="given-rating">
                   <i class="fas fa-star"></i>
@@ -207,229 +207,25 @@
     </section> -->
     <!-- No Product Found End-->
 
-    <!--  Related Products / Best Seller Area Start -->
-    <section class="related-products-area best-seller-area bg-different section-t-space">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title-wrap d-flex justify-content-between align-items-center mb-30">
-              <div class="section-title">
-                <h4>Related Products </h4>
-                <p class="mt-1">Browse the collection of our related products.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row product-row">
-          <!-- Best Seller item start-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
-            <div class="product-item rounded bg-white">
-              <nuxt-link to="/products/potato">
-                <div class="img-wrap mb-2">
-                  <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                </div>
-                <div class="product-content">
-                  <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                  <p class="product-title font-bold">Cornboat Holders</p>
-                  <div class="rating_wrap mb-1">
-                    <div class="rating">
-                      <div class="product_rate" style="width:87%"></div>
-                    </div>
-                  </div>
-                  <p>
-                    <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                    <span class="discounted-price mr-1 color-red">$2.00</span>
-                    <span class="special-tag badge bg-red white-color">Sale</span>
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <!-- Best Seller item end-->
+    <!-- Related Products Start -->
+    <RelatedProducts />
+    <!-- Related Products End -->
 
-          <!-- Best Seller item start-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
-            <div class="product-item rounded bg-white">
-              <nuxt-link to="/products/potato">
-                <div class="img-wrap mb-2">
-                  <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                </div>
-                <div class="product-content">
-                  <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                  <p class="product-title font-bold">Cornboat Holders</p>
-                  <div class="rating_wrap mb-1">
-                    <div class="rating">
-                      <div class="product_rate" style="width:87%"></div>
-                    </div>
-                  </div>
-                  <p>
-                    <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                    <span class="discounted-price mr-1 color-red">$2.00</span>
-                    <span class="special-tag badge bg-red white-color">Sale</span>
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <!-- Best Seller item end-->
-
-          <!-- Best Seller item start-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
-            <div class="product-item rounded bg-white">
-              <nuxt-link to="/products/potato">
-                <div class="img-wrap mb-2">
-                  <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                </div>
-                <div class="product-content">
-                  <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                  <p class="product-title font-bold">Cornboat Holders</p>
-                  <div class="rating_wrap mb-1">
-                    <div class="rating">
-                      <div class="product_rate" style="width:87%"></div>
-                    </div>
-                  </div>
-                  <p>
-                    <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                    <span class="discounted-price mr-1 color-red">$2.00</span>
-                    <span class="special-tag badge bg-red white-color">Sale</span>
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <!-- Best Seller item end-->
-
-          <!-- Best Seller item start-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
-            <div class="product-item rounded bg-white">
-              <nuxt-link to="/products/potato">
-                <div class="img-wrap mb-2">
-                  <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                </div>
-                <div class="product-content">
-                  <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                  <p class="product-title font-bold">Cornboat Holders</p>
-                  <div class="rating_wrap mb-1">
-                    <div class="rating">
-                      <div class="product_rate" style="width:87%"></div>
-                    </div>
-                  </div>
-                  <p>
-                    <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                    <span class="discounted-price mr-1 color-red">$2.00</span>
-                    <span class="special-tag badge bg-red white-color">Sale</span>
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <!-- Best Seller item end-->
-
-          <!-- Best Seller item start-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
-            <div class="product-item rounded bg-white">
-              <nuxt-link to="/products/potato">
-                <div class="img-wrap mb-2">
-                  <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                </div>
-                <div class="product-content">
-                  <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                  <p class="product-title font-bold">Cornboat Holders</p>
-                  <div class="rating_wrap mb-1">
-                    <div class="rating">
-                      <div class="product_rate" style="width:87%"></div>
-                    </div>
-                  </div>
-                  <p>
-                    <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                    <span class="discounted-price mr-1 color-red">$2.00</span>
-                    <span class="special-tag badge bg-red white-color">Sale</span>
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <!-- Best Seller item end-->
-
-          <!-- Best Seller item start-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col">
-            <div class="product-item rounded bg-white">
-              <nuxt-link to="/products/potato">
-                <div class="img-wrap mb-2">
-                  <img src="~/assets/images/best-sellers/1.jpg" alt="products" class="rounded-top">
-                </div>
-                <div class="product-content">
-                  <p class="product-tags text-uppercase">bath & body, football, tennis</p>
-                  <p class="product-title font-bold">Cornboat Holders</p>
-                  <div class="rating_wrap mb-1">
-                    <div class="rating">
-                      <div class="product_rate" style="width:87%"></div>
-                    </div>
-                  </div>
-                  <p>
-                    <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                    <span class="discounted-price mr-1 color-red">$2.00</span>
-                    <span class="special-tag badge bg-red white-color">Sale</span>
-                  </p>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <!-- Best Seller item end-->
-        </div>
-      </div>
-    </section>
-    <!--  Related Products / Best Seller Area End -->
-
-    <!-- Payment System Area Start -->
-    <section class="payment-system-area section-t-space">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div class="payment-box text-center m-auto">
-              <h5 class="position-relative mb-3">Trusted Shopping</h5>
-              <ul class="d-flex justify-content-center">
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/1.png" class="img-fluid" alt="payment" /></a></li>
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/2.png" class="img-fluid" alt="payment" /></a></li>
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/3.png" class="img-fluid" alt="payment" /></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div class="payment-box text-center m-auto">
-              <h5 class="position-relative mb-3">Payment Option</h5>
-              <ul class="d-flex justify-content-center">
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/4.png" class="img-fluid" alt="payment" /></a></li>
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/5.png" class="img-fluid" alt="payment" /></a></li>
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/1.png" class="img-fluid" alt="payment" /></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-            <div class="payment-box text-center m-auto">
-              <h5 class="position-relative mb-3">Delivery Partners</h5>
-              <ul class="d-flex justify-content-center">
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/2.png" class="img-fluid" alt="payment" /></a></li>
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/3.png" class="img-fluid" alt="payment" /></a></li>
-                <li><a href="#" class="rounded"><img src="~/assets/images/payment-system/4.png" class="img-fluid" alt="payment" /></a></li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- Payment System Area End -->
+    <PaymentMethods/>
 
   </div>
 
 </template>
 
 <script>
+import RelatedProducts from '../../components/partials/RelatedProducts'
+import PaymentMethods from '../../components/partials/PaymentMethods'
 export default {
   name: "productDetails",
+  components: {
+    RelatedProducts,
+    PaymentMethods
+  },
   head() {
     return {
       title: 'Product Details - Right Thumb'
@@ -444,13 +240,11 @@ export default {
       reqularSaleQty: 0,
       wholeSaleQty: 0,
       flashSaleQty: 0,
-      selectedImg : require('@/assets/images/products/product-details-600x600.jpg'),
+      selectedImg : require('@/assets/images/fashion/3.jpg'),
       productImages: [
-        require('@/assets/images/products/product-details-600x600.jpg'),
-        require('@/assets/images/products/product-details2-600x600.jpg'),
-        require('@/assets/images/products/product-details3-600x600.jpg'),
-        require('@/assets/images/products/product-details4-600x600.jpg'),
-        require('@/assets/images/products/product-details5-600x600.jpg'),
+        require('@/assets/images/fashion/3.jpg'),
+        require('@/assets/images/fashion/13.jpg'),
+        require('@/assets/images/fashion/15.jpg')
       ],
       product_slug : this.$route.params.slug,
     }

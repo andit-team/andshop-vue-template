@@ -40,7 +40,7 @@
 <script>
 import FlashDealsItem from '../../components/product-box/FlashDealsItem'
 export default {
-  name: "flashDealsPage",
+  name: "FlashDealsProducts",
   components: { 
     FlashDealsItem,
   },
@@ -215,7 +215,7 @@ export default {
   },
   head() {
     return {
-      title: 'Flash Deals'
+      title: 'Flash Deals Products'
     }
   },
 }

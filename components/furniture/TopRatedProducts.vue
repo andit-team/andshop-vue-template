@@ -131,7 +131,7 @@ export default {
           "id": 5,
           "title": "Coat",
           "tags": "bath & body, football, tennis",
-          "image": require('@/assets/images/furniture/3.jpg'),
+          "image": require('@/assets/images/furniture/10.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -140,7 +140,7 @@ export default {
           "id": 6,
           "title": "Long Coat",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/furniture/2.jpg'),
+          "image": require('@/assets/images/furniture/11.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "New"
@@ -149,7 +149,7 @@ export default {
           "id": 6,
           "title": "Tops",
           "tags": "bath & body, football, tennis",
-          "image": require('@/assets/images/furniture/3.jpg'),
+          "image": require('@/assets/images/furniture/7.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -159,7 +159,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-
-</style>

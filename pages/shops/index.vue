@@ -160,11 +160,15 @@ import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
 
 export default {
-  name: "RisingStar",
-
+  name: "ShopsPage",
   components: {
     ShopItem,
     VueSlider
+  },
+  head() {
+    return {
+      title: 'Shops'
+    }
   },
   data() {
     return {

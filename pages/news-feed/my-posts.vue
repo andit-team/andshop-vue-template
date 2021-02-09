@@ -65,13 +65,11 @@
 <script>
 export default {
   layout: 'news-feed-layout',
-  data() {
+  name: 'MyPosts',
+  head() {
     return {
+      title: 'My Posts'
     }
-  },
+  }
 }
 </script>
-
-<style>
-
-</style>

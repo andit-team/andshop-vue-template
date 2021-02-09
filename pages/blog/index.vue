@@ -357,10 +357,11 @@
 <script>
 
 export default {
-  name: "blogLeftSidebar",
+  name: "BlogLeftSidebar",
+  head() {
+    return {
+      title: 'Blog Leftsidebar'
+    }
+  }
 }
 </script>
-
-<style scoped>
-
-</style>

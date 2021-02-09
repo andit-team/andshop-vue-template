@@ -79,7 +79,7 @@ a {
 /* Theme All Transitions
 ------------------------------- */
 a, #mainNav, .theme-button, .product-item, .best-seller-item, .featured-product-item, .popular-categories-item, .product-details-share button, #checkout-address-modal .btn-secondary,
-.filtering-part form button {
+.filtering-part form button, .product-title {
     transition: all .5s ease-in-out;
 }
 
@@ -1172,28 +1172,6 @@ button:focus {
     }
 
 }
-// .product_action_box ul li:nth-child(2) {
-//     -webkit-transition: all 0.34s ease 0s;
-//     -o-transition: all 0.3s ease 0s;
-//     transition: all 0.3s ease 0s;
-// }
-
-// .product_action_box ul li:nth-child(3) {
-//     -webkit-transition: all 0.5s ease 0s;
-//     -o-transition: all 0.4s ease 0s;
-//     transition: all 0.4s ease 0s;
-// }
-// .product_action_box ul li:nth-child(4) {
-//     -webkit-transition: all 0.6s ease 0s;
-//     -o-transition: all 0.5s ease 0s;
-//     transition: all 0.5s ease 0s;
-// }
-
-// .product-item:hover, .best-seller-item:hover, .featured-product-item:hover, .popular-categories-item:hover  {
-//     box-shadow: 0 0 8px 4px rgba(0,0,0,0.05);
-//     // transform: translateY(-5px)
-// }
-
 .product-item .img-wrap img {
 	width: 100%;
 }
@@ -1273,7 +1251,7 @@ button:focus {
 -------------------------------------------*/
 
 /*-------------------------------------------
-    8. Product Details Page Area Start
+    9. Product Details Page Area Start
 -------------------------------------------*/
 .product-stock-wrap .custom-control-label::before, .product-stock-wrap .custom-control-label::after {
 	top: 30%;
@@ -1304,21 +1282,30 @@ button:focus {
 .details-price-list .b-form-spinbutton.form-control.focus, .cart-increment-decrement .b-form-spinbutton .form-control.focus {
     box-shadow: none!important;
 }
-.product-details-btn .theme-button {
-	line-height: 29px;
-}
-.offer-ends-counter .timer {
-	background-color: #e5e5e5;
+span.single-counter-box {
+    background-color: #e5e5e5;
+    border-radius: .25rem;
+    padding: 0 8px;
 }
 .rating_wrap .given-rating i {
 	font-size: 14px;
 }
-.product-details-share button {
-    background-color: $color-heading;
-    width: 40px;
-    height: 40px;
+.product-details-share {
+    button {
+    border: 1px solid $color-heading;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
-    color: #fff;
+    color: $color-heading;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+        &:hover {
+            color: $color-red;
+            border-color: $color-red;
+        }
+    }
 }
 
 // Product Details Photo Tab CSS
@@ -1418,11 +1405,11 @@ button:focus {
 // Product Details Left Thumb Style
 
 /*-------------------------------------------
-    8. Product Details Page Area End
+   9. Product Details Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    8. Flash Sale Slider Area Start
+    10. Flash Sale Slider Area Start
 -------------------------------------------*/
 .flash-sale-slider-wrap {
     border: 1px solid var(--border-secondary);
@@ -1497,11 +1484,11 @@ button:focus {
 	font-weight: 700;
 }
 /*-------------------------------------------
-    8. Flash Sale Slider Area End
+    10. Flash Sale Slider Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    9. Best Seller Slider Area Start
+    11. Best Seller Slider Area Start
 -------------------------------------------*/
 .best-seller-item {
     border: 1px solid var(--border-secondary);
@@ -1519,11 +1506,11 @@ button:focus {
     width: 100%;
 }
 /*-------------------------------------------
-    9. Best Seller Slider Area End
+    11. Best Seller Slider Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    10. Popular Categories Area Start
+    12. Popular Categories Area Start
 -------------------------------------------*/
 .popular-categories-item {
     background-position: center;
@@ -1532,22 +1519,31 @@ button:focus {
     border: 1px solid var(--border-secondary);
     background-color: var(--gray-color1);
     margin-bottom: 30px;
-}
-.popular-categories-item .product-content {
-    display: flex;
-    width: 100%;
-    min-height: 170px;
-    cursor: pointer;
-    padding: 30px;
-    flex-direction: column;
-    justify-content: center;
+    .product-content {
+        display: flex;
+        width: 100%;
+        min-height: 170px;
+        cursor: pointer;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        .product-title {
+            transition: all 0.5s ease-in-out;
+        }
+    }
+    &:hover {
+        box-shadow: 0 0 6px 3px rgba(0,0,0,.05);
+        .product-title {
+            color: $color-blue;
+        }
+    }
 }
 /*-------------------------------------------
-    10. Popular Categories Area End
+    12. Popular Categories Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    11. Featured Products Area Start
+    13. Featured Products Area Start
 -------------------------------------------*/
 .featured-product-item {
     border: 1px solid var(--border-secondary);
@@ -1557,22 +1553,48 @@ button:focus {
 .featured-product-item .product-content {
 	padding: 15px 15px 15px 0;
 }
-.featured-product-item .img-wrap {
-    height: 160px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-}
-.featured-product-item .img-wrap img {
-    height: auto;
-    width: 100%;
+.featured-product-item {
+    transition: all 0.5s ease-in-out;
+    .img-wrap {
+        height: 160px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+    &:hover {
+        box-shadow: 0 0 6px 3px rgb(0 0 0 / 5%);
+        .product-title {
+            color: $color-red;
+        }
+    }
 }
 /*-------------------------------------------
-    11. Featured Products Area End
+    13. Featured Products Area End
+-------------------------------------------*/
+/*-------------------------------------------
+    14. Promotion Area Start
+-------------------------------------------*/
+.promotion-img-wrap {
+    overflow: hidden;
+        img {
+            transition: all 0.5s ease-in-out;
+        }
+    &:hover {
+        img {
+            transform: scale(1.08);
+        }
+    }
+}
+/*-------------------------------------------
+    14. Promotion Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    12. Payment System Area Start
+    15. Payment System Area Start
 -------------------------------------------*/
 .payment-box {
     width: 300px;

@@ -91,7 +91,7 @@ export default {
           "id": 1,
           "title": "Sunglass",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/electronics/7.jpg'),
+          "image": require('@/assets/images/electronics/8.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -100,7 +100,7 @@ export default {
           "id": 2,
           "title": "Fashion Sunglass",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/electronics/6.jpg'),
+          "image": require('@/assets/images/electronics/9.jpg'),
           "price": "110.00",
           "discount": "7",
           "offerSeal": "New"
@@ -109,7 +109,7 @@ export default {
           "id": 3,
           "title": "Winter coat",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/electronics/5.jpg'),
+          "image": require('@/assets/images/electronics/10.jpg'),
           "price": "100.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -118,7 +118,7 @@ export default {
           "id": 4,
           "title": "Tops",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/electronics/4.jpg'),
+          "image": require('@/assets/images/electronics/11.jpg'),
           "price": "80.00",
           "discount": "10",
           "offerSeal": "Hot"
@@ -127,7 +127,7 @@ export default {
           "id": 5,
           "title": "T-Shirt",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/electronics/3.jpg'),
+          "image": require('@/assets/images/electronics/1.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"
@@ -145,7 +145,7 @@ export default {
           "id": 6,
           "title": "Tops",
           "tags": "Alu, Morich",
-          "image": require('@/assets/images/electronics/1.jpg'),
+          "image": require('@/assets/images/electronics/3.jpg'),
           "price": "150.00",
           "discount": "10",
           "offerSeal": "Sale"

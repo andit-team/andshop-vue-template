@@ -72,14 +72,14 @@ export default {
         {
           "id": 5,
           "title": "Merun Bag",
-          "image": require('@/assets/images/furniture/1.jpg'),
+          "image": require('@/assets/images/furniture/10.jpg'),
           "price": "150.00",
           "discount": "10",
         },
         {
           "id": 6,
           "title": "Cloth Package",
-          "image": require('@/assets/images/furniture/2.jpg'),
+          "image": require('@/assets/images/furniture/11.jpg'),
           "price": "150.00",
           "discount": "10",
         },

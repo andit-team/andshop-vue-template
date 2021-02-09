@@ -131,6 +131,11 @@
 <script>
 export default {
   name: "ContactUs",
+  head() {
+    return {
+      title: 'Contact Us'
+    }
+  },
   data(){
     return{
       center: { lat: 22.820000, lng: 89.550003 },
@@ -147,7 +152,3 @@ export default {
 
 }
 </script>
-
-<style scoped>
-
-</style>

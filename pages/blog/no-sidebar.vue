@@ -247,10 +247,11 @@
 <script>
 
 export default {
-  name: "blogLeftSidebar",
+  name: "BlogNoSidebar",
+  head() {
+    return {
+      title: 'Blog'
+    }
+  }
 }
 </script>
-
-<style scoped>
-
-</style>

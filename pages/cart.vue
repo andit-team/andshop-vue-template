@@ -301,6 +301,11 @@
 <script>
 export default {
   name: "Cart",
+  head() {
+    return {
+      title: 'Cart'
+    }
+  },
   data() {
     return {
       status: 'not_checked',
@@ -310,7 +315,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
