@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import CategoryItem from '../product-box/CategoryItem'
+import CategoryItem from '../item-box/CategoryItem'
 export default {
   name: "GroceriesPopularCategories",
   components: {

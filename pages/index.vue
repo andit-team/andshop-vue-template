@@ -6,15 +6,15 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="andbaazar-section-title text-center">
+            <div class="andshop-section-title text-center">
               <h1>AndShop</h1>
-              <p class="andbaazar-subtitle w-50 mx-auto mt-3 mb-5">Order your Ecommerce Fashion, Electronics, Furniture and Groceries goods from thousands of preffered shops and vendors in online and get delivery in home.</p>
+              <p class="andshop-subtitle w-50 mx-auto mt-3 mb-5">Order your Ecommerce Fashion, Electronics, Furniture and Groceries goods from thousands of preffered shops and vendors in online and get delivery in home.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-lg-6">
-            <div class="andbaazar-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
+            <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
                 <img :src="require('@/assets/images/services-img/ecommerce.png')" alt="Ecommerce">
               </div>
@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="andbaazar-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
+            <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
                 <img :src="require('@/assets/images/services-img/krishi-baazar.png')" alt="Krishibaazar">
               </div>
@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="andbaazar-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
+            <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
                 <img :src="require('@/assets/images/services-img/auction.png')" alt="Furniture">
               </div>
@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="andbaazar-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
+            <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
                 <img :src="require('@/assets/images/services-img/sme.png')" alt="SME">
               </div>
@@ -69,15 +69,15 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="andbaazar-section-title text-center">
+            <div class="andshop-section-title text-center">
               <h1>Join with us</h1>
-              <p class="andbaazar-subtitle w-50 mx-auto mt-3 mb-5">Be a part of the Andbaazar community. Become a merchant or agent to grow your business. Join our agent team and earn special comission.</p>
+              <p class="andshop-subtitle w-50 mx-auto mt-3 mb-5">Be a part of the Andshop community. Become a merchant or agent to grow your business. Join our agent team and earn special comission.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-6">
-            <div class="andbaazar-service-item join-with-us-item media align-items-center p-0">
+            <div class="andshop-service-item join-with-us-item media align-items-center p-0">
               <div class="service-img-wrap">
                 <img :src="require('@/assets/images/services-img/vendor.jpg')" alt="Vendor" class="img-fluid">
               </div>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-6">
-            <div class="andbaazar-service-item join-with-us-item media align-items-center p-0">
+            <div class="andshop-service-item join-with-us-item media align-items-center p-0">
               <div class="service-img-wrap">
                 <img :src="require('@/assets/images/services-img/agent.jpg')" alt="Agent" class="img-fluid">
               </div>
@@ -104,12 +104,12 @@
       </div>
     </section>
 
-    <section class="discover-andbaazar-app bg-different p-0">
+    <section class="discover-andshop-app bg-different p-0">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-            <div class="discover-andbaazar-left d-flex h-100">
-              <h3>Discover the new Andbaazar app</h3>
+            <div class="discover-andshop-left d-flex h-100">
+              <h3>Discover the new andshop app</h3>
               <p class="mt-3 mb-5">Get what you need, when you need it.</p>
               <div class="download-app-btn">
                 <a href="#" class="mr-2"><img :src="require('@/assets/images/google-play.png')" alt="Google play"></a>
@@ -118,7 +118,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-            <div class="andbaazar-mobile-app">
+            <div class="andshop-mobile-app">
               <img :src="require('@/assets/images/mobile-app.png')" alt="Mobile app">
             </div>
           </div>

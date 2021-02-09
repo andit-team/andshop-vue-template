@@ -154,7 +154,7 @@
 </template>
 
 <script>
-import ShopItem from '../../components/product-box/ShopItem'
+import ShopItem from '../../components/item-box/ShopItem'
 
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'

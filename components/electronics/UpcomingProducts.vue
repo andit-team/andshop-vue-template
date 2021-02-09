@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import UpcomingProductItem from '../product-box/UpcomingProductItem'
+import UpcomingProductItem from '../item-box/UpcomingProductItem'
 
 export default {
   name: "ElectronicsUpcomingProducts",

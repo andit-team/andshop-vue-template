@@ -10,7 +10,7 @@
               <input type="text" class="form-control" id="email" placeholder="Email or Phone No" v-model="email">
             </div>
             <div class="form-group">
-              <button type="submit" class="theme-button rounded w-100 justify-content-center">Send Verification Code</button>
+              <button @click.prevent="goVerifyOTP" class="theme-button rounded w-100 justify-content-center">Send Verification Code</button>
             </div>
           </form>
         </div>
@@ -28,9 +28,12 @@ export default {
       email:''
     }
   },
+  methods: {
+    goVerifyOTP() {
+      this.$router.push({
+        path: '/my-account/auth/verify-otp'
+      });
+    }
+  },
 }
 </script>
-
-<style scoped>
-
-</style>

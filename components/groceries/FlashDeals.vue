@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import FlashDealsItem from '../product-box/FlashDealsItem'
+import FlashDealsItem from '../item-box/FlashDealsItem'
 
 export default {
   name: "GroceriesFlashDeals",

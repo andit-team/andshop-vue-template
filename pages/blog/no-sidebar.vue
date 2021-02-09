@@ -29,207 +29,12 @@
             <div class="d-flex flex-wrap product-row">
 
               <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-1.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-2.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-              
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-3.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-4.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-5.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-              
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-6.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-1.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
-              </div>
-              <!-- Blog item end-->
-              
-              <!-- Blog item start-->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
-                <div class="single-blog">
-                  <div class="blog-img">
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <img :src='"@/assets/images/blog/blog-2.jpg"' alt="Image">
-                    </nuxt-link>
-                    <span>25 <br> Jun</span>
-                  </div>
-                  <div class="blog-content">
-                    <ul>
-                      <li><i class="far fa-user"></i><a>By Admin</a></li>
-                    </ul>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
-                      <h3>Get Your Furniture Ready For The Summer</h3>
-                    </nuxt-link>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.</p>
-                    <nuxt-link to="/blog/Get Your Furniture Ready For The Summer" class="read-more">
-                      Read More
-                    </nuxt-link>
-                  </div>
-                </div>
+              <div v-for="(blogItem, index) in blogItems" :key="index" class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
+                <BlogItem :blogItem ='blogItem' />
               </div>
               <!-- Blog item end-->
 
               <!-- Load more button-->
-              <div class="col-12 d-block mt-4 text-center"><Loading /></div>
               <div class="col-12 d-block mt-4 text-center"><button class="theme-button rounded load-more-button">Load more</button></div>
 
             </div>
@@ -245,12 +50,70 @@
 </template>
 
 <script>
+import BlogItem from '../../components/item-box/BlogItem'
 
 export default {
   name: "BlogNoSidebar",
+  components: {
+    BlogItem
+  },
   head() {
     return {
       title: 'Blog'
+    }
+  },
+  data() {
+    return {
+      blogItems: [
+        {
+          "id": 1,
+          "image": require('@/assets/images/blog/blog-1.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 2,
+          "image": require('@/assets/images/blog/blog-2.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 3,
+          "image": require('@/assets/images/blog/blog-3.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 4,
+          "image": require('@/assets/images/blog/blog-4.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 5,
+          "image": require('@/assets/images/blog/blog-5.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 6,
+          "image": require('@/assets/images/blog/blog-6.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 7,
+          "image": require('@/assets/images/blog/blog-1.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        },
+        {
+          "id": 8,
+          "image": require('@/assets/images/blog/blog-2.jpg'),
+          "title": "Get Your Furniture Ready For The Summer",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit autem.",
+        }
+      ]
     }
   }
 }

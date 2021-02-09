@@ -37,7 +37,7 @@
 
 <script>
 
-import ProductItem from '../product-box/ProductItem'
+import ProductItem from '../item-box/ProductItem'
 
 export default {
   name: 'GroceriesTopRatedProducts',

@@ -32,17 +32,17 @@
         <div class="card border-0 p-3">
           <div class="card-body">
             <b-dropdown class="float-right" variant="black" toggle-class="arrow-none card-drop" right>
-                <template v-slot:button-content>
-                    <i class="mdi mdi-dots-horizontal"></i>
-                </template>
-                <!-- item-->
-                <b-dropdown-item>Settings</b-dropdown-item>
-                <!-- item-->
-                <b-dropdown-item>Download</b-dropdown-item>
-                <!-- item-->
-                <b-dropdown-item>Upload</b-dropdown-item>
-                <!-- item-->
-                <b-dropdown-item>Action</b-dropdown-item>
+              <template v-slot:button-content>
+                <i class="mdi mdi-dots-horizontal"></i>
+              </template>
+              <!-- item-->
+              <b-dropdown-item>Settings</b-dropdown-item>
+              <!-- item-->
+              <b-dropdown-item>Download</b-dropdown-item>
+              <!-- item-->
+              <b-dropdown-item>Upload</b-dropdown-item>
+              <!-- item-->
+              <b-dropdown-item>Action</b-dropdown-item>
             </b-dropdown>
 
             <h6 class="header-title">Total Revenue</h6>
@@ -100,19 +100,19 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                  <th scope="row"><img :src="require('@/assets/images/fashion/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>neck velvet dress</td>
                   <td>$205</td>
                   <td>1000</td>
                 </tr>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                  <th scope="row"><img :src="require('@/assets/images/fashion/2.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>belted trench coat</td>
                   <td>$350</td>
                   <td>800</td>
                 </tr>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                  <th scope="row"><img :src="require('@/assets/images/fashion/3.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>man print tee</td>
                   <td>$150</td>
                   <td>750</td>

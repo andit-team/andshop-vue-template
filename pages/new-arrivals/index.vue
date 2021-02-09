@@ -46,7 +46,6 @@
             <div class="best-seller-items-wrap d-flex flex-wrap product-row">
 
               <!-- Best Seller item start-->
-              <!-- <div v-for="(productItem, index) in productItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 product-item-col"> -->
               <div v-for="(productItem, index) in productItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 product-item-col">
                 <ProductItem :productItem ='productItem' />
               </div>
@@ -71,7 +70,7 @@
 <script>
 import VueSlider from "vue-slider-component";
 import 'vue-slider-component/theme/default.css'
-import ProductItem from '../../components/product-box/ProductItem'
+import ProductItem from '../../components/item-box/ProductItem'
 
 export default {
   name: "NewArrivalsProducts",

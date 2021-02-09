@@ -8,13 +8,13 @@
           <div class="col-lg-6 col-md-8">
             <div class="header_topbar_info d-flex align-items-center">
               <div class="header_offer">
-                <a href="tel:01222222">Hotline: +8801 22 22 22</a>
+                <a href="tel:99425211">Hotline: +99 42 52 11</a>
               </div>
               <div class="download_wrap d-flex align-items-center">
                 <span class="mr-2">Download App</span>
                 <ul class="icon_list text-center text-lg-left d-flex align-items-center">
-                  <li><a href="#"><i class="fab fa-apple"></i></a></li>
-                  <li><a href="#"><i class="fab fa-android"></i></a></li>
+                  <li><a href="https://www.apple.com/shop" target="_blank"><i class="fab fa-apple"></i></a></li>
+                  <li><a href="https://play.google.com/store" target="_blank"><i class="fab fa-android"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -24,11 +24,11 @@
 
               <b-dropdown id="dropdown-1" class="lng_dropdown">
                 <template #button-content class="bg-transparent">
-                  <img src="~/assets/images/eng.png" alt="english">English<i class="fas fa-angle-down"></i>
+                  <img :src="require('@/assets/images/eng.png')" alt="english">English<i class="fas fa-angle-down"></i>
                 </template>
-                <b-dropdown-item to="#"><img src="~/assets/images/eng.png" alt="english">English</b-dropdown-item>
-                <b-dropdown-item to="#"><img src="~/assets/images/fn.png" alt="France">France</b-dropdown-item>
-                <b-dropdown-item><img src="~/assets/images/us.png" alt="United States">United States</b-dropdown-item>
+                <b-dropdown-item><img :src="require('@/assets/images/eng.png')" alt="english">English</b-dropdown-item>
+                <b-dropdown-item><img :src="require('@/assets/images/fn.png')" alt="France">France</b-dropdown-item>
+                <b-dropdown-item><img :src="require('@/assets/images/us.png')" alt="United States">United States</b-dropdown-item>
               </b-dropdown>
 
               <b-dropdown id="dropdown-1" class="ml-3 lng_dropdown currency_dropdown">
@@ -52,7 +52,7 @@
         <div class="row">
           <div class="col-12 d-flex justify-content-between align-items-center">
             <nuxt-link to="/" class="navbar-brand">
-              <img src="~/assets/images/logo.png" alt="logo">
+              <img :src="require('@/assets/images/logo.png')" alt="logo">
             </nuxt-link>
             <ProductSearch />
             <ul class="attr-nav d-flex align-items-center">

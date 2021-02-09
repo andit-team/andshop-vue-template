@@ -94,7 +94,7 @@
           <div class="col-12">
             <div class="contact-form section-t-space">
             <form>
-              <div class="form-row">
+              <div class="row">
                 <div class="form-group col-md-6">
                   <label for="f_name">First Name</label>
                   <input type="text" class="form-control" id="f_name" placeholder="First name">
@@ -104,7 +104,7 @@
                   <input type="password" class="form-control" id="l_name" placeholder="Last name">
                 </div>
               </div>
-              <div class="form-row">
+              <div class="row">
                 <div class="form-group col-md-6">
                   <label for="phone">Phone Number</label>
                   <input type="text" class="form-control" id="phone" placeholder="Phone number">

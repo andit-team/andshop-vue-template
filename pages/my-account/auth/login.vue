@@ -25,7 +25,7 @@
             </div>
 
             <div class="form-group">
-              <button @click.prevent="goMyAccount()" type="submit" class="theme-button rounded w-100 justify-content-center">Log In</button>
+              <button @click.prevent="goMyAccount" type="submit" class="theme-button rounded w-100 justify-content-center">Log In</button>
             </div>
             <p class="dont-have-account text-center">Don’t have an account? <nuxt-link to="/my-account/auth/registration">Sign up</nuxt-link></p>
           </form>

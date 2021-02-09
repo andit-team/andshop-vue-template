@@ -70,7 +70,7 @@
 <script>
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/default.css'
-import ProductItem from '../../components/product-box/ProductItem'
+import ProductItem from '../../components/item-box/ProductItem'
 
 export default {
   name: "BestSellerPage",

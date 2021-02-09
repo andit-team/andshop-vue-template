@@ -78,7 +78,7 @@
 </template>
 
 <script>
-import ProductItem from '../../components/product-box/ProductItem'
+import ProductItem from '../../components/item-box/ProductItem'
 import ProductPageSidebar from '../../components/partials/ProductPageSidebar'
 
 export default {

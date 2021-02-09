@@ -276,6 +276,9 @@ h2{
 .font-12, .best-seller-item .product-tags {
     font-size: 12px;
 }
+.font-10 {
+    font-size: 10px;
+}
 .font-13 {
     font-size: 13px;
 }
@@ -616,6 +619,11 @@ button:focus {
     margin-left: 25px;
 }
 .middle-menu-dropdown {
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     ul {
         li {
             a{
@@ -1042,7 +1050,7 @@ button:focus {
 /*-------------------------------------------
     7. Andshop Services Area Start
 -------------------------------------------*/
-.andbaazar-service-item {
+.andshop-service-item {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: auto;
@@ -1067,18 +1075,18 @@ button:focus {
 }
 
 // Discover Andshop app
-.discover-andbaazar-left {
+.discover-andshop-left {
 	flex-direction: column;
 	justify-content: center;
 }
 .download-app-btn img {
 	height: 48px;
 }
-.andbaazar-mobile-app {
+.andshop-mobile-app {
 	margin-top: -88px;
     text-align: right;
 }
-.andbaazar-mobile-app img {
+.andshop-mobile-app img {
 	height: 420px;
 }
 
@@ -2196,6 +2204,9 @@ span.single-counter-box {
 }
 
 // News Feeds CSS
+.feed-dashboard-menu-wrap {
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+}
 .customer-info-box .form-control-file {
 	opacity: 0;
 	position: absolute;
@@ -2228,10 +2239,19 @@ span.single-counter-box {
     .post-img {
         text-align: center;
         background-color: #f2f1f1;
-        a img {
-        min-height: 220px;
-        width: auto;
-        max-height: 350px;
+        a {
+            img {
+            min-height: 220px;
+            width: auto;
+            max-height: 350px;
+            }
+        }
+        .feed-details-img-wrap {
+            img {
+            min-height: 220px;
+            width: auto;
+            max-height: 350px;
+            }
         }
     }
     .feed-buttons .feed-btn {
@@ -2460,13 +2480,14 @@ span.single-counter-box {
 }
 .single-blog .blog-img span {
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 21px;
+    right: 20px;
     background-color: #000;
     color: #fff;
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-align: center;
     display: inline-block;
+    font-size: 14px;
 }
 .single-blog .blog-content {
     padding: 30px;
@@ -2559,11 +2580,20 @@ span.single-counter-box {
 	.coming-soon-img img {
         height: 250px;
     }
-    .follow-us-social.d-flex li a {
+    .follow-us-social li a {
         padding: 6px;
         margin: 3px;
         font-size: 21px;
+        color: #02449B;
         color: var(--hover-color);
+        border: 1px solid;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        display: inline-flex;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
         &:hover {
             color: var(--red-color);
         }
@@ -2572,7 +2602,6 @@ span.single-counter-box {
 /*-------------------------------------------
     23. Coming Soon Pages End
 -------------------------------------------*/
-
 
 /*-------------------------------------------
     22. Responsive Design CSS
@@ -2642,7 +2671,7 @@ span.single-counter-box {
     }
 
     // Andshop Main
-    .andbaazar-mobile-app img {
+    .andshop-mobile-app img {
         height: 350px;
     }
 
@@ -2727,7 +2756,7 @@ span.single-counter-box {
     }
 
     // Andshop Main
-    .andbaazar-service-item {
+    .andshop-service-item {
         flex-direction: column;
         background-size: cover;
     }
@@ -2926,14 +2955,14 @@ span.single-counter-box {
     }
 
     // Andshop Main
-    p.andbaazar-subtitle {
+    p.andshop-subtitle {
         width: 100%!important;
     }
 
     .download-app-btn img {
         height: 34px;
     }
-    .discover-andbaazar-left p {
+    .discover-andshop-left p {
         margin: 10px 0 12px!important;
     }
     .join-with-us-item .service-img-wrap {
@@ -2985,10 +3014,10 @@ span.single-counter-box {
     }
 
     // Andshop Main
-    .andbaazar-mobile-app img {
+    .andshop-mobile-app img {
         height: 248px;
     }
-    .andbaazar-mobile-app {
+    .andshop-mobile-app {
         margin-top: -46px;
     }
 
@@ -3047,17 +3076,17 @@ span.single-counter-box {
     }
 
     // Andshop Main
-    .discover-andbaazar-app .row {
+    .discover-andshop-app .row {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .andbaazar-mobile-app img {
+    .andshop-mobile-app img {
         height: 238px;
     }
-    .andbaazar-mobile-app {
+    .andshop-mobile-app {
         text-align: center !important;
     }
-    .discover-andbaazar-left {
+    .discover-andshop-left {
         padding: 20px 0 30px;
     }
     .join-with-us-item .service-img-wrap {
@@ -3271,7 +3300,7 @@ span.single-counter-box {
     .join-with-us-item .service-img-wrap {
         height: 324px;
     }
-    .andbaazar-service-item {
+    .andshop-service-item {
         padding: 14px 14px 20px;
     }
 
@@ -3364,6 +3393,11 @@ span.single-counter-box {
     }
     .show-more-less {
         padding: 20px 10px;
+    }
+
+    // App Download
+    .andshop-mobile-app img {
+        height: 215px;
     }
 
   }

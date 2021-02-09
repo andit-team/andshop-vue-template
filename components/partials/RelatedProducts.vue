@@ -17,13 +17,11 @@
           <div class="best-seller-slider-wrap d-flex flex-wrap justify-content-between">
 
             <swiper class="swiper" :options="swiperOption">
-                
               <!-- Best Seller item start-->
               <swiper-slide v-for="(productItem, index) in productItems" :key="index">
                 <ProductItem :productItem ='productItem' />
               </swiper-slide>
               <!-- Best Seller item end-->
-
             </swiper>
 
           </div>
@@ -36,7 +34,7 @@
 
 <script>
 
-import ProductItem from '../product-box/ProductItem'
+import ProductItem from '../item-box/ProductItem'
 
 export default {
   name: 'RelatedProducts',

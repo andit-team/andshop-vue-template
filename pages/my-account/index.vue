@@ -7,7 +7,7 @@
 
         <div class="info-row-wrap" v-if="!openUpdateForm">
           <div class="info-row d-flex pb-2">
-            <p><strong>Andbaazar Number:</strong></p> <p>0123456789</p>
+            <p><strong>AndShop Number:</strong></p> <p>0123456789</p>
           </div>
           <div class="info-row d-flex pb-2">
             <p><strong>First Name:</strong></p> <p>Suraiya</p>

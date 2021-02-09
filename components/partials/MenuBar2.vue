@@ -8,13 +8,13 @@
           <div class="col-lg-6 col-md-8">
             <div class="header_topbar_info d-flex align-items-center">
               <div class="header_offer">
-                <a href="tel:01222222">Hotline: +8801 22 22 22</a>
+                <a href="tel:99425211">Hotline: +99 42 52 11</a>
               </div>
               <div class="download_wrap d-flex align-items-center">
                 <span class="mr-2">Download App</span>
                 <ul class="icon_list text-center text-lg-left d-flex align-items-center">
-                  <li><a href="#"><i class="fab fa-apple"></i></a></li>
-                  <li><a href="#"><i class="fab fa-android"></i></a></li>
+                  <li><a href="https://www.apple.com/shop" target="_blank"><i class="fab fa-apple"></i></a></li>
+                  <li><a href="https://play.google.com/store" target="_blank"><i class="fab fa-android"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -24,11 +24,11 @@
 
               <b-dropdown id="dropdown-1" class="lng_dropdown">
                 <template #button-content class="bg-transparent">
-                  <img src="~/assets/images/eng.png" alt="english">English<i class="fas fa-angle-down"></i>
+                  <img :src="require('@/assets/images/eng.png')" alt="english">English<i class="fas fa-angle-down"></i>
                 </template>
-                <b-dropdown-item to="#"><img src="~/assets/images/eng.png" alt="english">English</b-dropdown-item>
-                <b-dropdown-item to="#"><img src="~/assets/images/fn.png" alt="France">France</b-dropdown-item>
-                <b-dropdown-item><img src="~/assets/images/us.png" alt="United States">United States</b-dropdown-item>
+                <b-dropdown-item><img :src="require('@/assets/images/eng.png')" alt="english">English</b-dropdown-item>
+                <b-dropdown-item><img :src="require('@/assets/images/fn.png')" alt="France">France</b-dropdown-item>
+                <b-dropdown-item><img :src="require('@/assets/images/us.png')" alt="United States">United States</b-dropdown-item>
               </b-dropdown>
 
               <b-dropdown id="dropdown-1" class="ml-3 lng_dropdown currency_dropdown">
@@ -52,7 +52,7 @@
         <div class="row">
           <div class="col-12 d-flex justify-content-between align-items-center">
             <nuxt-link to="/" class="navbar-brand">
-              <img src="~/assets/images/logo.png" alt="logo">
+              <img :src="require('@/assets/images/logo.png')" alt="logo">
             </nuxt-link>
             <ProductSearch />
             <ul class="attr-nav d-flex align-items-center">
@@ -65,23 +65,23 @@
                 <div class="cart_list">
 
                   <b-dropdown-item to="/product-details">
-                    <img src="~/assets/images/products/1.jpg" class="mr-3" alt="product">
+                    <img :src="require('@/assets/images/fashion/1.jpg')" class="mr-3" alt="product">
                     <div class="media-body">
-                      <h6 class="mt-0 mb-1 d-flex justify-content-between align-items-center font-14 text-capitalize"><span>product name</span><i class="fas fa-times"></i></h6>
-                      <p>1x$81.00</p>
+                      <h6 class="mt-0 mb-1 d-flex justify-content-between align-items-center font-14 text-capitalize"><span>Ladis Tops</span><i class="fas fa-times"></i></h6>
+                      <p>1x$80.00</p>
                     </div>
                   </b-dropdown-item>
 
                   <b-dropdown-item to="/product-details/left-thumb">
-                    <img src="~/assets/images/products/2.jpg" class="mr-3" alt="product">
+                    <img :src="require('@/assets/images/fashion/2.jpg')" class="mr-3" alt="product">
                     <div class="media-body">
-                      <h6 class="mt-0 mb-1 d-flex justify-content-between align-items-center font-14 text-capitalize"><span>product name</span><i class="fas fa-times"></i></h6>
-                      <p>1x$21.00</p>
+                      <h6 class="mt-0 mb-1 d-flex justify-content-between align-items-center font-14 text-capitalize"><span>Coat</span><i class="fas fa-times"></i></h6>
+                      <p>1x$20.00</p>
                     </div>
                   </b-dropdown-item>
 
                   <div class="cart_footer">
-                    <p class="cart_total d-flex align-items-center justify-content-between"><strong>Subtotal:</strong> <span class="cart_price"> <span class="price_symbole">$102.00</span></span></p>
+                    <p class="cart_total d-flex align-items-center justify-content-between"><strong>Subtotal:</strong> <span class="cart_price"> <span class="price_symbole">$100.00</span></span></p>
                     <p class="cart_buttons d-flex justify-content-center"><nuxt-link class="theme-button font-12 rounded view-cart" to="/cart">View Cart</nuxt-link><nuxt-link to="/checkout" class="theme-button font-12 rounded checkout">Checkout</nuxt-link></p>
                   </div>
 
@@ -100,7 +100,7 @@
                   <b-dropdown-item to="#" class="media position-relative">
                     <div class="mr-3"><i class="far fa-bell"></i></div>
                     <div class="media-body d-flex justify-content-align-content-between">
-                      <div class="notification-content pr-2">
+                      <div class="notification-content pr-4">
                         <p class="font-14 text-break" style="white-space: pre-line"><strong>Morgan Mor</strong> says something about him. Says something....</p>
                         <p class="font-12"><i class="far fa-clock"></i> 1 day</p>
                       </div>
@@ -114,7 +114,7 @@
                   <b-dropdown-item to="#" class="media position-relative">
                     <div class="mr-3"><i class="far fa-bell"></i></div>
                     <div class="media-body d-flex justify-content-align-content-between">
-                      <div class="notification-content pr-2">
+                      <div class="notification-content pr-4">
                         <p class="font-14 text-break" style="white-space: pre-line"><strong>Jenifar Lee</strong> says something about him. Says something....</p>
                         <p class="font-12"><i class="far fa-clock"></i> 1 day</p>
                       </div>
@@ -128,7 +128,7 @@
                   <b-dropdown-item to="#" class="media position-relative">
                     <div class="mr-3"><i class="far fa-bell"></i></div>
                     <div class="media-body d-flex justify-content-align-content-between">
-                      <div class="notification-content pr-2">
+                      <div class="notification-content pr-4">
                         <p class="font-14 text-break" style="white-space: pre-line"><strong>Asif Ak</strong> says something about him. Says something....</p>
                         <p class="font-12"><i class="far fa-clock"></i> 1 day</p>
                       </div>

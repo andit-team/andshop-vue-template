@@ -3,8 +3,8 @@
 
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Consectetur adipisicing elit. Error vitae iure mollitia.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/electronics/1.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -22,8 +22,8 @@
     </div>
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Eos numquam nesciunt rerum quia veniam saepe laboriosam nisi, similique sed.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/electronics/4.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -41,8 +41,8 @@
     </div>
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Sit amet consectetur adipisicing elit. Et, autem.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/furniture/2.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">

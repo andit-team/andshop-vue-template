@@ -33,6 +33,7 @@
               <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
           </div>
+          <div class="text-center mt-3"><nuxt-link to="/fashion" style="text-decoration:underline;" class="heading-color font-bold">Go back to Home</nuxt-link></div>
         </div>
       </div>
     </div>
@@ -47,6 +48,7 @@ export default {
     return {
       title: 'Coming Soon'
     }
-  }
+  },
+
 }
 </script>

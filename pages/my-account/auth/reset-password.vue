@@ -13,7 +13,7 @@
               <input type="password" class="form-control" id="confirm_password" placeholder="Confirm password">
             </div>
             <div class="form-group">
-              <button type="button" class="theme-button rounded w-100 justify-content-center">Reset Password</button>
+              <button @click.prevent="goDashboard" class="theme-button rounded w-100 justify-content-center">Reset Password</button>
             </div>
           </form>
         </div>
@@ -32,10 +32,13 @@ export default {
       password_confirmation: ''
     }
   },
+  methods: {
+    goDashboard() {
+      this.$router.push({
+        path: '/my-account/'
+      });
+    }
+  }
 
 }
 </script>
-
-<style>
-
-</style>

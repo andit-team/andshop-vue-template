@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import SliderItem from '../product-box/SliderItem'
+  import SliderItem from '../item-box/SliderItem'
   export default {
   name: 'FashionMainSlider',
   components: {

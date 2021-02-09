@@ -22,12 +22,12 @@
             </div>
 
             <div class="form-group">
-              <button type="submit" class="btn-success p-2 rounded w-sm-100 w-50 justify-content-center font-bold">Verify</button>
+              <button @click.prevent="goDashboard" class="theme-button rounded w-sm-100 w-50 justify-content-center">Verify</button>
             </div>
 
             <div class="form-group text-center">
               <span class="text-dark font-weight-600">{{ countDown }}s - </span>
-              <button type="button" class="font-bold justify-content-center resend-otp-btn">Resend OTP</button>
+              <button class="font-bold justify-content-center resend-otp-btn">Resend OTP</button>
             </div>
           </form>
         </div>
@@ -64,6 +64,12 @@ export default {
       console.log('OTP changed: ', value);
     },
 
+    goDashboard() {
+      this.$router.push({
+        path: '/my-account/'
+      });
+    }
+
   },
 
   created: function () {
@@ -77,7 +83,6 @@ export default {
 .resend-otp-btn {
 	text-decoration: underline;
 }
-
 .otp-input {
   width: 40px;
   height: 40px;

@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import FlashDealsItem from '../../components/product-box/FlashDealsItem'
+import FlashDealsItem from '../../components/item-box/FlashDealsItem'
 export default {
   name: "FlashDealsProducts",
   components: { 

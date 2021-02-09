@@ -7,9 +7,12 @@
           <textarea class="form-control" rows="3" placeholder="Write your post here"></textarea>
         </div>
         <div class="form-group">
-          <div class="upload-img">
-            <b-button class="customer-info-box theme-button2 mx-auto text-dark"> <img src="https://www.flaticon.com/svg/static/icons/svg/1040/1040241.svg" alt="upload" style="height:30px;"> Photo
+          <div class="upload-img d-inline">
+            <b-button class="customer-info-box theme-button2 mx-auto text-dark"> <img :src='"@/assets/images/dashboard/upload-img.svg"' alt="upload" style="height:25px;"> Photo
               <b-form-file plain accept=".jpg, .jpeg, .png, .gif, .svg"></b-form-file>
+            </b-button>
+            <b-button class="customer-info-box theme-button2 mx-auto text-dark"> <img :src='"@/assets/images/dashboard/upload-video.svg"' alt="upload" style="height:25px;"> Video
+              <b-form-file plain></b-form-file>
             </b-button>
           </div>
 
@@ -23,8 +26,8 @@
 
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Consectetur adipisicing elit. Error vitae iure mollitia.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/electronics/1.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -37,7 +40,7 @@
         <div class="feed-buttons position-relative">
           <button v-if="favorite" class="feed-btn"><i class="fas fa-heart"></i>10</button>
           <button v-else class="feed-btn"><i class="far fa-heart"></i>10</button>
-          <nuxt-link to="/my-account/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
+          <nuxt-link to="/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
           <button v-b-toggle.share_post class="feed-btn"><i class="fas fa-share-alt"></i>Share</button>
         
           <b-collapse id="share_post">
@@ -53,8 +56,8 @@
     </div>
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Eos numquam nesciunt rerum quia veniam saepe laboriosam nisi, similique sed.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/furniture/1.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -67,7 +70,7 @@
         <div class="feed-buttons position-relative">
           <button v-if="favorite" class="feed-btn"><i class="fas fa-heart"></i>10</button>
           <button v-else class="feed-btn"><i class="far fa-heart"></i>10</button>
-          <nuxt-link to="/my-account/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
+          <nuxt-link to="/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
           <button v-b-toggle.share_post class="feed-btn"><i class="fas fa-share-alt"></i>Share</button>
         
           <b-collapse id="share_post">
@@ -83,8 +86,8 @@
     </div>
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Sit amet consectetur adipisicing elit. Et, autem.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/electronics/2.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -97,7 +100,7 @@
         <div class="feed-buttons position-relative">
           <button v-if="favorite" class="feed-btn"><i class="fas fa-heart"></i>10</button>
           <button v-else class="feed-btn"><i class="far fa-heart"></i>10</button>
-          <nuxt-link to="/my-account/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
+          <nuxt-link to="/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
           <button v-b-toggle.share_post class="feed-btn"><i class="fas fa-share-alt"></i>Share</button>
         
           <b-collapse id="share_post">
@@ -113,8 +116,8 @@
     </div>
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <nuxt-link to="/news-feed/1" class="card-text">Nulla enim nobis illum iste laborum, explicabo sint sit dolor sunt magnam.</nuxt-link>
+        <div class="post-img mt-4 mb-3"><nuxt-link to="/news-feed/1"><img :src='"@/assets/images/furniture/4.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -127,7 +130,7 @@
         <div class="feed-buttons position-relative">
           <button v-if="favorite" class="feed-btn"><i class="fas fa-heart"></i>10</button>
           <button v-else class="feed-btn"><i class="far fa-heart"></i>10</button>
-          <nuxt-link to="/my-account/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
+          <nuxt-link to="/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
           <button v-b-toggle.share_post class="feed-btn"><i class="fas fa-share-alt"></i>Share</button>
         
           <b-collapse id="share_post">
@@ -161,7 +164,3 @@ export default {
   },
 }
 </script>
-
-<style>
-
-</style>

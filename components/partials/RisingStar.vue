@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import RisingStarItem from '../product-box/RisingStarItem'
+import RisingStarItem from '../item-box/RisingStarItem'
 export default {
   name: 'RisingStar',
   components: {

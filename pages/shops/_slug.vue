@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import ProductItem from '../../components/product-box/ProductItem'
+import ProductItem from '../../components/item-box/ProductItem'
 
 export default {
   name: "ShopDetails",

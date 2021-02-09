@@ -24,7 +24,7 @@
       <div class="p-2">
         <h6>Suraiya Aysha</h6>
         <p class="font-14">+955 81254758</p>
-        <p class="total-balance-btn rounded justify-content-center bg-success text-white m-auto">$0.00</p>
+        <p class="total-balance-btn rounded justify-content-center bg-red text-white m-auto">$500.00</p>
       </div>
     </div>
     <!-- Account User Photo -->
@@ -41,8 +41,9 @@
           <div class="left-menu-item"><b-nav-item to="/my-account/wishlist"><img :src='"@/assets/images/all-icon/d-wishlist.svg"' alt="Andshop">Wishlist</b-nav-item></div>
 
           <div class="left-menu-item">
-            <b-nav-item to="/my-account/my-orders/" v-b-toggle.my-orders><img :src='"@/assets/images/all-icon/d-orders.svg"' alt="Andshop">My Orders<i class="fas fa-angle-right"></i></b-nav-item>
+            <b-nav-item v-b-toggle.my-orders><img :src='"@/assets/images/all-icon/d-orders.svg"' alt="Andshop">My Orders<i class="fas fa-angle-right"></i></b-nav-item>
               <b-collapse id="my-orders" class="sub-menu">
+                <b-nav-item to="/my-account/my-orders/"><img :src='"@/assets/images/all-icon/d-orders.svg"' alt="Andshop">Orders</b-nav-item>
                 <b-nav-item to="/my-account/my-orders/1"><img :src='"@/assets/images/all-icon/d-order-tracking.svg"' alt="Andshop">Order Tracking</b-nav-item>
                 <b-nav-item to="/my-account/my-orders/my-returns"><img :src='"@/assets/images/all-icon/d-order-returns.svg"' alt="Andshop">My Returns</b-nav-item>
                 <b-nav-item to="/my-account/my-orders/my-cancellations"><img :src='"@/assets/images/all-icon/d-order-cancellations.svg"' alt="Andshop">My Cancellations</b-nav-item>
@@ -50,13 +51,6 @@
           </div>
 
           <div class="left-menu-item"><b-nav-item to="/my-account/my-reviews"><img :src='"@/assets/images/all-icon/d-reviews.svg"' alt="Andshop">My Reviews</b-nav-item></div>
-          <div class="left-menu-item">
-            <b-nav-item v-b-toggle.news-feed><img :src='"@/assets/images/all-icon/d-newsfeed.svg"' alt="Andshop">News Feeds<i class="fas fa-angle-right"></i></b-nav-item>
-              <b-collapse id="news-feed" class="sub-menu">
-                <b-nav-item to="/my-account/news-feed/"><img :src='"@/assets/images/all-icon/d-allpost.svg"' alt="Andshop">All Posts</b-nav-item>
-                <b-nav-item to="/my-account/news-feed/my-posts"><img :src='"@/assets/images/all-icon/d-mypost.svg"' alt="Andshop">My Posts</b-nav-item>
-              </b-collapse>
-          </div>
           <div class="left-menu-item"><b-nav-item to="/my-account/notifications"><img :src='"@/assets/images/all-icon/d-notification.svg"' alt="Andshop">Notification</b-nav-item></div>
           <div class="left-menu-item"><b-nav-item to="/my-account/auth/registration"><img :src='"@/assets/images/all-icon/d-logout.svg"' alt="Andshop">Logout</b-nav-item></div>
         </b-nav>

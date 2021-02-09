@@ -3,8 +3,8 @@
 
     <div class="card post-item">
       <div class="card-body">
-        <nuxt-link to="/my-account/news-feed/1" class="card-text">দীর্ঘ ৫ মাস ১০ দিন পর হাতে পেয়ে অনেক আনন্দিত।</nuxt-link>
-        <div class="post-img mt-4 mb-3"><nuxt-link to="/my-account/news-feed/1"><img :src='"@/assets/images/dashboard/feed.jpg"' alt="product" class="img-fluid"></nuxt-link></div>
+        <p class="card-text">Consectetur adipisicing elit. Error vitae iure mollitia.</p>
+        <div class="post-img mt-4 mb-3"><div class="feed-details-img-wrap"><img :src='"@/assets/images/electronics/1.jpg"' alt="product" class="img-fluid"></div></div>
       </div>
       <div class="card-footer d-flex justify-content-between align-items-center">
         <div class="media">
@@ -17,7 +17,7 @@
         <div class="feed-buttons position-relative">
           <button v-if="favorite" class="feed-btn"><i class="fas fa-heart"></i>10</button>
           <button v-else class="feed-btn"><i class="far fa-heart"></i>10</button>
-          <nuxt-link to="/my-account/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
+          <nuxt-link to="/news-feed/11" class="feed-btn"><i class="fas fa-comment-alt"></i>1</nuxt-link>
           <button v-b-toggle.share_post class="feed-btn"><i class="fas fa-share-alt"></i>Share</button>
         
           <b-collapse id="share_post">
@@ -38,7 +38,7 @@
         <div class="media-body">
           <div class="comment-inner bg-3 p-3 rounded">
             <h6 class="mt-0">Suraiya Aysha</h6>
-            <p class="font-14 pt-2">EVL448642925..ফোন,,,,??? EVL641735632 ফ্রিজ,,,??? ভণ্ডামির একটা লিমিট আছে কিন্তু আপনাদেন তা নেই,,,,৭ থেকে ৮ মাস হচ্ছে কিন্তু রিফান টাকাটা পাচ্ছিনা,,,মনে রাখবেন মানুষের এই হয়রানি করে আপনি জীবনে কোনোদিন সান্তি ছায়া দেখতে পাবেন না,,, এবং মৃত্যু হলেও না,,,, মানুষের হয়রানি আপনারা খেলা মনে করেন সেই সেলিবেটি রাসেল ভাই ????????</p>
+            <p class="font-14 pt-2">Sit amet consectetur adipisicing elit. Et, autem.Nulla enim nobis illum iste laborum, explicabo sint sit dolor sunt magnam.</p>
           </div>
           <p class="font-12 pt-2">about 3 hours ago</p>
         </div>
@@ -48,7 +48,7 @@
         <div class="media-body">
           <div class="comment-inner bg-3 p-3 rounded">
             <h6 class="mt-0">Suraiya Aysha</h6>
-            <p class="font-14 pt-2">EVL448642925..ফোন,,,,??? EVL641735632 ফ্রিজ,,,??? ভণ্ডামির একটা লিমিট আছে কিন্তু আপনাদেন তা নেই,,,,৭ থেকে ৮ মাস হচ্ছে কিন্তু রিফান টাকাটা পাচ্ছিনা,,,মনে রাখবেন মানুষের এই হয়রানি করে আপনি জীবনে কোনোদিন সান্তি ছায়া দেখতে পাবেন না,,, এবং মৃত্যু হলেও না,,,, মানুষের হয়রানি আপনারা খেলা মনে করেন সেই সেলিবেটি রাসেল ভাই ????????</p>
+            <p class="font-14 pt-2">Ipsum dolor sit, amet consectetur adipisicing elit. Consectetur sapiente eaque repellendus odit, dolorem beatae voluptatibus praesentium voluptatem cumque ut.</p>
           </div>
           <p class="font-12 pt-2">about 3 hours ago</p>
         </div>
@@ -58,7 +58,7 @@
         <div class="media-body">
           <div class="comment-inner bg-3 p-3 rounded">
             <h6 class="mt-0">Suraiya Aysha</h6>
-            <p class="font-14 pt-2">EVL448642925..ফোন,,,,??? EVL641735632 ফ্রিজ,,,??? ভণ্ডামির একটা লিমিট আছে কিন্তু আপনাদেন তা নেই,,,,৭ থেকে ৮ মাস হচ্ছে কিন্তু রিফান টাকাটা পাচ্ছিনা,,,মনে রাখবেন মানুষের এই হয়রানি করে আপনি জীবনে কোনোদিন সান্তি ছায়া দেখতে পাবেন না,,, এবং মৃত্যু হলেও না,,,, মানুষের হয়রানি আপনারা খেলা মনে করেন সেই সেলিবেটি রাসেল ভাই ????????</p>
+            <p class="font-14 pt-2">Ariatur quos veritatis assumenda temporibus, omnis doloribus tenetur fuga corporis quaerat illum labore nostrum repellat magnam saepe dolore error amet. Voluptate omnis harum adipisci quo inventore, tenetur doloremque, ipsa sapiente esse praesentium aspernatur voluptas quas hic nihil quae? Laboriosam, exercitationem?</p>
           </div>
           <p class="font-12 pt-2">about 3 hours ago</p>
         </div>
