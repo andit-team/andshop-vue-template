@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Top List Box -->
-    <ul class="list-unstyled top-list d-flex justify-content-start mb-4">
+    <ul class="merchant-product-features list-unstyled top-list d-flex justify-content-start mb-4">
       <li class="media bg-white rounded border-left border-left-5 border-danger p-3 mr-3 w-100" style="border-width: 3px !important">
         <img :src='"@/assets/images/all-icon/dashboard-list-1.svg"' class="mr-3" alt="product" style="height: 50px">
         <div class="media-body">
@@ -28,40 +28,11 @@
 
     <div class="row graphical-chart-wrap mb-4">
 
-      <div class="col-lg-6">
+      <div class="col-md-12 col-lg-12 col-xl-6">
         <div class="card border-0 p-3">
           <div class="card-body">
-            <b-dropdown class="float-right" variant="black" toggle-class="arrow-none card-drop" right>
-              <template v-slot:button-content>
-                <i class="mdi mdi-dots-horizontal"></i>
-              </template>
-              <!-- item-->
-              <b-dropdown-item>Settings</b-dropdown-item>
-              <!-- item-->
-              <b-dropdown-item>Download</b-dropdown-item>
-              <!-- item-->
-              <b-dropdown-item>Upload</b-dropdown-item>
-              <!-- item-->
-              <b-dropdown-item>Action</b-dropdown-item>
-            </b-dropdown>
-
             <h6 class="header-title">Total Revenue</h6>
-
             <div class="mt-3 text-center">
-              <div class="row pt-2">
-                <div class="col-4">
-                  <p class="text-muted font-14 mb-1 text-truncate">Target</p>
-                  <h4 class="font-14">$56,214</h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-muted font-14 mb-1 text-truncate">Last week</p>
-                  <h4 class="font-14">$840</h4>
-                </div>
-                <div class="col-4">
-                  <p class="text-muted font-14 mb-1 text-truncate">Last Month</p>
-                  <h4 class="font-14">$7,845</h4>
-                </div>
-              </div>
               <div dir="ltr">
                 <apexchart class="apex-charts" type="line" :options="chartOptions" height="265" :series="series"></apexchart>
               </div>
@@ -70,7 +41,7 @@
         </div>
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-md-12 col-lg-12 col-xl-6">
         <div class="card border-0 p-3">
           <div class="card-body">
            <h6 class="header-title mb-2">Total Sales</h6>
@@ -100,19 +71,19 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/fashion/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                  <th scope="row" class="py-2"><img :src="require('@/assets/images/fashion/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>neck velvet dress</td>
                   <td>$205</td>
                   <td>1000</td>
                 </tr>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/fashion/2.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                  <th scope="row" class="py-2"><img :src="require('@/assets/images/fashion/2.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>belted trench coat</td>
                   <td>$350</td>
                   <td>800</td>
                 </tr>
                 <tr>
-                  <th scope="row"><img :src="require('@/assets/images/fashion/3.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                  <th scope="row" class="py-2"><img :src="require('@/assets/images/fashion/3.jpg')" class="blur-up lazyloaded" alt="product"></th>
                   <td>man print tee</td>
                   <td>$150</td>
                   <td>750</td>

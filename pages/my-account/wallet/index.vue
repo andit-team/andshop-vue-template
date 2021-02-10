@@ -31,17 +31,17 @@
               <h5 class="mb-3">OR</h5> 
               <ul class="list-inline mb-0">
                 <li class="line-inline-item mb-0 d-inline-block">
-                  <a href="javascript:;" class="updatebtn px-2 py-1 rounded btn-success">$50</a>
+                  <a href="javascript:;" class="updatebtn rounded small-button theme-button">$50</a>
                 </li>
                 <li class="line-inline-item mb-0 d-inline-block">
-                  <a href="javascript:;" class="updatebtn px-2 py-1 rounded btn-success">$100</a>
+                  <a href="javascript:;" class="updatebtn rounded small-button theme-button">$100</a>
                 </li>
                 <li class="line-inline-item mb-0 d-inline-block">
-                  <a href="javascript:;" class="updatebtn px-2 py-1 rounded btn-success">$150</a>
+                  <a href="javascript:;" class="updatebtn rounded small-button theme-button">$150</a>
                 </li>
               </ul>
             </div>
-            <a href="javascript:void(0);" class="p-2 rounded text-center btn-success btn-block withdraw-btn">Withdraw</a>
+            <a href="javascript:void(0);" class="rounded text-center theme-button d-block withdraw-btn">Withdraw</a>
           </div>
         </div>
       </b-modal>
@@ -55,40 +55,40 @@
       <div v-if="transactionList" class="transaction-list">
         <ul class="list-unstyled">
           <li class="media">
-            <img :src='"@/assets/images/products/1.jpg"' class="mr-3" alt="products">
+            <img :src='require("@/assets/images/fashion/1.jpg")' class="mr-3" alt="products">
             <div class="media-body d-flex justify-content-between">
               <div class="transaction-list-content">
-                <h6 class="mt-0 mb-1">Product name</h6>
+                <h6 class="mt-0 mb-1">Sunglass</h6>
                 Cras sitin vulputate at, tempus viverra turpis.
               </div>
               <nuxt-link to="/checkout" class="theme-button small-button rounded">Details</nuxt-link>
             </div>
           </li>
           <li class="media">
-            <img :src='"@/assets/images/products/5.jpg"' class="mr-3" alt="products">
+            <img :src='require("@/assets/images/fashion/5.jpg")' class="mr-3" alt="products">
             <div class="media-body d-flex justify-content-between">
               <div class="transaction-list-content">
-                <h6 class="mt-0 mb-1">Product name</h6>
+                <h6 class="mt-0 mb-1">Fashion Sunglass</h6>
                 Cras sitin vulputate at, tempus viverra turpis.
               </div>
               <nuxt-link to="/checkout" class="theme-button small-button rounded">Details</nuxt-link>
             </div>
           </li>
           <li class="media">
-            <img :src='"@/assets/images/products/2.jpg"' class="mr-3" alt="products">
+            <img :src='require("@/assets/images/fashion/2.jpg")' class="mr-3" alt="products">
             <div class="media-body d-flex justify-content-between">
               <div class="transaction-list-content">
-                <h6 class="mt-0 mb-1">Product name</h6>
+                <h6 class="mt-0 mb-1">Winter coat</h6>
                 Cras sitin vulputate at, tempus viverra turpis.
               </div>
               <nuxt-link to="/checkout" class="theme-button small-button rounded">Details</nuxt-link>
             </div>
           </li>
           <li class="media">
-            <img :src='"@/assets/images/products/3.jpg"' class="mr-3" alt="products">
+            <img :src='require("@/assets/images/fashion/3.jpg")' class="mr-3" alt="products">
             <div class="media-body d-flex justify-content-between">
               <div class="transaction-list-content">
-                <h6 class="mt-0 mb-1">Product name</h6>
+                <h6 class="mt-0 mb-1">Tops</h6>
                 Cras sitin vulputate at, tempus viverra turpis.
               </div>
               <nuxt-link to="/checkout" class="theme-button small-button rounded">Details</nuxt-link>
@@ -98,7 +98,7 @@
       </div>
       
       <div v-else class="transaction-404 text-center">
-        <img :src='"@/assets/images/dashboard/error.png"' alt="404">
+        <img :src='require("@/assets/images/dashboard/error.png")' alt="404">
         <h6>Sorry, No Transaction found</h6>
       </div>
 
@@ -117,7 +117,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>

@@ -7,8 +7,8 @@
           <div class="col">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Product</a></li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+                <li class="breadcrumb-item"><nuxt-link to="/search-results/">Product</nuxt-link></li>
                 <li class="breadcrumb-item active" aria-current="page">Cart</li>
               </ol>
             </nav>
@@ -24,241 +24,121 @@
           <!-- Cart List Left Side -->
           <div class="col-12 col-md-12 col-lg-7 col-xl-8">
 
-            <!-- Cart Select All Bar -->
-            <div class="cart-page-select-bar d-flex justify-content-between align-items-center bg-white p-3">
-              <b-form-checkbox
-                id="checkbox-3"
-                v-model="status"
-                name="checkbox-3"
-                value="checked"
-                unchecked-value="not_checked"
-                class="font-14"
-                >
-                SELECT ALL (3 ITEM(S))
-              </b-form-checkbox>
-              
-              <button class="font-14"><i class="far fa-trash-alt mr-1"></i>DELETE</button>
-            </div>  
-
             <!-- Cart Product List -->
             <ul class="list-unstyled">
 
               <li class="bg-white mt-3">
-                <!-- Cart Brand Name -->
-                <div class="cart_brand_info media p-2">
-                  <b-form-checkbox
-                  id="checkbox-2"
-                  v-model="status"
-                  name="checkbox-2"
-                  value="checked"
-                  unchecked-value="not_checked"
-                  >
-                </b-form-checkbox>
-                <div class="cart_brand_name">
-                  <p class="font-weight-normal">Andbaazar<i class="fas fa-angle-right ml-1"></i></p>
-                  <p class="font-12">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>  
-
-                </div>
-
-                <!-- Cart Product Box -->
-                <div class="cart_product_box media p-2">
-                  <div class="cart-product-check">
-                    <b-form-checkbox
-                      id="checkbox-1"
-                      v-model="status"
-                      name="checkbox-1"
-                      value="checked"
-                      unchecked-value="not_checked"
-                    >
-                    </b-form-checkbox>
-                  </div>
-                  <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                <div class="cart_product_box media align-items-center p-3">
+                  <div class="cart-product-img"><img :src="require('@/assets/images/fashion/1.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
-                    <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                    <p class="mt-0 mb-1 font-weight-bold">Tops</p>
                     <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                  </div>
-                  <div class="media-body">
-                    <p class="d-flex flex-column">
-                      <span class="discounted-price mr-1 color-green">$2.00</span>
-                      <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                    <p class="d-flex">
+                      <span class="discounted-price mr-3 color-green">$2.00</span>
+                      <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
                       <span class="discount mr-1 color-red">-25%</span>
                     </p>
-                    <div class="cart-buttons">
-                      <button class="mr-2">
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-increment-decrement">
+                      <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                      <button class="mr-2 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
-                      <button><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14"><i class="far fa-trash-alt"></i></button>
                     </div>
-                  </div>
-                  <div class="cart-increment-decrement">
-                    <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
                   </div>
                 </div>
               </li>
 
               <li class="bg-white mt-3">
-                <!-- Cart Brand Name -->
-                <div class="cart_brand_info media p-2">
-                  <b-form-checkbox
-                  id="checkbox-2"
-                  v-model="status"
-                  name="checkbox-2"
-                  value="checked"
-                  unchecked-value="not_checked"
-                  >
-                </b-form-checkbox>
-                <div class="cart_brand_name">
-                  <p class="font-weight-normal">Andbaazar<i class="fas fa-angle-right ml-1"></i></p>
-                  <p class="font-12">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>  
-
-                </div>
-
-                <!-- Cart Product Box -->
-                <div class="cart_product_box media p-2">
-                  <div class="cart-product-check">
-                    <b-form-checkbox
-                      id="checkbox-1"
-                      v-model="status"
-                      name="checkbox-1"
-                      value="checked"
-                      unchecked-value="not_checked"
-                    >
-                    </b-form-checkbox>
-                  </div>
-                  <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                <div class="cart_product_box media align-items-center p-3">
+                  <div class="cart-product-img"><img :src="require('@/assets/images/fashion/2.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
-                    <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                    <p class="mt-0 mb-1 font-weight-bold">Shirt</p>
                     <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                  </div>
-                  <div class="media-body">
-                    <p class="d-flex flex-column">
-                      <span class="discounted-price mr-1 color-green">$2.00</span>
-                      <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                    <p class="d-flex">
+                      <span class="discounted-price mr-3 color-green">$2.00</span>
+                      <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
                       <span class="discount mr-1 color-red">-25%</span>
                     </p>
-                    <div class="cart-buttons">
-                      <button class="mr-2">
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-increment-decrement">
+                      <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                      <button class="mr-2 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
-                      <button><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14"><i class="far fa-trash-alt"></i></button>
                     </div>
-                  </div>
-                  <div class="cart-increment-decrement">
-                    <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
                   </div>
                 </div>
               </li>
 
               <li class="bg-white mt-3">
-                <!-- Cart Brand Name -->
-                <div class="cart_brand_info media p-2">
-                  <b-form-checkbox
-                  id="checkbox-2"
-                  v-model="status"
-                  name="checkbox-2"
-                  value="checked"
-                  unchecked-value="not_checked"
-                  >
-                </b-form-checkbox>
-                <div class="cart_brand_name">
-                  <p class="font-weight-normal">Andbaazar<i class="fas fa-angle-right ml-1"></i></p>
-                  <p class="font-12">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>  
-
-                </div>
-
-                <!-- Cart Product Box -->
-                <div class="cart_product_box media p-2">
-                  <div class="cart-product-check">
-                    <b-form-checkbox
-                      id="checkbox-1"
-                      v-model="status"
-                      name="checkbox-1"
-                      value="checked"
-                      unchecked-value="not_checked"
-                    >
-                    </b-form-checkbox>
-                  </div>
-                  <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                <div class="cart_product_box media align-items-center p-3">
+                  <div class="cart-product-img"><img :src="require('@/assets/images/fashion/3.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
-                    <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                    <p class="mt-0 mb-1 font-weight-bold">Ladies wear</p>
                     <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                  </div>
-                  <div class="media-body">
-                    <p class="d-flex flex-column">
-                      <span class="discounted-price mr-1 color-green">$2.00</span>
-                      <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                    <p class="d-flex">
+                      <span class="discounted-price mr-3 color-green">$2.00</span>
+                      <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
                       <span class="discount mr-1 color-red">-25%</span>
                     </p>
-                    <div class="cart-buttons">
-                      <button class="mr-2">
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-increment-decrement">
+                      <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                      <button class="mr-2 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
-                      <button><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14"><i class="far fa-trash-alt"></i></button>
                     </div>
-                  </div>
-                  <div class="cart-increment-decrement">
-                    <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
                   </div>
                 </div>
               </li>
 
               <li class="bg-white mt-3">
-                <!-- Cart Brand Name -->
-                <div class="cart_brand_info media p-2">
-                  <b-form-checkbox
-                  id="checkbox-2"
-                  v-model="status"
-                  name="checkbox-2"
-                  value="checked"
-                  unchecked-value="not_checked"
-                  >
-                </b-form-checkbox>
-                <div class="cart_brand_name">
-                  <p class="font-weight-normal">Andbaazar<i class="fas fa-angle-right ml-1"></i></p>
-                  <p class="font-12">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>  
-
-                </div>
-
-                <!-- Cart Product Box -->
-                <div class="cart_product_box media p-2">
-                  <div class="cart-product-check">
-                    <b-form-checkbox
-                      id="checkbox-1"
-                      v-model="status"
-                      name="checkbox-1"
-                      value="checked"
-                      unchecked-value="not_checked"
-                    >
-                    </b-form-checkbox>
-                  </div>
-                  <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                <div class="cart_product_box media align-items-center p-3">
+                  <div class="cart-product-img"><img :src="require('@/assets/images/fashion/4.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
-                    <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                    <p class="mt-0 mb-1 font-weight-bold">Coat</p>
                     <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                  </div>
-                  <div class="media-body">
-                    <p class="d-flex flex-column">
-                      <span class="discounted-price mr-1 color-green">$2.00</span>
-                      <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
+                    <p class="d-flex">
+                      <span class="discounted-price mr-3 color-green">$2.00</span>
+                      <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
                       <span class="discount mr-1 color-red">-25%</span>
                     </p>
-                    <div class="cart-buttons">
-                      <button class="mr-2">
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-increment-decrement">
+                      <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                      <button class="mr-2 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
-                      <button><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14"><i class="far fa-trash-alt"></i></button>
                     </div>
-                  </div>
-                  <div class="cart-increment-decrement">
-                    <b-form-spinbutton id="cart_increment" v-model="value" min="1" max="100"></b-form-spinbutton>
                   </div>
                 </div>
               </li>
@@ -295,12 +175,17 @@
     </section>
 
     <PaymentMethods />
+
   </div>
 </template>
 
 <script>
+import PaymentMethods from '../components/partials/PaymentMethods'
 export default {
   name: "Cart",
+  components: {
+    PaymentMethods
+  },
   head() {
     return {
       title: 'Cart'

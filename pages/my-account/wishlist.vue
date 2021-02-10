@@ -1,10 +1,10 @@
 <template>
   <div>
-    <section class="wishlist-page pb-0">
+    <section class="wishlist-page bg-white p-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h4 class="mb-3">Wishlist</h4>
+            <h4 class="mb-4 pb-2 border-bottom">Wishlist</h4>
           </div>
           <div class="col-12">
 
@@ -23,9 +23,9 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/1.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
-                      <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                      <p class="mt-0 mb-1 font-weight-bold">Sunglass</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
                     </div>
                     <div class="media-body">
@@ -38,8 +38,8 @@
                         <span class="discounted-price mr-1 color-green">Price dropped</span></div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" title="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" title="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -64,11 +64,10 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/2.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
-                      <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                      <p class="mt-0 mb-1 font-weight-bold">Fashion Sunglass</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      <!-- <button><i class="far fa-trash-alt"></i></button> -->
                     </div>
                     <div class="media-body">
                       <div class="d-flex flex-column">
@@ -80,8 +79,8 @@
                         <span class="discounted-price mr-1 color-green">Price dropped</span></div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" name="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" name="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -89,11 +88,10 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/3.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
-                      <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                      <p class="mt-0 mb-1 font-weight-bold">Winter coat</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      <!-- <button><i class="far fa-trash-alt"></i></button> -->
                     </div>
                     <div class="media-body">
                       <div class="d-flex flex-column">
@@ -105,8 +103,8 @@
                         <span class="discounted-price mr-1 color-green">Price dropped</span></div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" name="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" name="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -114,11 +112,10 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/4.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
                       <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      <!-- <button><i class="far fa-trash-alt"></i></button> -->
                     </div>
                     <div class="media-body">
                       <div class="d-flex flex-column">
@@ -130,8 +127,8 @@
                         <span class="discounted-price mr-1 color-green">Price dropped</span></div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" name="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" name="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -156,11 +153,10 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/5.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
-                      <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                      <p class="mt-0 mb-1 font-weight-bold">Tops</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      <!-- <button><i class="far fa-trash-alt"></i></button> -->
                     </div>
                     <div class="media-body">
                       <div class="d-flex flex-column">
@@ -172,8 +168,8 @@
                         <span class="discounted-price mr-1 color-green">Price dropped</span></div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" name="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" name="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -181,11 +177,10 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/6.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
-                      <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                      <p class="mt-0 mb-1 font-weight-bold">Shirt</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      <!-- <button><i class="far fa-trash-alt"></i></button> -->
                     </div>
                     <div class="media-body">
                       <div class="d-flex flex-column">
@@ -198,8 +193,8 @@
                       </div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" name="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" name="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -207,11 +202,10 @@
                 <li class="bg-white mt-3">
                   <!-- Cart Product Box -->
                   <div class="cart_product_box media p-2">
-                    <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/7.jpg')" class="mr-3" alt="cart list"></div>
                     <div class="media-body">
-                      <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
+                      <p class="mt-0 mb-1 font-weight-bold">Long Coat</p>
                       <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      <!-- <button><i class="far fa-trash-alt"></i></button> -->
                     </div>
                     <div class="media-body">
                       <div class="d-flex flex-column">
@@ -223,8 +217,8 @@
                         <span class="discounted-price mr-1 color-green">Price dropped</span></div>
                     </div>
                     <div class="wishlist-add-to-cart">
-                      <button class="theme-button" name="delete"><i class="far fa-trash-alt"></i></button>
-                      <button class="theme-button" name="add to cart"><i class="fas fa-cart-plus"></i></button>
+                      <button class="font-14 ml-2" title="delete"><i class="far fa-trash-alt"></i></button>
+                      <button class="font-14 ml-2" title="add to cart"><i class="fas fa-cart-plus"></i></button>
                     </div>
                   </div>
                 </li>
@@ -246,7 +240,3 @@ export default {
   layout: 'dashboard'
 }
 </script>
-
-<style scoped>
-
-</style>

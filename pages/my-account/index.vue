@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="info-box-wrap">
+    <div class="info-box-wrap bg-white p-4">
 
       <div class="info-box w-100">
         <div class="d-flex justify-content-between align-content-center mb-4 info-box-title">

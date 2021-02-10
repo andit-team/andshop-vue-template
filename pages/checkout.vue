@@ -7,9 +7,9 @@
           <div class="col">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Product</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
+                <li class="breadcrumb-item"><nuxt-link to="/best-sellers">Product</nuxt-link></li>
+                <li class="breadcrumb-item active" aria-current="page">Checkout</li>
               </ol>
             </nav>
           </div>
@@ -53,7 +53,7 @@
                       <option selected>Choose City</option>
                       <option>Bagerhat</option>
                       <option>Jhenaidah</option>
-                      <option>Jhenaidah</option>
+                      <option>Khulna</option>
                     </select>
                   </div>
 
@@ -70,14 +70,6 @@
                   <label for="address">Address</label>
                   <input type="text" class="form-control" id="address" placeholder="For Example: House# 123, Street# 123, ABC Road">
                 </div>
-                <div class="form-group">
-                  <label>Select a label for effective delivery:</label>
-
-                  <div class="d-flex home-office-select">
-                    <span class="rounded active"><i class="fas fa-briefcase"></i>Office</span>
-                    <span class="rounded"><i class="fas fa-home"></i>Home</span>
-                  </div>
-                </div>
 
                 <button class="theme-button rounded">Save information</button>
               </form>
@@ -88,100 +80,79 @@
 
               <ul class="list-unstyled">
 
-                <li class="bg-white mt-3 mb-3">
-
-                  <!-- Package Bar -->
-                  <div class="package-bar d-flex justify-content-between align-items-center px-4 py-2 bg-3">
-                    <p>Package 1 of 2</p>
-                    <p>Fulfilled by <strong>Andbazar</strong></p>
-                  </div>
-
-                  <div class="delivery-and-product-wrap p-4">
-
-                    <!-- Delivery Option -->
-                    <div class="delivery-option-wrap">
-                      <p class="mb-2">Delivery Option</p>
-                      <div class="delivery-box d-flex rounded p-2 mb-2">
-                        <span class="mr-2"><i class="fas fa-check-circle"></i></span>
-                        <div class="delivery-content">
-                          <p class="font-14">$ 65</p>
-                          <p class="font-14">Home delivery</p>
-                          <p class="font-14">Est. Arrival: 3-5 Jan</p>
-                        </div>
-
-                      </div>
+                <li class="bg-white mb-3">
+                  <div class="cart_product_box media align-items-center p-3">
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/1.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="media-body">
+                      <p class="mt-0 mb-1 font-weight-bold">Tops</p>
+                      <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
+                      <p class="d-flex">
+                        <span class="discounted-price mr-3 color-green">$2.00</span>
+                        <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discount mr-1 color-red">-25%</span>
+                      </p>
                     </div>
-
-                    <!-- Checkout Product Box -->
-                    <div class="cart_product_box media">
-                      <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
-                      <div class="media-body">
-                        <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
-                        <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      </div>
-                      <div class="media-body">
-                        <div class="d-flex flex-column">
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discount ml-1 color-dark">-25%</span>
-                          <span class="ml-2"><button title="delete" class="text-center"><i class="far fa-trash-alt"></i></button></span>
-                        </div>
-                      </div>
-                      <div class="checkout-qty">
+                    <div class="media-body">
+                      <div class="checkout-qty text-center">
                         Qty: <strong>5</strong>
                       </div>
                     </div>
-
+                    <div class="media-body">
+                      <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                        <button class="font-14"><i class="far fa-trash-alt"></i></button>
+                      </div>
+                    </div>
                   </div>
-
                 </li>
 
-                <li class="bg-white mt-3 mb-3">
-
-                  <!-- Package Bar -->
-                  <div class="package-bar d-flex justify-content-between align-items-center px-4 py-2 bg-3">
-                    <p>Package 1 of 2</p>
-                    <p>Fulfilled by <strong>Andbazar</strong></p>
-                  </div>
-
-                  <div class="delivery-and-product-wrap p-4">
-
-                    <!-- Delivery Option -->
-                    <div class="delivery-option-wrap">
-                      <p class="mb-2">Delivery Option</p>
-                      <div class="delivery-box d-flex rounded p-2 mb-2">
-                        <span class="mr-2"><i class="fas fa-check-circle"></i></span>
-                        <div class="delivery-content">
-                          <p class="font-14">$ 65</p>
-                          <p class="font-14">Home delivery</p>
-                          <p class="font-14">Est. Arrival: 3-5 Jan</p>
-                        </div>
-
-                      </div>
+                <li class="bg-white mb-3">
+                  <div class="cart_product_box media align-items-center p-3">
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/2.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="media-body">
+                      <p class="mt-0 mb-1 font-weight-bold">Coat</p>
+                      <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
+                      <p class="d-flex">
+                        <span class="discounted-price mr-3 color-green">$2.00</span>
+                        <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discount mr-1 color-red">-25%</span>
+                      </p>
                     </div>
-
-                    <!-- Checkout Product Box -->
-                    <div class="cart_product_box media">
-                      <div class="cart-product-img"><img :src="require('@/assets/images/best-sellers/1.jpg')" class="mr-3" alt="cart list"></div>
-                      <div class="media-body">
-                        <p class="mt-0 mb-1 font-weight-bold">Product name here</p>
-                        <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
-                      </div>
-                      <div class="media-body">
-                        <div class="d-flex flex-column">
-                          <span class="discounted-price mr-1 color-red">$2.00</span>
-                          <span class="price mr-1 text-muted" style="text-decoration: line-through">$4.00</span>
-                          <span class="discount ml-1 color-dark">-25%</span>
-                          <span class="ml-2"><button title="delete" class="text-center"><i class="far fa-trash-alt"></i></button></span>
-                        </div>
-                      </div>
-                      <div class="checkout-qty">
+                    <div class="media-body">
+                      <div class="checkout-qty text-center">
                         Qty: <strong>5</strong>
                       </div>
                     </div>
-
+                    <div class="media-body">
+                      <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                        <button class="font-14"><i class="far fa-trash-alt"></i></button>
+                      </div>
+                    </div>
                   </div>
+                </li>
 
+                <li class="bg-white mb-3">
+                  <div class="cart_product_box media align-items-center p-3">
+                    <div class="cart-product-img"><img :src="require('@/assets/images/fashion/3.jpg')" class="mr-3" alt="cart list"></div>
+                    <div class="media-body">
+                      <p class="mt-0 mb-1 font-weight-bold">Women Wear</p>
+                      <p class="cart-product-des font-14">Product des congue felis in faucibus.</p>
+                      <p class="d-flex">
+                        <span class="discounted-price mr-3 color-green">$2.00</span>
+                        <span class="price mr-3 text-muted" style="text-decoration: line-through">$4.00</span>
+                        <span class="discount mr-1 color-red">-25%</span>
+                      </p>
+                    </div>
+                    <div class="media-body">
+                      <div class="checkout-qty text-center">
+                        Qty: <strong>5</strong>
+                      </div>
+                    </div>
+                    <div class="media-body">
+                      <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                        <button class="font-14"><i class="far fa-trash-alt"></i></button>
+                      </div>
+                    </div>
+                  </div>
                 </li>
 
               </ul>
@@ -198,11 +169,11 @@
 
                   <div class=" py-3 font-weight-bold">Shipping and billing</div>
                   <ul class="list-unstyled">
-                    <li class="d-flex justify-content-between py-3"><strong class="text-muted"><i class="fas fa-map-marker-alt"></i> Suraiya Aysha</strong><button>Edit</button></li>
+                    <li class="d-flex justify-content-between py-3"><strong class="text-muted"><i class="fas fa-map-marker-alt"></i>Suraiya Aysha</strong><button>Edit</button></li>
                     <li class="d-flex justify-content-between py-3"><p class="text-muted">House# 123, Street# 123, ABC Road </p></li>
                     <div class="checkout-address-modal-wrap">
                       <b-button v-b-modal.checkout-address-modal class="text-left bg-white heading-color p-2 font-14">
-                        Free delivery on collecting your order from Andbazar pickup point
+                        Free delivery on collecting your order from Andshop pickup point
                         <span class="font-12 d-block mt-1 text-muted">2 suggested collection point nearby</span>
                       </b-button>
 
@@ -217,12 +188,12 @@
                         </b-form-group>
 
                         <template #modal-footer="{ ok, cancel }">
-                          <b-button size="sm" class="bg-red border-0 p-2" @click="cancel()">
+                          <button size="sm" class="theme-button small-button rounded" @click="cancel()">
                             Cancel
-                          </b-button>
-                          <b-button size="sm" class="bg-red border-0 p-2" @click="ok()">
+                          </button>
+                          <button size="sm" class="theme-button small-button rounded" @click="ok()">
                             Confirm
-                          </b-button>
+                          </button>
                         </template>
 
                       </b-modal>
@@ -230,7 +201,7 @@
                     </div>
 
                     <li class="d-flex justify-content-between py-3"><strong class="text-muted"><i class="far fa-list-alt"></i>Bill to the same address</strong><button>Edit</button></li>
-                    <li class="d-flex justify-content-between py-3"><strong class="text-muted"><i class="fas fa-phone-alt"></i>0197111111</strong><button>Edit</button></li>
+                    <li class="d-flex justify-content-between py-3"><strong class="text-muted"><i class="fas fa-phone-alt"></i>+44 95 87 25</strong><button>Edit</button></li>
                     <li class="d-flex justify-content-between"><strong class="text-muted"><i class="fas fa-envelope"></i>asa@test.com</strong><button>Edit</button></li>
 
                   </ul>
@@ -270,8 +241,12 @@
 </template>
 
 <script>
+import PaymentMethods from '../components/partials/PaymentMethods'
 export default {
   name: "Checkout",
+  components: {
+    PaymentMethods
+  },
   head() {
     return {
       title: 'Checkout'

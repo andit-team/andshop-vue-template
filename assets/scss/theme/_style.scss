@@ -1178,8 +1178,13 @@ button:focus {
 .product-item .product-content {
 	padding: 10px;
 }
-.product-price-box .price , .product-price-box .discounted-price {
-    padding-top: 2px;
+.product-price-box .price, .product-price-box .discounted-price {
+    padding: 14px 5px 10px 0;
+    line-height: 5px;
+    display: inline-block;
+}
+span.special-tag {
+    padding-top: 1px;
 }
 
 /*Product Item CSS End*/
@@ -1275,9 +1280,11 @@ button:focus {
     margin: -2px 8px 0 0;
 }
 .details-price-list .b-form-spinbutton, .cart-increment-decrement .b-form-spinbutton {
-	border-radius: 0;
-	border: none;
-	border-bottom: 1px solid var(--dark);
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--dark);
+    height: 33px;
+    margin-bottom: 10px;
 }
 .details-price-list .b-form-spinbutton output, .cart-increment-decrement .b-form-spinbutton output {
     border: none!important;
@@ -1839,6 +1846,10 @@ span.single-counter-box {
 .cart-product-img img {
 	height: 70px;
 }
+.cart-increment-decrement {
+    width: 90px;
+    margin: 0 auto;
+}
 
 // Wishlist Page CSS
 .wishlist-page .cart_product_box {
@@ -1862,7 +1873,10 @@ span.single-counter-box {
 	min-width: 74%;
 }
 .product-checkout-wrap ul form .form-group input {
-	min-width: 100%;
+	min-width: 100%;   
+}
+.checkout-user-info-box ul li strong i {
+    margin-right: 6px;
 }
 
 // Delivery Option CSS
@@ -2144,7 +2158,7 @@ span.single-counter-box {
     .total-summary {
         .total {
         border-top: 1px solid var(--border-secondary);
-        margin: 20px 0;
+        margin: 20px 0 3px;
         padding-top: 20px;
         }
     }
@@ -2994,6 +3008,14 @@ span.single-counter-box {
         }
     }
 
+    // Merchant Dashboard
+    .merchant-product-features {
+        flex-direction: column;
+    }
+    .merchant-product-features li {
+        margin: 5px 0;
+    }
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     // Menu CSS
@@ -3114,15 +3136,15 @@ span.single-counter-box {
     }
 
     // Checkout Page
-    .checkout-page .cart_product_box.media {
+    .checkout-page .cart_product_box.media, .cart-page .cart_product_box.media {
         flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .checkout-page .cart_product_box.media .media-body, .cart-page .cart_product_box.media .media-body {
+        margin-top: 5px;
     }
     .checkout-page .cart-product-img {
         margin-bottom: 10px;
-    }
-    .checkout-page .cart_product_box.media .media-body .d-flex.flex-column {
-        flex-direction: row!important;
-        margin: 5px 0;
     }
 
     // Coming Soon Page

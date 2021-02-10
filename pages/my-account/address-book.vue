@@ -1,14 +1,15 @@
 <template>
   <div>
-    <div class="info-box-wrap">
+    <div class="info-box-wrap bg-white p-3">
+      <h4 class="mb-4 pb-2 border-bottom">Address book</h4> 
 
       <div class="info-box w-100">
         <!-- List Address-->
-        <div class="address-table bg-white p-4" v-if="addreList">
+        <div class="address-table" v-if="addreList">
           <b-table responsive :items="items">
             <template #cell(action)>
-              <button @click="updateState('edit')"><i class="far fa-edit mr-1"></i></button>
-              <button><i class="far fa-trash-alt ml-1"></i></button>
+              <button class="font-14" @click="updateState('edit')"><i class="far fa-edit mr-1"></i></button>
+              <button class="font-14"><i class="far fa-trash-alt ml-1"></i></button>
             </template>
           </b-table>
 
