@@ -23,7 +23,7 @@
           <i class="fas fa-star"></i>
         </div>
       </div>
-      <div class="product-price-box">
+      <div class="product-price-box d-flex align-items-center">
         <span class="price mr-1 text-muted" style="text-decoration: line-through">${{productItem.price}}</span>
         <span class="discounted-price mr-1 color-red">${{discountedPrice(productItem)}}</span>
         <span class="special-tag bg-red white-color rounded font-12 px-2">{{productItem.offerSeal}}</span>
