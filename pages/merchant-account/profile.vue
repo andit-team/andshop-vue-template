@@ -3,7 +3,10 @@
     <div class="info-box-wrap">
 
       <div class="info-box w-100">
-        <div class="d-flex justify-content-between align-content-center mb-4 info-box-title"><h4>Merchant Profile</h4> <button @click="openUpdateForm= true" class="theme-button small-button rounded">Edit</button></div>
+        <div class="d-flex justify-content-between align-content-center mb-4 info-box-title">
+          <h4>Merchant Profile</h4>
+          <button @click="openUpdateForm= true" class="theme-button small-button rounded">Edit</button>
+        </div>
 
         <div class="info-row-wrap" v-if="!openUpdateForm">
           <div class="info-row d-flex pb-2">

@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-between align-items-center">
-            <nuxt-link to="/" class="navbar-brand">
+            <nuxt-link to="/fashion" class="navbar-brand">
               <img :src="require('@/assets/images/logo.png')" alt="logo">
             </nuxt-link>
             <ProductSearch />

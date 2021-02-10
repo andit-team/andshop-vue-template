@@ -61,14 +61,14 @@
 
 <script>
 
-import FurnitureMainSlider from '../components/furniture/MainSlider'
+import FurnitureMainSlider from '../components/furniture/FurnitureMainSlider'
 import RisingStar from '../components/partials/RisingStar'
-import FurnitureFlashDeals from '../components/furniture/FlashDeals'
-import FurniturePopularCategories from '../components/furniture/PopularCategories'
-import FurnitureBestSellers from '../components/furniture/BestSellers'
-import FurnitureNewArrivals from '../components/furniture/NewArrivals'
-import FurnitureUpcomingProducts from '../components/furniture/UpcomingProducts'
-import FurnitureTopRatedProducts from '../components/furniture/TopRatedProducts'
+import FurnitureFlashDeals from '../components/furniture/FurnitureFlashDeals'
+import FurniturePopularCategories from '../components/furniture/FurniturePopularCategories'
+import FurnitureBestSellers from '../components/furniture/FurnitureBestSellers'
+import FurnitureNewArrivals from '../components/furniture/FurnitureNewArrivals'
+import FurnitureUpcomingProducts from '../components/furniture/FurnitureUpcomingProducts'
+import FurnitureTopRatedProducts from '../components/furniture/FurnitureTopRatedProducts'
 import PaymentMethods from '../components/partials/PaymentMethods'
 
 export default {

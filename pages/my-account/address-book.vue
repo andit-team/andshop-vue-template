@@ -4,10 +4,11 @@
 
       <div class="info-box w-100">
         <!-- List Address-->
-        <div class="address-table" v-if="addreList">
+        <div class="address-table bg-white p-4" v-if="addreList">
           <b-table responsive :items="items">
             <template #cell(action)>
-              <button @click="updateState('edit')" class="hover-color">Edit</button>
+              <button @click="updateState('edit')"><i class="far fa-edit mr-1"></i></button>
+              <button><i class="far fa-trash-alt ml-1"></i></button>
             </template>
           </b-table>
 
@@ -44,9 +45,9 @@
                 <label for="city">City</label>
                 <select id="city" class="form-control">
                   <option selected>Choose City</option>
-                  <option>Bagerhat</option>
-                  <option>Jhenaidah</option>
-                  <option>Jhenaidah</option>
+                  <option>Canada</option>
+                  <option>New Jersy</option>
+                  <option>Ontario</option>
                 </select>
               </div>
 
@@ -179,10 +180,10 @@ export default {
         }
       ],
       items: [
-        {full_name: 'Dickerson', address: 'anina address, Janina address,', region: 'Khulna - Jhenaidah - Shailakupa', phone: 1235440, action: '' },
-        {full_name: 'Larsen', address: 'anina address, Janina address,', region: 'Khulna - Jhenaidah - Shailakupa', phone: 1235421, action: '' },
-        {full_name: 'Geneva', address: 'anina address, Janina address,', region: 'Khulna - Jhenaidah - Shailakupa', phone: 1235489, action: '' },
-        {full_name: 'Jami', address: 'anina address, Janina address,', region: 'Khulna - Jhenaidah - Shailakupa', phone: 1235438, action: ''}
+        {full_name: 'Dickerson', address: 'Road: 5, House: 12, US', region: 'United State', phone: '+44 253214', action: '' },
+        {full_name: 'Larsen', address: 'Road: 5, House: 12, US', region: 'United State', phone: '+44 253514', action: '' },
+        {full_name: 'Geneva', address: 'Road: 5, House: 12, US', region: 'United State', phone: '+44 237219', action: '' },
+        {full_name: 'Laura Lea', address: 'Road: 5, House: 12, US', region: 'United State', phone: '+44 553764', action: ''}
       ]
     }
   },

@@ -61,7 +61,7 @@
 
 <script>
 
-import GroceriesMainSlider from '../components/groceries/MainSlider'
+import GroceriesMainSlider from '../components/groceries/GroceriesMainSlider'
 import RisingStar from '../components/partials/RisingStar'
 import GroceriesFlashDeals from '../components/groceries/FlashDeals'
 import GroceriesPopularCategories from '../components/groceries/PopularCategories'

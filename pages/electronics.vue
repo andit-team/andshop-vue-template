@@ -61,14 +61,14 @@
 
 <script>
 
-import ElectronicsMainSlider from '../components/electronics/MainSlider'
+import ElectronicsMainSlider from '../components/electronics/ElectronicsMainSlider'
 import RisingStar from '../components/partials/RisingStar'
-import ElectronicsFlashDeals from '../components/electronics/FlashDeals'
-import ElectronicsPopularCategories from '../components/electronics/PopularCategories'
-import ElectronicsBestSellers from '../components/electronics/BestSellers'
-import ElectronicsNewArrivals from '../components/electronics/NewArrivals'
-import ElectronicsUpcomingProducts from '../components/electronics/UpcomingProducts'
-import ElectronicsTopRatedProducts from '../components/electronics/TopRatedProducts'
+import ElectronicsFlashDeals from '../components/electronics/ElectronicsFlashDeals'
+import ElectronicsPopularCategories from '../components/electronics/ElectronicsPopularCategories'
+import ElectronicsBestSellers from '../components/electronics/ElectronicsBestSellers'
+import ElectronicsNewArrivals from '../components/electronics/ElectronicsNewArrivals'
+import ElectronicsUpcomingProducts from '../components/electronics/ElectronicsUpcomingProducts'
+import ElectronicsTopRatedProducts from '../components/electronics/ElectronicsTopRatedProducts'
 import PaymentMethods from '../components/partials/PaymentMethods'
 
 export default {

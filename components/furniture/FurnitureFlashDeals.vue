@@ -18,8 +18,8 @@
       <div class="row flash-sale-slider-wrap m-0">
 
         <!-- Flash sale item start-->
-        <div v-for="(flashItemAsa, index) in flashItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <FlashDealsItem :flashItem = 'flashItemAsa' />
+        <div v-for="(flashItem, index) in flashItems" :key="index" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <FlashDealsItem :flashItem = 'flashItem' />
         </div>
         <!-- Flash sale item end-->
 

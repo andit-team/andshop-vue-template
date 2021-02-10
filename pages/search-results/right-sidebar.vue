@@ -48,7 +48,7 @@
               <div class="best-seller-items-wrap d-flex flex-wrap product-row">
 
                 <!-- Best Seller item start-->
-                <div v-for="(productItem, index) in productItems" :key="index" class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 product-item-col">
+                <div v-for="(productItem, index) in productItems" :key="index" class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 product-item-col">
                   <ProductItem :productItem ='productItem' />
                 </div>
                 <!-- Best Seller item end-->
@@ -82,12 +82,14 @@
 <script>
 import ProductItem from '../../components/item-box/ProductItem'
 import ProductPageSidebar from '../../components/partials/ProductPageSidebar'
+import PaymentMethods from '../../components/partials/PaymentMethods'
 
 export default {
   name: "SearchResultsPage",
   components: {
     ProductItem,
-    ProductPageSidebar
+    ProductPageSidebar,
+    PaymentMethods
   },
   head() {
     return {
@@ -255,6 +257,26 @@ export default {
           "title": "Tops",
           "tags": "Alu, Morich",
           "image": require('@/assets/images/fashion/16.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 17,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/2.jpg'),
+          "price": "150.00",
+          "discount": "10",
+          "priceRange": "150.00",
+          "offerSeal": "Sale"
+        },
+        {
+          "id": 18,
+          "title": "Tops",
+          "tags": "Alu, Morich",
+          "image": require('@/assets/images/fashion/4.jpg'),
           "price": "150.00",
           "discount": "10",
           "priceRange": "150.00",

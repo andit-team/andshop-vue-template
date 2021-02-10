@@ -4,7 +4,7 @@
       <img :src="productItem.image" alt="products" class="rounded-top">
       <div class="product_action_box w-100">
         <ul class="list_none pr_action_btn d-flex justify-content-center">
-          <li class="add-to-cart"><a href="#"><b-icon icon="cart-plus-fill"></b-icon></a></li>
+          <li class="add-to-cart"><a href="javascript: void(0);"><b-icon icon="cart-plus-fill"></b-icon></a></li>
           <li><nuxt-link to="/my-account/wishlist"><b-icon icon="heart"></b-icon></nuxt-link></li>
           <li><nuxt-link to="/product-compare"><b-icon icon="arrow-repeat"></b-icon></nuxt-link></li>
           <li><nuxt-link to="/product-details"><b-icon icon="eye-fill"></b-icon></nuxt-link></li>
@@ -23,11 +23,11 @@
           <i class="fas fa-star"></i>
         </div>
       </div>
-      <p>
+      <div class="product-price-box">
         <span class="price mr-1 text-muted" style="text-decoration: line-through">${{productItem.price}}</span>
         <span class="discounted-price mr-1 color-red">${{discountedPrice(productItem)}}</span>
-        <span class="special-tag badge bg-red white-color">{{productItem.offerSeal}}</span>
-      </p>
+        <span class="special-tag bg-red white-color rounded font-12 px-2">{{productItem.offerSeal}}</span>
+      </div>
     </div>
   </div>
 </template>

@@ -4,7 +4,7 @@
       <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
         <img :src="blogItem.image" alt="Image">
       </nuxt-link>
-      <span>25 <br> Jun</span>
+      <span class="font-14 text-white">25 <br> Jun</span>
     </div>
     <div class="blog-content">
       <ul>

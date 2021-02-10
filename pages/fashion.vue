@@ -61,14 +61,14 @@
 
 <script>
 
-import FashionMainSlider from '../components/fashion/MainSlider'
+import FashionMainSlider from '../components/fashion/FashionMainSlider'
 import RisingStar from '../components/partials/RisingStar'
-import FashionFlashDeals from '../components/fashion/FlashDeals'
-import FashionPopularCategories from '../components/fashion/PopularCategories'
-import FashionBestSellers from '../components/fashion/BestSellers'
-import FashionNewArrivals from '../components/fashion/NewArrivals'
-import FashionUpcomingProducts from '../components/fashion/UpcomingProducts'
-import FashionTopRatedProducts from '../components/fashion/TopRatedProducts'
+import FashionFlashDeals from '../components/fashion/FashionFlashDeals'
+import FashionPopularCategories from '../components/fashion/FashionPopularCategories'
+import FashionBestSellers from '../components/fashion/FashionBestSellers'
+import FashionNewArrivals from '../components/fashion/FashionNewArrivals'
+import FashionUpcomingProducts from '../components/fashion/FashionUpcomingProducts'
+import FashionTopRatedProducts from '../components/fashion/FashionTopRatedProducts'
 import PaymentMethods from '../components/partials/PaymentMethods'
 
 export default {

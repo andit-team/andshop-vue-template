@@ -35,9 +35,9 @@
 
               <!-- Blog item start-->
               <div class="col product-item-col">
-                <div class="single-blog">
+                <div class="single-blog mb-0">
                   <div class="blog-img">
-                    <img :src='"@/assets/images/blog/blog-details-1.jpg"' alt="Image">
+                    <img :src='require("@/assets/images/blog/blog-details-1.jpg")' alt="Image">
                     <span>25 <br> Jun</span>
                   </div>
                   <div class="blog-content mb-3">
@@ -61,7 +61,7 @@
                     </p>
 
                     <blockquote class="d-flex">
-                      <div class="quote-img mr-4"><img :src='"@/assets/images/all-icon/quotation.png"' alt="Image"></div>
+                      <div class="quote-img mr-4"><img :src='require("@/assets/images/all-icon/quotation.png")' alt="Image" style="height: 50px;"></div>
                       <p>
                       “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation”</p>
                     </blockquote>

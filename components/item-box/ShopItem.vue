@@ -4,7 +4,7 @@
       <div class="shop-img-wrap">
         <img :src="shopItem.image" alt="Shop Name">
       </div>
-      <p class="shop-name">{{shopItem.title}}</p>
+      <p class="shop-name font-weight-600 heading-color">{{shopItem.title}}</p>
     </nuxt-link>
   </div>
 
