@@ -2,11 +2,11 @@
   <div class="merchant-products-page">
     <div class="card dashboard-table border-0 mt-0">
       <div class="card-body">
-        <div class="top-sec d-flex justify-content-between mb-4">
+        <div class="top-sec d-flex justify-content-between mb-4 pb-2 border-bottom">
           <h4 class="text-capitalize">all products</h4>
           <nuxt-link to="/merchant-account/products/add-product" class="theme-button small-button rounded">add product</nuxt-link>
         </div>
-        <div class="filtering-part">
+        <div class="filtering-part mb-2">
           <form @click.prevent>
             <div class="form-row">
               <div class="form-group col">
@@ -34,7 +34,7 @@
             </div>
           </form>
         </div>
-        <table class="table-responsive-md table mb-0">
+        <table class="table-responsive-xs table-responsive-sm table-responsive-md table-responsive-lg table mb-0">
           <thead>
             <tr>
               <th scope="col">image</th>
@@ -48,7 +48,7 @@
           </thead>
             <tbody>
               <tr>
-                <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                <th scope="row"><img :src="require('@/assets/images/fashion/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                 <td>neck velvet dress</td>
                 <td>women clothes</td>
                 <td>$205</td>
@@ -60,7 +60,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                <th scope="row"><img :src="require('@/assets/images/furniture/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                 <td>belted trench coat</td>
                 <td>women clothes</td>
                 <td>$350</td>
@@ -72,7 +72,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                <th scope="row"><img :src="require('@/assets/images/electronics/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                 <td>men print tee</td>
                 <td>men clothes</td>
                 <td>$150</td>
@@ -84,7 +84,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                <th scope="row"><img :src="require('@/assets/images/groceries/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
                 <td>woman print tee</td>
                 <td>women clothes</td>
                 <td>$150</td>
@@ -96,7 +96,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                <th scope="row"><img :src="require('@/assets/images/fashion/3.jpg')" class="blur-up lazyloaded" alt="product"></th>
                 <td>men print tee</td>
                 <td>men clothes</td>
                 <td>$150</td>
@@ -108,7 +108,7 @@
                 </td>
               </tr>
               <tr>
-                <th scope="row"><img :src="require('@/assets/images/products/1.jpg')" class="blur-up lazyloaded" alt="product"></th>
+                <th scope="row"><img :src="require('@/assets/images/furniture/4.jpg')" class="blur-up lazyloaded" alt="product"></th>
                 <td>men print tee</td>
                 <td>men clothes</td>
                 <td>$150</td>
@@ -130,10 +130,5 @@
 export default {
   name: 'merchantProducts',
   layout: 'merchant-dashboard',
-
 }
 </script>
-
-<style>
-
-</style>

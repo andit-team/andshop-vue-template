@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="form-row">
-              <div class="form-group col">
+              <div class="form-group datepicker-wrap col">
                 <label for="datepicker">Product Available From</label>
                 <b-form-datepicker class="form-control" id="datepicker" placeholder="Choose a date" locale="en"></b-form-datepicker>
               </div>
@@ -65,7 +65,7 @@
             <div class="form-row">
               <div class="form-group col">
                 <div class="upload-product-img">
-                  <img :src="require('@/assets/images/products/1.jpg')" style="height: 100px" class="blur-up lazyloaded" alt="product">
+                  <img :src="require('@/assets/images/fashion/2.jpg')" style="height: 100px" class="blur-up lazyloaded" alt="product">
                 </div>
                 <div class="upload-product-photo">
                   <div class="upload-img" style="width:168px;">
@@ -140,7 +140,10 @@ export default {
 
 <style>
 #datepicker {
-	padding: 10px;
+  padding: 7px 10px 12px;
+}
+#datepicker svg {
+    height: 18px;
 }
 .vue-dropzone {
 	border: 2px dashed #e5e5e5;

@@ -31,7 +31,7 @@
             </div>
             <div class="col">
               <ul>
-                <li><img :src="require('@/assets/images/others/menu_banner1.jpg')" alt="20% off on Sale"></li>
+                <li> <nuxt-link to="/categories/furniture"><img :src="require('@/assets/images/others/menu_banner1.jpg')" alt="20% off on Sale"></nuxt-link></li>
               </ul>
             </div>
         </div>
@@ -67,8 +67,8 @@
         </div>
         <div class="col">
           <ul>
-            <li class="my-1"><img :src="require('@/assets/images/others/menu_banner2.jpg')" alt="20% off on Sale"></li>
-            <li class="my-1"><img :src="require('@/assets/images/others/menu_banner3.jpg')" alt="20% off on Sale"></li>
+            <li class="my-1"><nuxt-link to="/top-rated-products"><img :src="require('@/assets/images/others/menu_banner2.jpg')" alt="20% off on Sale"></nuxt-link></li>
+            <li class="my-1"><nuxt-link to="/search-results"><img :src="require('@/assets/images/others/menu_banner3.jpg')" alt="20% off on Sale"></nuxt-link></li>
           </ul>
         </div>
       </div>
@@ -186,8 +186,8 @@
         </div>
         <div class="col">
           <ul>
-            <li class="my-1"><img :src="require('@/assets/images/others/menu_banner2.jpg')" alt="20% off on Sale"></li>
-            <li class="my-1"><img :src="require('@/assets/images/others/menu_banner3.jpg')" alt="20% off on Sale"></li>
+            <li class="my-1"><nuxt-link to="/top-rated-products"><img :src="require('@/assets/images/others/menu_banner2.jpg')" alt="20% off on Sale"></nuxt-link></li>
+            <li class="my-1"><nuxt-link to="/search-results"><img :src="require('@/assets/images/others/menu_banner3.jpg')" alt="20% off on Sale"></nuxt-link></li>
           </ul>
         </div>
       </div>

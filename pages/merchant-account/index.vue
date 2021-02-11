@@ -28,8 +28,8 @@
 
     <div class="row graphical-chart-wrap mb-4">
 
-      <div class="col-md-12 col-lg-12 col-xl-6">
-        <div class="card border-0 p-3">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-6">
+        <div class="graph-chart-wrap card border-0 p-3">
           <div class="card-body">
             <h6 class="header-title">Total Revenue</h6>
             <div class="mt-3 text-center">
@@ -41,8 +41,8 @@
         </div>
       </div>
 
-      <div class="col-md-12 col-lg-12 col-xl-6">
-        <div class="card border-0 p-3">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-6">
+        <div class="graph-chart-wrap card border-0 p-3">
           <div class="card-body">
            <h6 class="header-title mb-2">Total Sales</h6>
             <div id="chart">
@@ -56,9 +56,9 @@
     </div>
 
     <div class="row merchant-product-table">
-      <div class="col-lg-6">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-6">
         <div class="card dashboard-table border-0">
-          <div class="card-body">
+          <div class="card-body table-responsive">
             <h6 class="header-title mb-3">Trending Products</h6>
             <table class="table mb-0">
               <thead>
@@ -93,9 +93,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-6">
         <div class="card dashboard-table border-0">
-          <div class="card-body">
+          <div class="card-body table-responsive">
             <h6 class="header-title mb-3">Recent Orders</h6>
             <table class="table mb-0">
               <thead>
@@ -120,11 +120,6 @@
                   <th scope="row">#51512</th>
                   <td>man print tee</td>
                   <td>pending</td>
-                </tr>
-                <tr>
-                  <th scope="row">#78153</th>
-                  <td>belted trench coat</td>
-                  <td>shipped</td>
                 </tr>
                 <tr>
                   <th scope="row">#78153</th>

@@ -129,6 +129,7 @@ img::selection {
     height: 45px;
     color: #777c87;
     border: 1px solid var(--border-secondary);
+    padding: 11px 10px 8px;
 }
 .form-control:focus {
     background-color: #fff;
@@ -493,7 +494,7 @@ button:focus {
 }
 .product_search_form select {
     border-radius: 30px 0 0 30px;
-    padding: 8px 35px 8px 15px;
+    padding: 8px 35px 5px 15px;
 }
 .product_search_form input {
     border-radius: 0 30px 30px 0 !important;
@@ -503,7 +504,7 @@ button:focus {
 }
 .product_search_form .form-control, .product_search_form input {
 	border-radius: 30px;
-	padding: 10px 20px;
+	padding: 10px 20px 6px;
 	border-left: 1px solid var(--border-color);
 	padding-left: 10px !important;
 }
@@ -2469,6 +2470,9 @@ span.single-counter-box {
 .upload-product-photo button {
 	width: 150px;
 }
+.datepicker-wrap .b-form-btn-label-control.form-control {
+    padding: 0px 10px 0;
+}
 /*-------------------------------------------
     21. Merchant Dashboard End
 -------------------------------------------*/
@@ -2833,6 +2837,11 @@ span.single-counter-box {
         margin: -40px 0 0;
     }
 
+    // Merchant Dashboard
+    .graph-chart-wrap, .merchant-product-table .dashboard-table {
+        margin-bottom: 20px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -3039,6 +3048,16 @@ span.single-counter-box {
     .merchant-product-features li {
         margin: 5px 0;
     }
+    .merchant-product-table .table tr th {
+        font-size: 13px;
+    }
+    .merchant-product-table .table tr td {
+        font-size: 13px;
+        padding: 10px 6px;
+    }
+    .filtering-part form .form-row, .merchant-add-product form .form-row {
+        flex-direction: column;
+    }
 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -3174,6 +3193,11 @@ span.single-counter-box {
     // Coming Soon Page
     .coming-soon-page .coming-soon-img img {
         height: auto;
+    }
+
+    // Merchant Dashboard
+    .merchant-dashboard .dashboard-left-bar{
+        min-height: auto;
     }
 
   }

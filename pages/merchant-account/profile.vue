@@ -87,7 +87,7 @@
           <div class="form-row">
             <div class="form-group col">
               <button type="button" @click="openUpdateForm= !openUpdateForm" class="theme-button rounded justify-content-center bg-dark">Cancel</button>
-              <button type="button" class="theme-button rounded justify-content-center">Save</button>
+              <button type="button" @click="openUpdateForm= !openUpdateForm" class="theme-button rounded justify-content-center">Save</button>
             </div>
           </div>
           </form>
@@ -107,6 +107,6 @@ export default {
     return {
       openUpdateForm: false,
     }
-  }
+  },
 }
 </script>

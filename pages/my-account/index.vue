@@ -57,7 +57,7 @@
 
             <div class="form-group">
               <button type="button" @click="openUpdateForm= !openUpdateForm" class="theme-button rounded justify-content-center bg-dark">Cancel</button>
-              <button type="button" class="theme-button rounded justify-content-center">Save</button>
+              <button type="button" @click="openUpdateForm= !openUpdateForm" class="theme-button rounded justify-content-center">Save</button>
             </div>
           </form>
         </div>
