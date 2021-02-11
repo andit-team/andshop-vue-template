@@ -4,7 +4,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Andshop',
+    title: 'andshop-asa',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -54,12 +54,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     'vue-scrollto/nuxt',
-    '@nuxtjs/axios',
   ],
-
-  axios: {
-    proxy: true
-  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

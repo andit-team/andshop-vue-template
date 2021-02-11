@@ -109,7 +109,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-6 col-md-6 col-sm-12">
-            <div class="footer-end">
+            <div class="footer-end d-flex align-items-center h-100">
               <p class="white-color font-14">
                 <i class="fa fa-copyright" aria-hidden="true"></i> 2021-2022 Andshop. All Rights Reserved
               </p>
@@ -119,8 +119,8 @@
             <div class="bottom-footer-list">
               <ul>
                 <li><nuxt-link to="/merchant-account/login" class="nav-link">Sell on Andshop</nuxt-link></li>
-                <li><a href="#">Download App</a></li>
-                <li><a href="#">Customer service</a></li>
+                <li><a href="javascript: void(0);">Download App</a></li>
+                <li><a href="javascript: void(0);">Customer service</a></li>
               </ul>
             </div>
           </div>
@@ -136,7 +136,3 @@ export default {
   name: "Footer"
 }
 </script>
-
-<style scoped>
-
-</style>

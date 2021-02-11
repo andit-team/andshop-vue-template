@@ -10,7 +10,7 @@
       <div class="account-info-box d-flex align-items-center rounded">
         <div>Total Debit <span class="d-block">$<strong>1431</strong></span></div>
       </div>
-      <div v-b-modal.withdraw_modal class="account-info-box d-flex align-items-center hover-color rounded withdraw-btn">
+      <div v-b-modal.withdraw_modal class="account-info-box d-flex align-items-center font-weight-bolder hover-color rounded withdraw-btn">
         Withdraw<span><b-icon icon="arrow-right" aria-hidden="true"></b-icon></span>
       </div>
 
