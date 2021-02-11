@@ -594,27 +594,22 @@ button:focus {
     height: 70px;
 }
 .middle-menu-dropdown .dropdown-menu {
-    width: 300px;
-    -webkit-transform: scale(0.75) translateY(0px) translate3d(-300px, 24px, 0px) !important;
-    -ms-transform: scale(0.75) translateY(0px) translate3d(-300px, 24px, 0px) !important;
-    transform: scale(0.75) translateY(0px) translate3d(-300px, 24px, 0px) !important;
-    -webkit-transition: all 0.2s , opacity 0.15s ease;
-    transition: all 0.2s , opacity 0.15s ease;
+    width: 250px;
+    transition: all 0.2s, opacity 0.15s ease;
     display: block !important;
     opacity: 0;
     visibility: hidden !important;
-    left: 0;
-    top: 32px;
+    left: -232px !important;
     z-index: 1;
+    transform: none !important;
+    // top: 13px!important;
 }
 .middle-menu-dropdown .dropdown-menu.show {
     z-index: 9999;
     opacity: 1;
     visibility: visible !important;
-    left: -59px!important;
-    -webkit-transform: scale(1) translateY(0) translate3d(-226px, 24px, 0px) !important;
-    -ms-transform: scale(1) translateY(0) translate3d(-226px, 24px, 0px) !important;
-    transform: scale(1) translateY(0) translate3d(-226px, 24px, 0px) !important;
+    transform: none!important;
+    top: 13px!important;
 }
 .middle-menu-dropdown {
     margin-left: 25px;
@@ -789,16 +784,11 @@ button:focus {
 }
 .top-menu .dropdown-menu {
     background-color: #fff;
-    height: auto !important;
-    -webkit-transform: scale(0.75) translateY(-21px) translate3d(-32px, 23px, 0px) !important;
-    -ms-transform: scale(0.75) translateY(-21px) translate3d(-32px, 23px, 0px) !important;
-    transform: scale(0.75) translateY(-21px) translate3d(-32px, 23px, 0px) !important;
-    -webkit-transition: all 0.2s , opacity 0.15s ease;
     transition: all 0.2s , opacity 0.15s ease;
     display: block !important;
     opacity: 0;
     visibility: hidden !important;
-    left: 0;
+    left: -35px !important;
     top: 32px;
     z-index: 1;
 }
@@ -806,9 +796,6 @@ button:focus {
     z-index: 9999;
     opacity: 1;
     visibility: visible !important;
-    -webkit-transform: scale(1) translateY(0) translate3d(-32px, 23px, 0px) !important;
-    -ms-transform: scale(1) translateY(0) translate3d(-32px, 23px, 0px) !important;
-    transform: scale(1) translateY(0) translate3d(-32px, 23px, 0px) !important;
 }
 .dropdown-toggle::after {
     display: none;
@@ -859,8 +846,9 @@ button:focus {
 	color: #02010A;
         .accordion-arrow {
             position: absolute;
-            right: 0;
+            right: 15px;
             font-size: 12px;
+            top: 12px;
         }
         
         &:hover {
@@ -944,6 +932,7 @@ button:focus {
     display: flex;
     font-size: 14px;
     justify-content: space-between;
+    align-items: center;
 }
 .parent_category_list li a span img {
 	height: 20px;
@@ -1251,10 +1240,11 @@ span.special-tag {
     border: 1px solid var(--border-color);
     margin-left: 5px;
     padding-right: 40px;
-    height: 33px;
-    font-size: 14px;
+    height: 39px;
+    font-size: 13px;
     background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.76297 11.8899C9.54611 11.547 10.1726 10.3225 10.7991 9.68571C11.2299 9.19589 11.5823 8.70607 11.9347 8.11829C12.248 7.62847 13.2269 6.69782 13.3052 6.69782C14.5191 6.35495 14.01 4.00382 12.7962 4.34669C11.8172 4.5916 11.0732 5.71818 10.4076 6.59985C9.82021 7.38356 8.99791 8.16727 8.48887 9.04894C8.41056 9.09792 8.33224 9.19589 8.29309 9.24487C8.21477 9.19589 8.17561 9.1469 8.05814 9.04894C7.70573 8.26523 6.88343 7.53051 6.37438 6.94273C5.51293 6.01207 4.57316 4.88549 3.51592 4.19975C3.39845 4.10178 3.24182 4.00382 3.04603 4.00382C3.00687 4.00382 3.00687 4.00382 2.96772 4.00382C1.98879 3.90586 1.63638 5.71818 2.45867 6.30596C3.79002 7.18763 5.00389 8.65709 6.06113 9.97959C6.7268 10.8613 7.62741 12.4287 8.76297 11.8899Z' fill='%23909BA3' /%3E%3C/svg%3E%0A") !important;
 }
+
 /*-------------------------------------------
     8. Product Search Page Area End
 -------------------------------------------*/
@@ -1284,8 +1274,10 @@ span.special-tag {
     border-radius: 0;
     border: none;
     border-bottom: 1px solid var(--dark);
-    height: 33px;
     margin-bottom: 10px;
+}
+.b-form-spinbutton output > div, .b-form-spinbutton output > bdi {
+    height: 1.2em;
 }
 .details-price-list .b-form-spinbutton output, .cart-increment-decrement .b-form-spinbutton output {
     border: none!important;
@@ -1848,8 +1840,11 @@ span.single-counter-box {
 	height: 70px;
 }
 .cart-increment-decrement {
-    width: 90px;
+    width: 99px;
     margin: 0 auto;
+    .b-form-spinbutton output > div, .b-form-spinbutton output > bdi {
+        height: 1em;
+    }
 }
 
 // Wishlist Page CSS
@@ -2014,6 +2009,10 @@ span.single-counter-box {
 .user-profile-photo-wrap .total-balance-btn {
 	padding: 7px 10px 4px;
 	width: 145px;
+}
+.dashboard-home-page .page-link {
+    padding: 0.6rem 0.75rem 0.4rem;
+    line-height: 1;
 }
 
 // User Profile Photo Upload CSS
@@ -2459,6 +2458,9 @@ span.single-counter-box {
 }
 .filtering-part form button:hover {
 	background-color: var(--hover-color);
+}
+ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box:last-child {
+    margin-right: 0!important;
 }
 
 // Merchant Add Product
@@ -2935,7 +2937,7 @@ span.single-counter-box {
     }
     .account-info-box {
         padding: 15px 15px;
-        width: 45% !important;
+        width: 100% !important;
         display: inline-flex !important;
         margin-bottom: 10px;
     }
@@ -3100,7 +3102,6 @@ span.single-counter-box {
 }
 
   @media only screen and (max-width: 768px) {
-    /*Main Menu Bar*/
 
 }
 /*=======================================
@@ -3195,8 +3196,8 @@ span.single-counter-box {
         height: auto;
     }
 
-    // Merchant Dashboard
-    .merchant-dashboard .dashboard-left-bar{
+    /*Customer Dashboard*/
+    .dashboard-left-bar, .dashboard-right-content {
         min-height: auto;
     }
 
@@ -3237,6 +3238,19 @@ span.single-counter-box {
 
 }
 @media only screen and (max-width: 575px){
+    // Mobile Menu CSS
+    .middle-menu-dropdown {
+        margin-left: 20px;
+    }
+    .middle-menu-dropdown .dropdown-menu {
+        left: 100 !important;
+        transform: none!important;
+        // top: 32px;
+    }
+    // .middle-menu-dropdown .dropdown-menu.show {
+    //     left: 100 !important;
+    //     }
+    // Mobile Menu CSS
     .flash-sale-item {
         width: 240px;
         margin: 0 auto;
@@ -3342,7 +3356,7 @@ span.single-counter-box {
 =========================================*/
   @media only screen and (min-width:380px) and (max-width:479px){
     .product_search_form {
-        width: 321px;
+        width: 290px;
     }
   }
   @media only screen and (max-width:399px){
@@ -3403,6 +3417,13 @@ span.single-counter-box {
     }
     .product-checkout-wrap ul form .theme-button {
         margin-left: 0 !important;
+    }
+
+    // Customer Account
+    .info-box button {
+        width: 105px;
+        justify-content: center;
+        margin: 10px 0;
     }
 
   }

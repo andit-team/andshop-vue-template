@@ -28,7 +28,7 @@
           <div class="col-12 col-lg-6">
             <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
-                <img :src="require('@/assets/images/services-img/krishi-baazar.png')" alt="Krishibaazar">
+                <img :src="require('@/assets/images/services-img/sme.png')" alt="Krishibaazar">
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/electronics" >Electronics</nuxt-link></h3>
@@ -52,7 +52,7 @@
           <div class="col-12 col-lg-6">
             <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
               <div class="service-img-wrap">
-                <img :src="require('@/assets/images/services-img/sme.png')" alt="SME">
+                <img :src="require('@/assets/images/services-img/krishi-baazar.png')" alt="SME">
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/groceries">Groceries</nuxt-link></h3>
@@ -112,8 +112,8 @@
               <h3>Discover the new andshop app</h3>
               <p class="mt-3 mb-5">Get what you need, when you need it.</p>
               <div class="download-app-btn">
-                <a href="#" class="mr-2"><img :src="require('@/assets/images/google-play.png')" alt="Google play"></a>
-                <a href="#" class="mr-2"><img :src="require('@/assets/images/app-store.png')" alt="App store"></a>
+                <a href="https://play.google.com/store/apps" target="_blank" class="mr-2"><img :src="require('@/assets/images/google-play.png')" alt="Google play"></a>
+                <a href="https://www.apple.com/shop" target="_blank" class="mr-2"><img :src="require('@/assets/images/app-store.png')" alt="App store"></a>
               </div>
             </div>
           </div>

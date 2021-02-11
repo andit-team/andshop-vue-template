@@ -27,7 +27,7 @@
             <!-- Cart Product List -->
             <ul class="list-unstyled">
 
-              <li class="bg-white mt-3">
+              <li class="bg-white mb-3">
                 <div class="cart_product_box media align-items-center p-3">
                   <div class="cart-product-img"><img :src="require('@/assets/images/fashion/1.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
@@ -46,7 +46,7 @@
                   </div>
                   <div class="media-body">
                     <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
-                      <button class="mr-2 font-14">
+                      <button class="mr-3 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
@@ -56,7 +56,7 @@
                 </div>
               </li>
 
-              <li class="bg-white mt-3">
+              <li class="bg-white mb-3">
                 <div class="cart_product_box media align-items-center p-3">
                   <div class="cart-product-img"><img :src="require('@/assets/images/fashion/2.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
@@ -75,7 +75,7 @@
                   </div>
                   <div class="media-body">
                     <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
-                      <button class="mr-2 font-14">
+                      <button class="mr-3 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
@@ -85,7 +85,7 @@
                 </div>
               </li>
 
-              <li class="bg-white mt-3">
+              <li class="bg-white mb-3">
                 <div class="cart_product_box media align-items-center p-3">
                   <div class="cart-product-img"><img :src="require('@/assets/images/fashion/3.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
@@ -104,7 +104,7 @@
                   </div>
                   <div class="media-body">
                     <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
-                      <button class="mr-2 font-14">
+                      <button class="mr-3 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>
@@ -114,7 +114,7 @@
                 </div>
               </li>
 
-              <li class="bg-white mt-3">
+              <li class="bg-white mb-3">
                 <div class="cart_product_box media align-items-center p-3">
                   <div class="cart-product-img"><img :src="require('@/assets/images/fashion/4.jpg')" class="mr-3" alt="cart list"></div>
                   <div class="media-body">
@@ -133,7 +133,7 @@
                   </div>
                   <div class="media-body">
                     <div class="cart-buttons d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
-                      <button class="mr-2 font-14">
+                      <button class="mr-3 font-14">
                         <i class="fas fa-heart" v-if="favorite"></i>
                         <i class="far fa-heart" v-else></i>
                         </button>

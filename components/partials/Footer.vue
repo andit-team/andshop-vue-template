@@ -13,6 +13,9 @@
               <div class="footer-content">
                 <ul>
                   <li>
+                    <nuxt-link to="/">Orientation Page</nuxt-link>
+                  </li>
+                  <li>
                     <nuxt-link to="/about-us">About us</nuxt-link>
                   </li>
                   <li>
@@ -36,9 +39,6 @@
               <div class="footer-content">
                 <ul>
                   <li>
-                    <nuxt-link to="/my-account/">Customer Info</nuxt-link>
-                  </li>
-                  <li>
                     <nuxt-link to="/my-account/my-orders/">Orders</nuxt-link>
                   </li>
                   <li>
@@ -49,6 +49,9 @@
                   </li>
                   <li>
                     <nuxt-link to="/checkout">Checkout</nuxt-link>
+                  </li>
+                  <li>
+                    <nuxt-link to="/compare">Compare</nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -62,6 +65,9 @@
               <div class="footer-content">
                 <ul>
                   <li>
+                    <nuxt-link to="/my-account/">Customer Info</nuxt-link>
+                  </li>
+                  <li>
                     <nuxt-link to="/my-account/my-orders/1">Order Tracking</nuxt-link>
                   </li>
                   <li>
@@ -72,9 +78,6 @@
                   </li>
                   <li>
                     <nuxt-link to="/terms-and-conditions">Terms & Conditions</nuxt-link>
-                  </li>
-                  <li>
-                    <nuxt-link to="/contact-us">Contact US</nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -119,8 +122,8 @@
             <div class="bottom-footer-list">
               <ul>
                 <li><nuxt-link to="/merchant-account/login" class="nav-link">Sell on Andshop</nuxt-link></li>
-                <li><a href="javascript: void(0);">Download App</a></li>
-                <li><a href="javascript: void(0);">Customer service</a></li>
+                <li><a href="https://play.google.com/store/apps" target="_blank">Download App</a></li>
+                <li><nuxt-link to="/my-account">Customer service</nuxt-link></li>
               </ul>
             </div>
           </div>

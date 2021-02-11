@@ -22,8 +22,8 @@
       </div> 
 
       <div class="p-2">
-        <h6>Suraiya Aysha</h6>
-        <p class="font-14">+955 81254758</p>
+        <h6 class="mt-1">Suraiya Aysha</h6>
+        <p class="font-14 my-2">+955 81254758</p>
         <p class="total-balance-btn rounded justify-content-center bg-red text-white m-auto">$500.00</p>
       </div>
     </div>

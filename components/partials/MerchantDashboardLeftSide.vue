@@ -22,7 +22,7 @@
       </div> 
 
       <div class="p-2">
-        <h6>OnlineShop</h6>
+        <h6 class="my-2">OnlineShop</h6>
         <p class="font-14">750 followers | 10 review</p>
       </div>
     </div>
