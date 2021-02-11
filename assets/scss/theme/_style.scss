@@ -66,7 +66,7 @@ body {
 }
 
 p{
-    line-height: 1.75;
+    line-height: 1.4;
     color: #414042;
     margin-bottom: 0;
     font-size: 16px;
@@ -1905,6 +1905,30 @@ span.single-counter-box {
 	background-color: var(--hover-color);
 }
 
+// Compare Page CSS
+.compare_box table tr td.row_title {
+    width: 270px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.compare_box td.row_img img {
+    width: 100%;
+}
+.compare_box table tr td {
+    vertical-align: middle;
+    width: 27%;
+}
+.compare_box table tr td.product_name {
+    text-transform: capitalize;
+}
+.row_remove button {
+    color: $color-red;
+    font-size: 16px;
+}
+.row_remove button i {
+    font-size: 13px;
+}
+
 /*-------------------------------------------
     17. Cart Page End
 -------------------------------------------*/
@@ -3159,6 +3183,23 @@ span.single-counter-box {
   =========================================*/
 
 @media only screen and (max-width: 766px){
+    // Compare Page
+    .compare_box table tr td {
+        width: 57%!important;
+    }
+    .compare_box .pr_add_to_cart .theme-button.small-button {
+        padding: 7px 7px!important;
+        height: 30px!important;
+        font-size: 11px!important;
+    }
+    .compare_box td.row_img img {
+        width: auto;
+        height: 93px;
+    }
+    .compare_box .row_remove button {
+        font-size: 14px;
+        padding: 7px 4px;
+    }
 }
 @media only screen and (min-width: 480px) and (max-width: 766px){
 

@@ -81,9 +81,9 @@
                     <b-form-spinbutton class="mr-4" id="sb-inline" v-model="reqularSaleQty" inline></b-form-spinbutton>
                   </div>
                   <div class="price-list-right">
-                    <h6>Regular Price</h6>
-                    <span class="price mr-1 text-muted">$ 50.00</span>
-                    <p class="stock in-stock font-14">500 KG in stock</p>
+                    <h6 class="pb-1">Regular Price</h6>
+                    <p class="price mr-1 pt-1 text-muted">$ 50.00</p>
+                    <p class="stock in-stock pt-1 font-13">500 KG in stock</p>
                   </div>
                 </div>
               </div>

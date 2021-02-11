@@ -6,8 +6,8 @@
           <div class="col-md-12 col-lg-6">
             <div class="subscribe">
               <div>
-                <h5 class="mb-2">KNOW IT ALL FIRST!</h5>
-                <p>Never Miss Anything From us By Signing Up To Our Newsletter.</p>
+                <h5 class="mb-2">DON'T MISS OUT LATEST NEWS!</h5>
+                <p>It takes only a second to get updates from our newsletter.</p>
               </div>
             </div>
           </div>

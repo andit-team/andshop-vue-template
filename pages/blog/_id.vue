@@ -38,7 +38,7 @@
                 <div class="single-blog mb-0">
                   <div class="blog-img">
                     <img :src='require("@/assets/images/blog/blog-details-1.jpg")' alt="Image">
-                    <span>25 <br> Jun</span>
+                    <span class="text-white">25 <br> Jun</span>
                   </div>
                   <div class="blog-content mb-3">
                     <ul class="d-flex">

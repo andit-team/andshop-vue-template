@@ -8,7 +8,6 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
                 <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Terms & Conditions</li>
               </ol>
             </nav>
@@ -24,7 +23,7 @@
           <div class="col-12 col-md-6">
             <div class="text-center">
               <h3 class="mb-3">Terms and Conditions</h3>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
+              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam.</p>
             </div>
           </div>
         </div>

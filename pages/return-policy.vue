@@ -8,7 +8,6 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
                 <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Return policy</li>
               </ol>
             </nav>

@@ -4,7 +4,6 @@
       <div class="card-body">
         <div class="top-sec d-flex justify-content-between mb-4">
           <h4 class="text-capitalize">all Orders</h4>
-          <nuxt-link to="/merchant-account/products/add-product" class="theme-button small-button rounded">add product</nuxt-link>
         </div>
         <table class="table table-responsive-sm mb-0">
           <thead>
