@@ -7,12 +7,11 @@
     <div class="shop-profile-details-container">
       <div class="container">
         <div class="row shop-profile-details-wrap align-items-center">
-          <!-- <div class="shop-profile-details-wrap d-flex"> -->
             <div class="col-12 col-sm-12 col-md-3 p-md-0">
               <div class="shop-profile-side-box mb-sm-2 text-center">
                 <img :src="require('@/assets/images/shops/1.png')" alt="shop">
                 <h4 class="mt-2">Fashion Store</h4>
-                <div class="shop-rating mt-2">
+                <div class="shop-rating mt-2 mb-2">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -30,11 +29,10 @@
             </div>
             <div class="col-12 col-sm-12 col-md-3 p-md-0">
               <div class="shop-profile-side-box text-center mt-sm-2">
-                <button class="theme-button rounded d-block font-12">Follow</button>
-                <button class="theme-button rounded d-block font-12">Chat</button>
+                <button class="theme-button small-button rounded d-block font-12">Follow</button>
+                <button class="theme-button small-button rounded d-block font-12">Chat</button>
               </div>
             </div>
-          <!-- </div> -->
         </div>
       </div>
     </div>

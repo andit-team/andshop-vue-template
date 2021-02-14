@@ -993,12 +993,6 @@ button:focus {
 /*Slider Area CSS*/
 .slide-item {
     height: 485px;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
 }
 .slider-area .swiper-pagination-bullet {
 	background-color: $color-red;
@@ -1008,7 +1002,6 @@ button:focus {
     transition: ease all .2s;
 }
 .slider-area .swiper-pagination-bullet.swiper-pagination-bullet-active {
-	// border-radius: 5px;
     opacity: 1;
 }
 /*-------------------------------------------
@@ -1099,7 +1092,7 @@ button:focus {
     margin-bottom: 30px;
     transition: all ease 0.4s;
         .img-wrap {
-            height: 240px;
+            // height: 240px;
             overflow: hidden;
             margin: 10px 10px 0;
             position: relative;
@@ -1207,8 +1200,6 @@ span.special-tag {
     display: block;
 }
 .left-sidebar-content .tags span {
-	border: 1px solid #e5e8eb;
-	border: 1px solid #e5e8eb;
 	border: 1px solid var(--border-secondary);
 	display: inline-block;
 	padding: 7px 10px 5px;
@@ -1290,8 +1281,8 @@ span.single-counter-box {
     border-radius: .25rem;
     padding: 0 8px;
 }
-.rating_wrap .given-rating i {
-	font-size: 14px;
+.rating_wrap .given-rating i, .flash-sale-item .given-rating i {
+	font-size: 10px;
 }
 .product-details-share {
     button {
@@ -1393,7 +1384,7 @@ span.single-counter-box {
 }
 // Product Details Left Thumb Style
 
-// Product Details Left Thumb Style
+// Product Details Right Thumb Style
 .product-details-right-thumb .product-details-photo-tab {
 	display: flex;
 	flex-direction: row-reverse;
@@ -1405,7 +1396,7 @@ span.single-counter-box {
 .product-details-right-thumb .product-details-photo-tab .tab-img-list li img {
 	width: 65px;
 }
-// Product Details Left Thumb Style
+// Product Details Right Thumb Style
 
 /*-------------------------------------------
    9. Product Details Page Area End
@@ -1455,9 +1446,6 @@ span.single-counter-box {
                 opacity: 1;
             }
         }
-    }
-    .given-rating i {
-        font-size: 11px;
     }
 }
 .product_rate {
@@ -1532,6 +1520,9 @@ span.single-counter-box {
         justify-content: center;
         .product-title {
             transition: all 0.5s ease-in-out;
+        }
+        .product-quantity {
+            margin: 10px 0 3px;
         }
     }
     &:hover {
@@ -1667,7 +1658,6 @@ span.single-counter-box {
     padding-top: 13px;
     text-transform: capitalize;
     font-size: 14px;
-    /*color: #777777;*/
 }
 .sub-footer .bottom-footer-list {
     height: 100%;
@@ -2677,13 +2667,13 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
 
   @media only screen and (max-width: 1440px) {
     .product-checkout-wrap ul form .form-group {
-        min-width: 72%;
+        min-width: 69%;
     }
   }
   @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    .product-item .img-wrap {
-        height: 210px;
-    }
+    // .product-item .img-wrap {
+    //     height: 210px;
+    // }
   }
 
   @media only screen and (min-width: 1200px) and (max-width: 1415px) {
@@ -2895,7 +2885,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     .mega-menu{
         display: none;
     }
-
     // Menu CSS
 
     .payment-system-area .row div:not(:last-child) .payment-box {
@@ -3084,6 +3073,9 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         width: 300px !important;
         height: 330px !important;
     }
+    .product-details-left-thumb .product-details-photo-tab .tab-img-list li img , .product-details-right-thumb .product-details-photo-tab .tab-img-list li img{
+        width: 135px;
+    }
 
     // Andshop Main
     .andshop-mobile-app img {
@@ -3225,6 +3217,12 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         font-size: 14px;
         padding: 7px 4px;
     }
+    // Shop Page
+    .product-details-page-area .card-header li a {
+        margin: 0 .5rem;
+        font-size: 14px;
+        padding: .5rem 0;
+    }
 }
 @media only screen and (min-width: 480px) and (max-width: 766px){
 
@@ -3256,7 +3254,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         margin: 0 auto;
     }
     .flash-sale-item .img-wrap, .flash-sale-item .img-wrap img {
-        height: 150px;
         text-align: center;
     }
     // Best Sellers
@@ -3323,9 +3320,9 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         margin-top: 15px;
     }
 
-    // Best Seller Slider
-    .best-seller-slider-wrap .product-item .img-wrap {
-        height: 200px;
+    // Product details
+    .product-details-left-thumb .product-details-photo-tab .tab-img-list li img , .product-details-right-thumb .product-details-photo-tab .tab-img-list li img{
+        width: 90px;
     }
 
     // Andshop Main
@@ -3360,11 +3357,14 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     }
   }
   @media only screen and (max-width:399px){
-    .product-item .img-wrap {
-        height: 220px;
+    // Slider
+    .andshop-main-slider .swiper-slide img {
+        height: 115px;
     }
-    .best-seller-slider-wrap .product-item .img-wrap {
-        height: 340px;
+
+    // Product Details
+    .product-details-left-thumb .product-details-photo-tab .tab-img-list li img , .product-details-right-thumb .product-details-photo-tab .tab-img-list li img{
+        width: 135px;
     }
 
     // Customer Panel

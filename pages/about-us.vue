@@ -8,7 +8,7 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
                 <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
                 <li class="breadcrumb-item active" aria-current="page">About us</li>
               </ol>
             </nav>
@@ -29,8 +29,8 @@
           <div class="col-12 col-md-6">
             <div class="who-we-content">
               <h3 class="mb-3">Who we are</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
+              <p>Sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
+              <p>Dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
           <div class="col-12 col-md-6">
             <div class="text-center">
               <h3 class="mb-3">Why choose us</h3>
-              <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
+              <p class="mb-3">Orem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam libero error adipisci magni?</p>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
               <span class="bg-red rounded-circle"><i class="far fa-edit"></i></span>
               <div class="card-body">
                 <h5 class="card-title">Creative design</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, similique modi. Tempore nisi officia consequuntur!</p>
+                <p class="card-text">Psum dolor sit amet consectetur adipisicing elit. Possimus, similique modi. Tempore nisi officia consequuntur!</p>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
               <span class="bg-red rounded-circle"><i class="far fa-edit"></i></span>
               <div class="card-body">
                 <h5 class="card-title">Creative design</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, similique modi. Tempore nisi officia consequuntur!</p>
+                <p class="card-text">Orem ipsum dolor sit amet consectetur adipisicing elit. Possimus, similique modi. Tempore nisi officia consequuntur!</p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
               <span class="bg-red rounded-circle"><i class="far fa-edit"></i></span>
               <div class="card-body">
                 <h5 class="card-title">Creative design</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, similique modi. Tempore nisi officia consequuntur!</p>
+                <p class="card-text">Sum dolor sit amet consectetur adipisicing elit. Possimus, similique modi. Tempore nisi officia consequuntur!</p>
               </div>
             </div>
           </div>

@@ -91,7 +91,7 @@ export default {
         {
           "id": 1,
           "title": "Fashion Sunglass",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/fashion/16.jpg'),
           "price": "150.00",
           "discount": "10",
@@ -109,7 +109,7 @@ export default {
         {
           "id": 3,
           "title": "Jeans coat",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/fashion/15.jpg'),
           "price": "100.00",
           "discount": "10",
@@ -127,7 +127,7 @@ export default {
         {
           "id": 5,
           "title": "Coat",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/fashion/13.jpg'),
           "price": "150.00",
           "discount": "10",
@@ -145,7 +145,7 @@ export default {
         {
           "id": 6,
           "title": "Tops",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/fashion/11.jpg'),
           "price": "150.00",
           "discount": "10",

@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <ElectronicsMainSlider />
 
     <RisingStar />
@@ -23,7 +22,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6">
-            <div class="promotion-img-wrap my-md-0 my-lg-0 my-3">
+            <div class="promotion-img-wrap">
               <nuxt-link to="/new-arrivals"><img :src="require('@/assets/images/promo/2.jpg')" alt="promotion" class="img-fluid"></nuxt-link>
             </div>
           </div>
@@ -45,7 +44,7 @@
         <div class="row">
           <div class="col-12">
             <div class="promotion-img-wrap">
-              <nuxt-link to="/product-details/left-thumb"><img src="~/assets/images/promo/4.jpg" alt="promotion" class="img-fluid"></nuxt-link>
+              <nuxt-link to="/product-details/left-thumb"><img :src="require('@/assets/images/promo/4.jpg')" alt="promotion" class="img-fluid"></nuxt-link>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="account-info-wrap d-flex align-items-center mb-4">
-      <div class="account-info-box d-flex rounded">
+      <div class="account-info-box d-flex align-items-center rounded">
         <div>Wallet Balance <span class="d-block">$<strong>3885</strong></span></div>
       </div>
       <div class="account-info-box d-flex align-items-center rounded">

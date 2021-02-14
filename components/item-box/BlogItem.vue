@@ -8,7 +8,7 @@
     </div>
     <div class="blog-content">
       <ul>
-        <li><i class="far fa-user"></i><a>By Admin</a></li>
+        <li><i class="far fa-user"></i><a href="javascript: void(0);">By Admin</a></li>
       </ul>
       <nuxt-link to="/blog/Get Your Furniture Ready For The Summer">
         <h3>{{blogItem.title}}</h3>

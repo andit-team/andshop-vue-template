@@ -13,8 +13,8 @@
     </div>
     <div class="product-content">
       <p class="product-tags text-uppercase font-12">{{productItem.tags}}</p>
-      <p class="product-title font-bold"><nuxt-link to="/product-details">{{productItem.title}}</nuxt-link></p>
-      <div class="rating_wrap mb-1">
+      <p class="product-title font-bold mt-1"><nuxt-link to="/product-details">{{productItem.title}}</nuxt-link></p>
+      <div class="rating_wrap">
         <div class="given-rating">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>

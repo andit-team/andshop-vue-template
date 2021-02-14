@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-12">
-          <div class="compare_box">
+          <div class="compare_box bg-white p-4">
             <div class="table-responsive mb-0">
               <table class="table table-bordered text-center">
               <tbody>

@@ -165,7 +165,7 @@
                     <h5 class="font-weight-bold">$400.00</h5>
                   </li>
                 </ul>
-                <button class="theme-button rounded btn-block justify-content-center">Procceed to checkout</button>
+                <nuxt-link to="/checkout" class="theme-button rounded btn-block justify-content-center">Procceed to checkout</nuxt-link>
               </div>
 
             </div>

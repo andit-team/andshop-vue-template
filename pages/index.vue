@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-12">
             <div class="andshop-section-title text-center">
-              <h1>AndShop</h1>
+              <h2>AndShop</h2>
               <p class="andshop-subtitle w-50 mx-auto mt-3 mb-5">Order your Ecommerce Fashion, Electronics, Furniture and Groceries goods from thousands of preffered shops and vendors in online and get delivery in home.</p>
             </div>
           </div>
@@ -20,7 +20,7 @@
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/fashion">Fashion</nuxt-link></h3>
-                <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
+                <p class="my-3">Orem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
                 <nuxt-link to="/fashion" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
@@ -32,7 +32,7 @@
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/electronics" >Electronics</nuxt-link></h3>
-                <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
+                <p class="my-3">Gem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
                 <nuxt-link to="/electronics" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
@@ -44,7 +44,7 @@
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/furniture">Furniture</nuxt-link></h3>
-                <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
+                <p class="my-3">Srem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
                 <nuxt-link to="/furniture" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>
@@ -56,7 +56,7 @@
               </div>
               <div class="media-body">
                 <h3 class="mt-0"><nuxt-link to="/groceries">Groceries</nuxt-link></h3>
-                <p class="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut?</p>
+                <p class="my-3">Dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
                 <nuxt-link to="/groceries" class="color-red font-weight-600">Explore now</nuxt-link>
               </div>
             </div>

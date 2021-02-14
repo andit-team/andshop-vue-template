@@ -263,7 +263,7 @@
                           <li><nuxt-link to="/search-results">Left Sidebar</nuxt-link></li>
                           <li><nuxt-link to="/search-results/right-sidebar">Right Sidebar</nuxt-link></li>
                           <li><nuxt-link to="/best-sellers">No Sidebar</nuxt-link></li>
-                          <li><a>Product Details<i class="fas fa-angle-right ml-2"></i></a>
+                          <li><a href="javascript: void(0);">Product Details<i class="fas fa-angle-right ml-2"></i></a>
                             <ul class="submenu">
                               <li><nuxt-link to="/product-details">Style 1</nuxt-link></li>
                               <li><nuxt-link to="/product-details/left-thumb">Style 2</nuxt-link></li>
@@ -282,7 +282,7 @@
                           <li><nuxt-link to="/news-feed/">News Feeds</nuxt-link></li>
                           <li><nuxt-link to="/faq">FAQ</nuxt-link></li>
                           <li>
-                            <a>Account<i class="fas fa-angle-right ml-2"></i></a>
+                            <a href="javascript: void(0);">Account<i class="fas fa-angle-right ml-2"></i></a>
                             <ul class="submenu">
                               <li><nuxt-link to="/my-account">Dashboard</nuxt-link></li>
                               <li><nuxt-link to="/my-account/address-book">Address Book</nuxt-link></li>
@@ -297,7 +297,7 @@
                             </ul>  
                           </li>
                           <li>
-                            <a>Authentication<i class="fas fa-angle-right ml-2"></i></a>
+                            <a href="javascript: void(0);">Authentication<i class="fas fa-angle-right ml-2"></i></a>
                             <ul class="submenu">
                               <li><nuxt-link to="/my-account/auth/login">Login</nuxt-link></li>
                               <li><nuxt-link to="/my-account/auth/registration">Register</nuxt-link></li>
@@ -309,7 +309,7 @@
                             </ul>  
                           </li>
                           <li>
-                            <a>Merchant Account<i class="fas fa-angle-right ml-2"></i></a>
+                            <a href="javascript: void(0);">Merchant Account<i class="fas fa-angle-right ml-2"></i></a>
                             <ul class="submenu">
                               <li><nuxt-link to="/merchant-account">Dashboard</nuxt-link></li>
                               <li><nuxt-link to="/merchant-account/products">Products</nuxt-link></li>

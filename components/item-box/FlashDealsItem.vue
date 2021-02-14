@@ -5,12 +5,12 @@
         <img :src="flashItem.image" alt="products" class="rounded-top">
       </div>
       <div class="product-content">
-        <h6>
+        <h6 class="font-14">
           <span class="discounted-price mr-1 color-green">${{discountedPrice(flashItem)}}</span>
           <span class="price mr-1 text-muted" style="text-decoration: line-through">${{flashItem.price}}</span>
           <span class="discount mr-1 color-red">{{flashItem.discount}}% Off</span>
         </h6>
-        <p class="product-title font-bold">{{flashItem.title}}</p>
+        <p class="product-title font-bold mt-1">{{flashItem.title}}</p>
         <div class="rating_wrap mb-1 d-flex align-items-center">
           <div class="given-rating">
             <i class="fas fa-star"></i>
@@ -25,7 +25,7 @@
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="mt-1 font-bold">Sold: 0/40</p>
+          <p class="mt-1 font-12 mt-2">Sold: 0/40</p>
         </div>
 
       </div>

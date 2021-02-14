@@ -1,5 +1,5 @@
 <template>
-  <section class="andbaazar-main-slider slider-area p-0">
+  <section class="andshop-main-slider slider-area p-0">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 p-0">

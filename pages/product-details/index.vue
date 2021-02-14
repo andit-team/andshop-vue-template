@@ -203,14 +203,14 @@
                     <h5 class="mb-2">Add a review:</h5>
 
                     <div v-if="!isLogin">
-                      <p>To submit review <nuxt-link to="/customer/login">Login</nuxt-link> please!</p>
-                      <h5 class="d-block mt-4"><nuxt-link to="/customer/login" class="theme-button">Login</nuxt-link></h5>
+                      <p>To submit review <nuxt-link to="/my-account/auth/login">Login</nuxt-link> please!</p>
+                      <h5 class="d-block mt-4"><nuxt-link to="/my-account/auth/login" class="theme-button">Login</nuxt-link></h5>
                     </div>
 
                     <form v-else>
                       <textarea id="textarea-default" placeholder="Write review here..." rows="2" class="mb-2 form-control" wrap="soft"></textarea>
                       <b-form-rating v-model="ratingValue" id="rating-inline" inline color="#ff8800" class="mb-2"></b-form-rating>
-                      <button type="submit" class="theme-button d-block rounded">Submit Review</button>
+                      <button type="submit" class="theme-button d-block rounded">Submit</button>
                     </form>
                   </div>
 
@@ -225,7 +225,7 @@
     </section>
     <!-- Product Search Page Area End -->
 
-    <!-- No Product Found Start-->
+    <!-- No Product Found Show this Section Start-->
     <!-- <section class="no-product-found section-t-space">
       <div class="container">
         <div class="row">
@@ -235,7 +235,7 @@
         </div>
       </div>
     </section> -->
-    <!-- No Product Found End-->
+    <!-- No Product Found Show this Section End-->
 
     <!-- Related Products Start -->
     <RelatedProducts />

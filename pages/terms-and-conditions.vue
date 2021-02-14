@@ -8,7 +8,7 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb bg-transparent m-0 section-t-40-space section-b-40-space">
                 <li class="breadcrumb-item"><nuxt-link to="/">Home</nuxt-link></li>
-                <li class="breadcrumb-item active" aria-current="page">Terms & Conditions</li>
+                <li class="breadcrumb-item active" aria-current="page">Terms and Conditions</li>
               </ol>
             </nav>
           </div>
@@ -23,7 +23,7 @@
           <div class="col-12 col-md-6">
             <div class="text-center">
               <h3 class="mb-3">Terms and Conditions</h3>
-              <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam.</p>
+              <p class="mb-4">Orem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem suscipit eaque, voluptatem quaerat non quibusdam.</p>
             </div>
           </div>
         </div>
@@ -31,13 +31,13 @@
           <div class="col">
             <div class="terms-block mt-4">
               <h5 class="terms-title mb-3">Legal Disclaimer</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloribus unde maxime totam, quia quod? Sapiente voluptas accusamus omnis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Rem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloribus unde maxime totam, quia quod? Sapiente voluptas accusamus omnis aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
             </div>
 
             <div class="terms-block">
               <h5 class="terms-title mb-3">01. Credit Reporting</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Pem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Sum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
               
               <ul>
                 <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -51,15 +51,15 @@
 
             <div class="terms-block mt-4">
               <h5 class="terms-title mb-3">02. Credit Reporting</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
               
             </div>
 
             <div class="terms-block mt-4">
               <h5 class="terms-title mb-3">03. Credit Reporting</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Dem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Krem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
               
               <ul>
                 <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -73,15 +73,15 @@
 
             <div class="terms-block mt-4">
               <h5 class="terms-title mb-3">04. Credit Reporting</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Orem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Crem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
             
             </div>
 
             <div class="terms-block mt-4">
               <h5 class="terms-title mb-3">04. Credit Reporting</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Dorem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
+              <p>Horem ipsum dolor sit amet, consectetur adipisicing elit. Ad accusantium officiis aperiam, rerum blanditiis similique. Enim libero impedit minus praesentium!</p>
               
               <ul>
                 <li><i class="fas fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>

@@ -107,11 +107,11 @@
 
       <b-collapse id="blog_left_meta" visible class="left-sidebar-content">
         <ul>
-          <li><a>Log In</a></li>
-          <li><a>Entries Feed</a></li>
-          <li><a>Comments Feed</a></li>
-          <li><a>Make Up</a></li>
-          <li><a>Men's</a></li>
+          <li><a href="javascript: void(0);">Log In</a></li>
+          <li><a href="javascript: void(0);">Entries Feed</a></li>
+          <li><a href="javascript: void(0);">Comments Feed</a></li>
+          <li><a href="javascript: void(0);">Make Up</a></li>
+          <li><a href="javascript: void(0);">Men's</a></li>
         </ul>
       </b-collapse>
     </div>

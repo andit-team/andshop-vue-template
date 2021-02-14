@@ -1,6 +1,6 @@
 <template>
   <!-- New Arrivals / Best Seller Area Start -->
-  <section class="new-arrivals-area best-seller-area section-t-space bg-different">
+  <section class="new-arrivals-area best-seller-area section-t-space section-b-40-space bg-different">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -93,7 +93,7 @@ export default {
         {
           "id": 1,
           "title": "Fashion Sunglass",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/furniture/1.jpg'),
           "price": "150.00",
           "discount": "10",
@@ -111,7 +111,7 @@ export default {
         {
           "id": 3,
           "title": "Jeans coat",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/furniture/3.jpg'),
           "price": "100.00",
           "discount": "10",
@@ -129,7 +129,7 @@ export default {
         {
           "id": 5,
           "title": "Coat",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/furniture/5.jpg'),
           "price": "150.00",
           "discount": "10",
@@ -147,7 +147,7 @@ export default {
         {
           "id": 6,
           "title": "Tops",
-          "tags": "bath & body, football, tennis",
+          "tags": "bath & body, football",
           "image": require('@/assets/images/furniture/7.jpg'),
           "price": "150.00",
           "discount": "10",
