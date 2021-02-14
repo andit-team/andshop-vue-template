@@ -24,11 +24,31 @@
   3. Button CSS
   4. Preloader and Scroll To Top 
   5. Navbar Area CSS
-  6. Header Area
-  22. Responsive CSS
+  6. Main Slider 
+  7. Logo Slider
+  8. Andshop Services Area
+  9. Product Search Page Area
+  10. Product Details Page
+  11. Flash Sale Slider
+  12. Best Seller Slider
+  13. Popular Categories
+  14. Featured Products
+  15. Promotion Area 
+  16. Payment System Area
+  17. Footer Area
+  18. Contact Us Area
+  19. FAQ Area
+  20. Shop Page
+  21. Cart Page
+  22. About Page
+  23. Login/Registration Page
+  24. Dashboard Page
+  25. Merchant Dashboard 
+  26. Blog Pages
+  27. Coming Soon
+  28. Responsive CSS
 
 ------------------------------------------------ */
-
 
 /* Use font link */
 
@@ -121,7 +141,6 @@ img::selection {
 }
 
 /*----Form Control Reset CSS----*/
-
 .form-control, .b-form-btn-label-control.form-control {
     border-radius: 5px;
     border: none;
@@ -232,6 +251,12 @@ figure {
 }
 .color-green {
     color: green;
+}
+.rating-color {
+    color: #ff8800,
+}
+.non-rating-color {
+    color: #dadada;
 }
 /*---- Home Color CSS Start*---- */
 
@@ -602,7 +627,6 @@ button:focus {
     left: -232px !important;
     z-index: 1;
     transform: none !important;
-    // top: 13px!important;
 }
 .middle-menu-dropdown .dropdown-menu.show {
     z-index: 9999;
@@ -648,7 +672,6 @@ button:focus {
     margin: 10px 5px 5px;
     height: auto;
 }
-
 /*Middle Menu End*/
 
 /*Bottom Menu CSS Start*/
@@ -703,11 +726,10 @@ button:focus {
     padding: 14px;
     position: relative;
     color: var(--white-color);
-    font-weight: bold;
     padding: 16px 0 16px 20px;
 }
 #mainNav ul li:hover > a, #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: $color-red!important;
+    color: #f52d34!important;
 }
 
 // Hover Dropdown Menu CSS Start
@@ -722,6 +744,9 @@ button:focus {
             i {
                transform: rotate(180deg); 
             }
+        }
+        &:hover .submenu ul li a i {
+            transform: rotate(0); 
         }
     }
 }
@@ -743,10 +768,10 @@ button:focus {
 }
 #main_menu_wrap ul li .submenu {
     background-color: var(--bg-dark);
-	border-bottom: 2px solid var(--red-color);
     ul li {
         a:hover {
-        color: var(--red-color);
+            background-color: #c9151b;
+            color: #fff!important;  
         }
     }
 }
@@ -770,6 +795,10 @@ button:focus {
 	right: -200px;
     margin-top: 0px;
     top: 100%;
+}
+#main_menu_wrap ul li > .submenu ul > li:hover > a {
+    background-color: var(--red-color);
+    color: #fff!important;
 }
 #main_menu_wrap ul li .submenu ul li:hover .submenu {
     margin-top: -40px;
@@ -850,7 +879,6 @@ button:focus {
             font-size: 12px;
             top: 12px;
         }
-        
         &:hover {
             color: var(--red-color);
         }
@@ -902,16 +930,24 @@ button:focus {
             }
         }
     }
+    .bottom-menu {
+        #mainNav {
+            .left-part-menu {
+                li {
+                    margin-left: 0!important;
+                    margin-right: 10px;
+                    a {
+                        padding: 16px 20px 16px 0;
+                    }
+                }
+            }
+        }
+    }
 }
 // Andshop Orientation Menu
 
-/*-------------------------------------------
-    5. Navbar Area CSS End
--------------------------------------------*/
+// Categories Sidebar Menu Items CSS Start
 
-/*-------------------------------------------
-    Categories Sidebar Menu Items CSS Start
--------------------------------------------*/
 /*Left Categories Menu CSS*/
 .all-categories-menu {
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -982,8 +1018,11 @@ button:focus {
     border-radius: 0;
     border: 0 solid transparent;
 }
+
+// Categories Sidebar Menu Items CSS End
+
 /*-------------------------------------------
-    Categories Sidebar Menu Items CSS End
+    5. Navbar Area CSS End
 -------------------------------------------*/
 
 /*-------------------------------------------
@@ -1004,6 +1043,15 @@ button:focus {
 .slider-area .swiper-pagination-bullet.swiper-pagination-bullet-active {
     opacity: 1;
 }
+// Slider with Small banner
+.small-banner-wrap {
+    .banner-small {
+        padding-bottom: 30px;
+    }
+}
+.small-banner-wrap .banner-small:last-child {
+    padding-bottom: 0;
+}
 /*-------------------------------------------
     6. Andshop Main Slider Area End
 -------------------------------------------*/
@@ -1013,9 +1061,12 @@ button:focus {
 -------------------------------------------*/
 .logo-item {
     background-color: var(--bg-3);
-    padding: 30px 10px;
-    img {
-	    height: 47px;
+    a {
+        display: block;
+        padding: 30px 10px;
+        img {
+	        height: 47px;
+        }
     }
 }
 /*-------------------------------------------
@@ -1023,7 +1074,7 @@ button:focus {
 -------------------------------------------*/
 
 /*-------------------------------------------
-    7. Andshop Services Area Start
+    8. Andshop Services Area Start
 -------------------------------------------*/
 .andshop-service-item {
 	background-repeat: no-repeat;
@@ -1043,7 +1094,7 @@ button:focus {
 
 // Join With Us
 .join-with-us-area {
-	padding-bottom: 126px;
+	padding-bottom: 84px;
 }
 .join-with-us-item .media-body {
 	padding: 30px 30px 30px 0;
@@ -1066,11 +1117,11 @@ button:focus {
 }
 
 /*-------------------------------------------
-    7. Andshop Services Area End
+    8. Andshop Services Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    8. Product Search Page Area Start
+    9. Product Search Page Area Start
 -------------------------------------------*/
 /*Product Item CSS Start*/
 .product-row {
@@ -1083,16 +1134,11 @@ button:focus {
 }
 // Data Loader
 
-.product-item-col {
-	// padding-right: 4px;
-	// padding-left: 4px;
-}
 .product-item {
     border: 1px solid var(--border-secondary);
     margin-bottom: 30px;
     transition: all ease 0.4s;
         .img-wrap {
-            // height: 240px;
             overflow: hidden;
             margin: 10px 10px 0;
             position: relative;
@@ -1237,11 +1283,11 @@ span.special-tag {
 }
 
 /*-------------------------------------------
-    8. Product Search Page Area End
+    9. Product Search Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    9. Product Details Page Area Start
+    10. Product Details Page Area Start
 -------------------------------------------*/
 .product-stock-wrap .custom-control-label::before, .product-stock-wrap .custom-control-label::after {
 	top: 30%;
@@ -1399,11 +1445,11 @@ span.single-counter-box {
 // Product Details Right Thumb Style
 
 /*-------------------------------------------
-   9. Product Details Page Area End
+   10. Product Details Page Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    10. Flash Sale Slider Area Start
+    11. Flash Sale Slider Area Start
 -------------------------------------------*/
 .flash-sale-slider-wrap {
     border: 1px solid var(--border-secondary);
@@ -1417,7 +1463,6 @@ span.single-counter-box {
 }
 .flash-sale-item {
     .img-wrap {
-        // height: 240px;
         overflow: hidden;
         margin-bottom: 15px;
         position: relative;
@@ -1475,11 +1520,11 @@ span.single-counter-box {
 	font-weight: 700;
 }
 /*-------------------------------------------
-    10. Flash Sale Slider Area End
+    11. Flash Sale Slider Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    11. Best Seller Slider Area Start
+    12. Best Seller Slider Area Start
 -------------------------------------------*/
 .best-seller-item {
     border: 1px solid var(--border-secondary);
@@ -1497,11 +1542,11 @@ span.single-counter-box {
     width: 100%;
 }
 /*-------------------------------------------
-    11. Best Seller Slider Area End
+    12. Best Seller Slider Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    12. Popular Categories Area Start
+    13. Popular Categories Area Start
 -------------------------------------------*/
 .popular-categories-item {
     background-position: center;
@@ -1533,11 +1578,11 @@ span.single-counter-box {
     }
 }
 /*-------------------------------------------
-    12. Popular Categories Area End
+    13. Popular Categories Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    13. Featured Products Area Start
+    14. Featured Products Area Start
 -------------------------------------------*/
 .featured-product-item {
     border: 1px solid var(--border-secondary);
@@ -1567,10 +1612,10 @@ span.single-counter-box {
     }
 }
 /*-------------------------------------------
-    13. Featured Products Area End
+    14. Featured Products Area End
 -------------------------------------------*/
 /*-------------------------------------------
-    14. Promotion Area Start
+    15. Promotion Area Start
 -------------------------------------------*/
 .promotion-img-wrap {
     overflow: hidden;
@@ -1584,17 +1629,16 @@ span.single-counter-box {
     }
 }
 /*-------------------------------------------
-    14. Promotion Area End
+    15. Promotion Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    15. Payment System Area Start
+    16. Payment System Area Start
 -------------------------------------------*/
 .payment-box {
     width: 300px;
 }
 .payment-box ul li a {
-    /*border: 1px solid var(--border-color);*/
     margin-right: 5px;
 }
 .payment-box h5::before {
@@ -1616,11 +1660,11 @@ span.single-counter-box {
     right: 0px;
 }
 /*-------------------------------------------
-    12. Payment System Area End
+    16. Payment System Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    13. Footer Area Start
+    17. Footer Area Start
 -------------------------------------------*/
 .footer-top .subscribe {
     display: flex;
@@ -1651,7 +1695,6 @@ span.single-counter-box {
 .footer-theme .sub-title h5 {
     margin-bottom: 15px;
     text-transform: uppercase;
-    /*font-weight: 700;*/
 }
 .footer-theme .sub-title li {
     display: inherit;
@@ -1678,11 +1721,11 @@ span.single-counter-box {
     margin-right: 10px;
 }
 /*-------------------------------------------
-    13. Footer Area End
+    17. Footer Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    14. Contact Us Area Start
+    18. Contact Us Area Start
 -------------------------------------------*/
 .google-map .vue-map-container {
 	width: 100%;
@@ -1709,11 +1752,11 @@ span.single-counter-box {
 	border: 1px solid var(--border-color);
 }
 /*-------------------------------------------
-    14. Contact Us Area End
+    18. Contact Us Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    15. FAQ Area Start
+    19. FAQ Area Start
 -------------------------------------------*/
 .accordion .card-header a {
 	width: 100%;
@@ -1744,11 +1787,11 @@ span.single-counter-box {
     }
 }
 /*-------------------------------------------
-    15. FAQ Area End
+    19. FAQ Area End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    16. Shop Page Start
+    20. Shop Page Start
 -------------------------------------------*/
 // Shop Searchbar css
 .theme-button.shop-location-btn {
@@ -1817,11 +1860,11 @@ span.single-counter-box {
 }
 
 /*-------------------------------------------
-    16. Shop Page End
+    20. Shop Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    17. Cart Page Start
+    21. Cart Page Start
 -------------------------------------------*/
 .cart_brand_info {
 	border-bottom: 1px solid var(--border-secondary);
@@ -1916,11 +1959,11 @@ span.single-counter-box {
 }
 
 /*-------------------------------------------
-    17. Cart Page End
+    21. Cart Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    18. About Page Start
+    22. About Page Start
 -------------------------------------------*/
 .why-choose-us .why-choose-box span {
 	width: 50px;
@@ -1950,11 +1993,11 @@ span.single-counter-box {
 	margin-right: 5px;
 }
 /*-------------------------------------------
-    18. About Page End
+    22. About Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    19. Login/Registration Page Start
+    23. Login/Registration Page Start
 -------------------------------------------*/
 .login-registration-area {
 	min-height: 600px;
@@ -1978,11 +2021,11 @@ span.single-counter-box {
     border-color: #28a745;
 }
 /*-------------------------------------------
-    19. Login/Registration Page End
+    23. Login/Registration Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    20. Dashboard Page Start
+    24. Dashboard Page Start
 -------------------------------------------*/
 // Dashboar index
 .dashboard-left-bar, .dashboard-right-content {
@@ -2361,8 +2404,11 @@ span.single-counter-box {
 
         .review-product-item {
             padding: 10px 10px 10px 0;
+                .customer-given-star i {
+                    font-size: 12px;
+                }
+            }
         }
-    }
     .seller-side {
         width: 30%;
         padding-left: 20px;
@@ -2428,13 +2474,12 @@ span.single-counter-box {
 
 // Right Side CSS End
 
-
 /*-------------------------------------------
-    20. Dashboard Page End
+    24. Dashboard Page End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    21. Merchant Dashboard Start
+    25. Merchant Dashboard Start
 -------------------------------------------*/
 .merchant-product-table .card table th img, .merchant-products-page table th img {
 	height: 46px;
@@ -2466,11 +2511,11 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     padding: 0px 10px 0;
 }
 /*-------------------------------------------
-    21. Merchant Dashboard End
+    25. Merchant Dashboard End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    22. Blog Pages Start
+    26. Blog Pages Start
 -------------------------------------------*/
 // Blog Leftsidebar
 .blog-sidebar-wrap .left-sidebar-content ul li a {
@@ -2495,8 +2540,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     margin-bottom: 30px;
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
-    // -webkit-transform: translateY(0px);
-    // transform: translateY(0px);
     .blog-img {
         position: relative;
         overflow: hidden;
@@ -2606,11 +2649,11 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
 }
 
 /*-------------------------------------------
-    22. Blog Pages End
+    26. Blog Pages End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    23. Coming Soon Pages Start
+    27. Coming Soon Page Start
 -------------------------------------------*/
 .coming-soon-page {
 	min-height: 500px;
@@ -2639,11 +2682,11 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     }
 }
 /*-------------------------------------------
-    23. Coming Soon Pages End
+    27. Coming Soon Pages End
 -------------------------------------------*/
 
 /*-------------------------------------------
-    22. Responsive Design CSS
+    28. Responsive Design CSS
 -------------------------------------------*/
 
 /*=====================================
@@ -2657,12 +2700,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     For Large Screen
 ========================================*/
 
-  /*------Max 1775px Width Screen------*/
-
-  @media only screen and (max-width: 1775px) {
-
-  }
-
 /*--------Max 1366px Width Screen---------*/
 
   @media only screen and (max-width: 1440px) {
@@ -2670,12 +2707,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         min-width: 69%;
     }
   }
-  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-    // .product-item .img-wrap {
-    //     height: 210px;
-    // }
-  }
-
   @media only screen and (min-width: 1200px) and (max-width: 1415px) {
     .slider-area {
         height: 420px;
@@ -2690,9 +2721,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     body, p, #mainNav .navbar-nav .nav-item .nav-link, .theme-button {
         font-size: 14px;
     }
-    // .theme-button {
-    //     line-height: 1.9;
-    // }
     h2 {
         font-size: 1.75rem;
     }
@@ -2731,7 +2759,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     .shop-profile-side-box .theme-button {
         margin-top: 10px;
     }
-
     // Customer Panel
     .info-row-wrap .info-row p {
         width: 25%;
@@ -3057,8 +3084,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         width: 78%;
     }
     // Menu CSS
-
-
     .left-sidebar-title h5 {
         font-size: 18px;
     }
@@ -3243,11 +3268,7 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     .middle-menu-dropdown .dropdown-menu {
         left: 100 !important;
         transform: none!important;
-        // top: 32px;
     }
-    // .middle-menu-dropdown .dropdown-menu.show {
-    //     left: 100 !important;
-    //     }
     // Mobile Menu CSS
     .flash-sale-item {
         width: 240px;
@@ -3515,5 +3536,5 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
 
   }
   /*-------------------------------------------
-        24. Responsive Design End
+        28. Responsive Design End
   -------------------------------------------*/

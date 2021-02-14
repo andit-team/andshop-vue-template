@@ -2,13 +2,11 @@
   <div>
     <ElectronicsMainSlider />
 
-    <RisingStar />
-
-    <ElectronicsFlashDeals />
-
+    <ElectronicsPopularCategories />
+    
     <ElectronicsBestSellers />
 
-    <ElectronicsPopularCategories />
+    <ElectronicsFlashDeals />
 
     <ElectronicsNewArrivals />
 
@@ -53,6 +51,8 @@
     <!-- Home promotion 2 Area End -->
 
     <ElectronicsTopRatedProducts />
+
+    <RisingStar />
 
     <PaymentMethods/>
   </div>

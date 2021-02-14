@@ -8,7 +8,7 @@
             <div class="section-title">
               <h4>Rising Star</h4>
             </div>
-            <nuxt-link to="/shops" class="color-red">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
+            <nuxt-link to="/shops" class="color-red font-bold">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
           </div>
         </div>
       </div>

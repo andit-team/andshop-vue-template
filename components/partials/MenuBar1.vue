@@ -73,18 +73,18 @@
 
               <div class="col-md-12 col-lg-12 p-0">
                 <div class="collapse navbar-collapse" id="main_menu_wrap">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <nuxt-link to="/fashion" class="nav-link">Fashion</nuxt-link>
+                  <ul class="navbar-nav mr-auto left-part-menu">
+                    <li class="nav-item">
+                      <nuxt-link to="/fashion" target="_blank" class="nav-link">Fashion</nuxt-link>
                     </li>
                     <li class="nav-item">
-                      <nuxt-link to="/electronics" class="nav-link">Electronics</nuxt-link>
+                      <nuxt-link to="/electronics" target="_blank" class="nav-link">Electronics</nuxt-link>
                     </li>
                     <li class="nav-item">
-                      <nuxt-link to="/furniture" class="nav-link">Furniture</nuxt-link>
+                      <nuxt-link to="/furniture" target="_blank" class="nav-link">Furniture</nuxt-link>
                     </li>
                     <li class="nav-item">
-                      <nuxt-link to="/groceries" class="nav-link">Groceries</nuxt-link>
+                      <nuxt-link to="/groceries" target="_blank" class="nav-link">Groceries</nuxt-link>
                     </li>
                   </ul>
                   <ul class="navbar-nav  my-2 my-lg-0">

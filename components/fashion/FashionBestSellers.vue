@@ -9,7 +9,7 @@
               <h4>Best Sellers</h4>
               <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
             </div>
-            <nuxt-link to="/best-sellers" class="color-red">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
+            <nuxt-link to="/best-sellers" class="color-red font-bold">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
           </div>
         </div>
       </div>

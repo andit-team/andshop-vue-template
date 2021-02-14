@@ -102,11 +102,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
                   
@@ -137,11 +137,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating-white.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
            
@@ -153,11 +153,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
                   
@@ -171,11 +171,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
                   
@@ -206,11 +206,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
                   
@@ -224,11 +224,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
                   
@@ -242,11 +242,11 @@
                   <h6 class="mt-0 mb-1 font-14">Samsung Galaxy A51 - Android 10; One UI - 6GB/128GB - Quad Camera - 48MP Camera</h6>
                   Proton, Color Family:Navy Blue
                   <div class="customer-given-star mt-2">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
-                    <img :src='require("@/assets/images/products/rating.png")' alt="1">
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
+                    <i class="fas fa-star non-rating-color"></i>
                     <span class="ml-2">Delightful</span>
                   </div>
                   

@@ -11,7 +11,7 @@
                 Ends in:<CountDown date="December 20, 2030" class="rounded ml-2"></CountDown>
               </span>
             </div>
-            <nuxt-link to="/flash-deals" class="color-red">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
+            <nuxt-link to="/flash-deals" class="color-red font-bold">View all <span class="ml-2"><i class="fas fa-angle-right"></i></span></nuxt-link>
           </div>
         </div>
       </div>

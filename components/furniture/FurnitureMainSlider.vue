@@ -1,8 +1,8 @@
 <template>
   <section class="andshop-main-slider slider-area p-0">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-12 p-0">
+        <div class="col-12">
           <swiper class="swiper" :options="swiperOption">
             <swiper-slide v-for="(sliderItem, index) in sliderItems" :key="index">
               <SliderItem :sliderItem ='sliderItem' />

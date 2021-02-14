@@ -243,7 +243,7 @@
                   <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     
                     <li class="nav-item">
-                      <nuxt-link to="#" class="nav-link">Home<i class="fas fa-angle-down ml-2"></i></nuxt-link>
+                      <a href="javascript: void(0);" class="nav-link">Home<i class="fas fa-angle-down ml-2"></i></a>
                       <div class="submenu">
                         <ul>
                           <li><nuxt-link to="/fashion">Fashion</nuxt-link></li>
@@ -257,7 +257,7 @@
                       <nuxt-link class="nav-link" to="/shops">Shop</nuxt-link>
                     </li>
                     <li class="nav-item">
-                      <nuxt-link to="#" class="nav-link">Products<i class="fas fa-angle-down ml-2"></i></nuxt-link>
+                      <a href="javascript: void(0);" class="nav-link">Products<i class="fas fa-angle-down ml-2"></i></a>
                       <div class="submenu">
                         <ul>
                           <li><nuxt-link to="/search-results">Left Sidebar</nuxt-link></li>
@@ -274,7 +274,7 @@
                       </div>
                     </li>
                     <li class="nav-item">
-                      <nuxt-link to="#" class="nav-link">Pages<i class="fas fa-angle-down ml-2"></i></nuxt-link>
+                      <a href="javascript: void(0);" class="nav-link">Pages<i class="fas fa-angle-down ml-2"></i></a>
                       <div class="submenu">
                         <ul>
                           <li><nuxt-link to="/about-us">About Us</nuxt-link></li>
@@ -330,7 +330,7 @@
                       </div>
                     </li>
                     <li class="nav-item">
-                      <nuxt-link to="#" class="nav-link">Blog<i class="fas fa-angle-down ml-2"></i></nuxt-link>
+                      <a href="javascript: void(0);" class="nav-link">Blog<i class="fas fa-angle-down ml-2"></i></a>
                       <div class="submenu">
                         <ul>
                           <li><nuxt-link to="/blog/">Left Sidebar</nuxt-link></li>
