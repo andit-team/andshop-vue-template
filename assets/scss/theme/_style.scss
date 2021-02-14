@@ -7,7 +7,7 @@
   Creation Date: 25/01/2021
   Description: A default stylesheet for Andshop HTML Template
   Version: 1.00
-  Primary use:  ecommerce, multivendor, seo, web design, web site, digital marketing, marketing etc.
+  Primary use:  ecommerce, multivendor, shop, seo, web design, web site, digital marketing, marketing etc.
   Support: andimpex@gmail.com,
 
   ---------------------------------------------------
@@ -1143,14 +1143,16 @@ button:focus {
             margin: 10px 10px 0;
             position: relative;
             img {
-                transition: all 0.5s ease-in-out;
+                width: 100%;
+                transition: all 0.5s ease;
+                transform: scale(1) rotate(0deg);
             }
             .product_action_box {
                 z-index: 9;
                 position: absolute;
                 top: 50%;
                 opacity: 0;
-                transition: all 0.4s ease;
+                transition: all 0.2s ease;
                 ul {
                     li {
                         display: inline;   
@@ -1164,7 +1166,7 @@ button:focus {
                             align-items: center;
                             border-radius: .25rem;
                             color: var(--heading-color);
-                            transition: all ease 0.4s;
+                            transition: all ease 0.5s;
                             
                             &:hover {
                                 background-color: var(--red-color);
@@ -1182,7 +1184,7 @@ button:focus {
                 height: 100%;
                 opacity: 0;
                 z-index: 1;
-                transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease;
             }
         }
     &:hover {
@@ -1200,9 +1202,6 @@ button:focus {
         }
     }
 
-}
-.product-item .img-wrap img {
-	width: 100%;
 }
 .product-item .product-content {
 	padding: 10px;
@@ -3115,6 +3114,10 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         flex-direction: column;
         margin-bottom: 10px;
     }
+    // Footer
+    .sub-footer .bottom-footer-list li a {
+        padding: .5rem 0;
+    }
 
 }
 
@@ -3140,9 +3143,6 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
         margin-bottom: 0;
     }
     .featured-product-item {
-        justify-content: flex-start;
-    }
-    .sub-footer .bottom-footer-list {
         justify-content: flex-start;
     }
     .top-menu{
@@ -3216,6 +3216,19 @@ ul.merchant-product-features li:last-child, .account-info-wrap .account-info-box
     /*Customer Dashboard*/
     .dashboard-left-bar, .dashboard-right-content {
         min-height: auto;
+    }
+
+    // Footer 
+    .sub-footer .bottom-footer-list {
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .sub-footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-footer .bottom-footer-list li a {
+        padding-left: 0;
     }
 
   }

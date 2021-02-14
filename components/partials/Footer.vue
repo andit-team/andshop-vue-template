@@ -111,14 +111,14 @@
     <div class="sub-footer bg-dark p-3">
       <div class="container">
         <div class="row">
-          <div class="col-xl-6 col-md-6 col-sm-12">
+          <div class=" col-12 col-sm-12 col-md-6 col-xl-6">
             <div class="footer-end d-flex align-items-center h-100">
               <p class="white-color font-14">
                 <i class="fa fa-copyright" aria-hidden="true"></i> 2021-2022 Andshop. All Rights Reserved
               </p>
             </div>
           </div>
-          <div class="col-xl-6 col-md-6 col-sm-12">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6">
             <div class="bottom-footer-list">
               <ul>
                 <li><nuxt-link to="/merchant-account/login" class="nav-link">Sell on Andshop</nuxt-link></li>
