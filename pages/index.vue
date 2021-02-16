@@ -81,7 +81,7 @@
               <nuxt-link to="/search-results" target="_blank" class="d-block">
                 <img :src="require('@/assets/images/orientation-demo/product-left.jpg')" alt="demo" class="img-fluid">
               </nuxt-link>
-              <h4 class="mt-4">Product Left</h4>
+              <h4 class="mt-4">Product Left sidebar</h4>
             </div>
           </div>
           <div class="col-lg-3">
@@ -97,7 +97,7 @@
               <nuxt-link to="/search-results/right-sidebar" target="_blank" class="d-block">
                 <img :src="require('@/assets/images/orientation-demo/product-right.jpg')" alt="demo" class="img-fluid">
               </nuxt-link>
-              <h4 class="mt-4">Product Right</h4>
+              <h4 class="mt-4">Product Right Sidebar</h4>
             </div>
           </div>
           <div class="col-lg-3">
@@ -197,6 +197,134 @@
               <h4 class="mt-4">Checkout</h4>
             </div>
           </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/wishlist" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_wishlist.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Wishlist</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/compare" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_compare.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Compare</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/wallet" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_my_wallet.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Customer Wallet</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/my-orders/" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_my_orders.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Orders</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/my-orders/1" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/order-tracking.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Order Tracking</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/my-orders/my-returns" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_my_return.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Order Returns</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/my-orders/my-cancellations" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_my_cancellation.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Order Cancelations</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/my-reviews" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_my_review.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Reviews</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/my-reviews/write-review" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/write-review.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Write Review</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer-info.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Personal Information</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/notifications" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_notification.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Notifications</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/forget-password" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_forgot_password.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Forgot Password</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/reset-password" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_reset_password.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Reset Password</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/verify-email-address" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_verify_email.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Email Verification</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/verify-mobile-no" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_verify_mobile.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Mobile Verification</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/verify-otp" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_verify_otp.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">OTP Verification</h4>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -262,6 +390,22 @@
               <h4 class="mt-4">Merchant Settings</h4>
             </div>
           </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/login" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_login.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Login</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/registration" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_registration.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Registration</h4>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -300,7 +444,23 @@
               <nuxt-link to="/news-feed/" target="_blank" class="d-block">
                 <img :src="require('@/assets/images/orientation-demo/newsfeed.jpg')" alt="demo" class="img-fluid">
               </nuxt-link>
-              <h4 class="mt-4">News Feed</h4>
+              <h4 class="mt-4">All News Feed</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/news-feed/my-posts" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/my-feed.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">News Feed My Posts</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/news-feed/feeds-details" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/single-feed.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">News Feed Details</h4>
             </div>
           </div>
           <div class="col-lg-3">
@@ -325,6 +485,14 @@
                 <img :src="require('@/assets/images/orientation-demo/return.jpg')" alt="demo" class="img-fluid">
               </nuxt-link>
               <h4 class="mt-4">Return Policy</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/404" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/404.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">404 Page</h4>
             </div>
           </div>
         </div>
@@ -524,6 +692,12 @@ export default {
   background-size: cover;
   padding-top: 14rem;
   padding-bottom: 14rem;
+}
+@media only screen and (max-width: 575px){ 
+  .orientation-banner-area {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
 }
 .orientation-banner-area .overlay {
   position: absolute;
