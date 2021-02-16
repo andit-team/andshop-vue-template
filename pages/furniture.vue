@@ -2,7 +2,7 @@
   <div>
     <FurnitureMainSlider />
 
-    <RisingStar />
+    <RisingStar class="bg-white" />
 
     <FurnitureFlashDeals />
 
@@ -13,7 +13,7 @@
     <FurnitureNewArrivals />
 
     <!-- Home promotion 1 Area Start -->
-    <section class="home-promotion-area-1 section-t-space">
+    <section class="home-promotion-area-1 bg-different section-t-space">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-3">
@@ -39,7 +39,7 @@
     <FurnitureUpcomingProducts />
 
     <!-- Home promotion 2 Area Start -->
-    <section class="home-promotion-area-2 bg-different p-0">
+    <section class="home-promotion-area-2 bg-different section-t-space pb-0">
       <div class="container">
         <div class="row">
           <div class="col-12">

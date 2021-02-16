@@ -36,7 +36,7 @@
     </section>
     <!-- Home promotion 1 Area End -->
 
-    <FashionUpcomingProducts/>
+    <FashionUpcomingProducts />
 
     <!-- Home promotion 2 Area Start -->
     <section class="home-promotion-area-2 bg-different p-0">

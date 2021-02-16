@@ -1,6 +1,6 @@
 <template>
   <!-- New Arrivals / Best Seller Area Start -->
-  <section class="new-arrivals-area best-seller-area section-t-space section-b-40-space bg-different">
+  <section class="new-arrivals-area best-seller-area section-t-space section-b-40-space">
     <div class="container">
       <div class="row">
         <div class="col-12">

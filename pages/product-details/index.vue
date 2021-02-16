@@ -264,7 +264,6 @@ export default {
   data() {
     return {
       showImg: false,
-      loading: true,
       ratingValue: 4,
       isLogin: true,
       reqularSaleQty: 0,
@@ -293,6 +292,3 @@ export default {
 
 }
 </script>
-
-<style scoped>
-</style>

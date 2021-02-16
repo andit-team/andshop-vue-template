@@ -71,7 +71,7 @@
                   <input type="text" class="form-control" id="address" placeholder="For Example: House# 123, Street# 123, ABC Road">
                 </div>
 
-                <button class="theme-button rounded">Save information</button>
+                <button @click.prevent class="theme-button rounded">Save information</button>
               </form>
             </div>
 
@@ -214,11 +214,11 @@
                     <li class="d-flex justify-content-between py-3"><strong class="text-muted">Order Subtotal (0 items) </strong><strong>$390.00</strong></li>
                     <li class="d-flex justify-content-between py-3"><strong class="text-muted">Shipping Fee </strong><strong>$ 65</strong></li>
 
-                    <form class="form-inline w-100">
+                    <form @click.prevent class="form-inline w-100">
                       <div class="form-group">
                         <input type="text" class="form-control rounded" name="voucher_code" id="voucher_code" placeholder="Enter voucher code"/>
                       </div>
-                      <button type="submit" class="theme-button rounded ml-2" id="voucher_submit">Apply</button>
+                      <button class="theme-button rounded ml-2" id="voucher_submit">Apply</button>
                     </form>
 
                     <li class="d-flex justify-content-between py-3"><strong class="text-muted">Total</strong>

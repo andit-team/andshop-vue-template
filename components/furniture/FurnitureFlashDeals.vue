@@ -1,6 +1,6 @@
 <template>
   <!-- Flash Deals Area Start -->
-  <section class="flash-deals-area fashion-flash-deals-area section-t-space">
+  <section class="flash-deals-area bg-different fashion-flash-deals-area section-t-space">
     <div class="container">
       <div class="row">
         <div class="col-12">

@@ -1,8 +1,6 @@
 <template>
   <div>
-    <FullPageLoader />
-
-    <MenuBar2 />
+    <MenuBar />
 
     <nuxt id="body-content"/>
     <div class="tap-top top-cls" v-scroll-to="'#body-content'">

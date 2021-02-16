@@ -1,149 +1,558 @@
 <template>
   <div>
-    <section class="andshop-main-slider slider-area p-0">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 p-0">
-          <div class="orientation-banner-wrap">
-            <img :src="require('@/assets/images/banners/orientation-banner.jpg')" alt="banner" class="img-fluid">
+    <section class="orientation-banner-area slider-area text-center" :style="{ 'background-image': 'url(' + require('@/assets/images/orientation-demo/orientation-banner.jpg') + ')' }">
+      <div class="overlay"></div>
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-12 col-xl-9 mx-auto p-0">
+            <div class="orientation-banner-content">
+              <img :src="require('@/assets/images/orientation-demo/logo_white.png')" alt="logo">
+              <h1 class="text-white mt-3 mb-4">Andshop - Vuejs Nuxtjs <br> Multi Vendor eCommerce Template</h1>
+              <a href="https://themeforest.net/user/andit_themes/portfolio" target="_blank" class="purchase-btn theme-button rounded">Purchase Now</a>       
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="main-services-area section-t-space section-b-40-space">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="andshop-section-title text-center">
-            <h2>AndShop</h2>
-            <p class="andshop-subtitle w-50 mx-auto mt-3 mb-5">Order your Ecommerce Fashion, Electronics, Furniture and Groceries goods from thousands of preffered shops and vendors in online and get delivery in home.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-6">
-          <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
-            <div class="service-img-wrap">
-              <img :src="require('@/assets/images/services-img/ecommerce.png')" alt="Ecommerce">
-            </div>
-            <div class="media-body">
-              <h3 class="mt-0"><nuxt-link to="/fashion">Fashion</nuxt-link></h3>
-              <p class="my-3">Orem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
-              <nuxt-link to="/fashion" class="color-red font-weight-600">Explore now</nuxt-link>
+    <!-- Different Demo Section Start -->
+    <section id="home_demo" class="demos-area section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-title text-center mb-5">
+              <h2>Home Demo</h2>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
-            <div class="service-img-wrap">
-              <img :src="require('@/assets/images/services-img/sme.png')" alt="Krishibaazar">
-            </div>
-            <div class="media-body">
-              <h3 class="mt-0"><nuxt-link to="/electronics" >Electronics</nuxt-link></h3>
-              <p class="my-3">Gem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
-              <nuxt-link to="/electronics" class="color-red font-weight-600">Explore now</nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
-            <div class="service-img-wrap">
-              <img :src="require('@/assets/images/services-img/auction.png')" alt="Furniture">
-            </div>
-            <div class="media-body">
-              <h3 class="mt-0"><nuxt-link to="/furniture">Furniture</nuxt-link></h3>
-              <p class="my-3">Srem ipsum dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
-              <nuxt-link to="/furniture" class="color-red font-weight-600">Explore now</nuxt-link>
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/fashion" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/fashion.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Fashion</h4>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div class="andshop-service-item media align-items-center" :style="{ 'background-image': 'url(' + require(`~/assets/images/services-img/service-bg-img.png`) + ')' }">
-            <div class="service-img-wrap">
-              <img :src="require('@/assets/images/services-img/krishi-baazar.png')" alt="SME">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/electronics" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/electronics.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Electronics</h4>
             </div>
-            <div class="media-body">
-              <h3 class="mt-0"><nuxt-link to="/groceries">Groceries</nuxt-link></h3>
-              <p class="my-3">Dolor sit, amet consectetur adipisicing elit. Maiores quasi necessitatibus veritatis ipsum harum neque incidunt, ipsam vitae rerum aut.</p>
-              <nuxt-link to="/groceries" class="color-red font-weight-600">Explore now</nuxt-link>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/furniture" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/furniture.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Furniture</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/groceries" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/grocery.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Groceries</h4>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- Different Demo Section End -->
 
-  <section class="join-with-us-area main-services-area section-b-40-space">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="andshop-section-title text-center">
-            <h1>Join with us</h1>
-            <p class="andshop-subtitle w-50 mx-auto mt-3 mb-5">Be a part of the Andshop community. Become a merchant or agent to grow your business. Join our agent team and earn special comission.</p>
+    <!-- Different Demo Section Start -->
+    <section id="product_demo" class="demos-area bg-different section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-title text-center mb-5">
+              <h2>Product Demo</h2>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/search-results" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/product-left.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Product Left</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/best-sellers" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/product-nosidebar.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Product No Sidebar</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/search-results/right-sidebar" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/product-right.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Product Right</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/product-details" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/p-d-style1.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Product Destails 1</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/product-details/left-thumb" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/p-d-style2.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Product Destails 2</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/product-details/right-thumb" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/p-d-style3.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Product Destails 3</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/shops" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/shop.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Shops</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/shops/shop-details" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/shop-details.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Shop Details</h4>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-sm-6 col-lg-6">
-          <div class="andshop-service-item join-with-us-item media align-items-center p-0">
-            <div class="service-img-wrap">
-              <img :src="require('@/assets/images/services-img/vendor.jpg')" alt="Vendor" class="img-fluid">
-            </div>
-            <div class="media-body">
-              <h3 class="mt-0">Become a vendor</h3>
-              <p class="my-3">Reach more customers and achieve growth with us </p>
-              <nuxt-link to="/merchant-account/registration" class="theme-button small-button rounded">Explore now</nuxt-link>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-6">
-          <div class="andshop-service-item join-with-us-item media align-items-center p-0">
-            <div class="service-img-wrap">
-              <img :src="require('@/assets/images/services-img/agent.jpg')" alt="Agent" class="img-fluid">
-            </div>
-            <div class="media-body">
-              <h3 class="mt-0">Become an agent</h3>
-              <p class="my-3">Reach more customers and achieve growth with us </p>
-              <nuxt-link to="/merchant-account/login" class="theme-button small-button rounded">Explore now</nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+    <!-- Different Demo Section End -->
 
-  <section class="discover-andshop-app bg-different p-0">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-          <div class="discover-andshop-left d-flex h-100">
-            <h3>Discover the new andshop app</h3>
-            <p class="mt-3 mb-5">Get what you need, when you need it.</p>
-            <div class="download-app-btn">
-              <a href="https://play.google.com/store/apps" target="_blank" class="mr-2"><img :src="require('@/assets/images/google-play.png')" alt="Google play"></a>
-              <a href="https://www.apple.com/shop" target="_blank" class="mr-2"><img :src="require('@/assets/images/app-store.png')" alt="App store"></a>
+    <!-- Different Demo Section Start -->
+    <section id="customer_account_demo" class="demos-area section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-title text-center mb-5">
+              <h2>Customer Account</h2>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-          <div class="andshop-mobile-app">
-            <img :src="require('@/assets/images/mobile-app.png')" alt="Mobile app">
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/registration" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_create_account.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Sign Up</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/auth/login" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/authentication_login.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Login</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/my-account/address-book" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_address_book.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Customer Addressbook</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/cart" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_cart.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Cart</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/checkout" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/customer_account_checkout.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Checkout</h4>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- Different Demo Section End -->
 
-    <PaymentMethods />
+    <!-- Different Demo Section Start -->
+    <section id="merchant_account_demo" class="demos-area bg-different section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-title text-center mb-5">
+              <h2>Merchant Account</h2>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_account_dashboard.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Dashboard</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/products" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_account_product.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Products</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/products/add-product" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_account_all_product.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Add Products</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/orders" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_account_all_orders.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Orders</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/profile" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_account_profile.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Profile</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/merchant-account/settings" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/merchant_account_settings.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Merchant Settings</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Different Demo Section End -->
+
+    <!-- Different Demo Section Start -->
+    <section id="others_demo" class="demos-area section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-title text-center mb-5">
+              <h2>Others Inner Page</h2>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/about-us" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/abou_us.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">About us</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/contact-us" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/contact_us.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Contact us</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/news-feed/" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/newsfeed.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">News Feed</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/faq" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/faq.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">FAQ</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/terms-and-conditions" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/terms.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Terms & Conditions</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/return-policy" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/return.jpg')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Return Policy</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Different Demo Section End -->
+
+    <!-- Different Demo Section Start -->
+    <section id="blog_demo" class="demos-area bg-different section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-title text-center mb-5">
+              <h2>Blog</h2>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/blog/" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/blog_left_sidebar.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Blog left sidebar</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/blog/no-sidebar" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/blog_no_sidebar.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Blog no sidebar</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/blog/right-sidebar" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/blog_right_sidebar.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Blog right sidebar</h4>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="orientation-demo-box text-center">
+              <nuxt-link to="/blog/blog-details" target="_blank" class="d-block">
+                <img :src="require('@/assets/images/orientation-demo/blog_details.png')" alt="demo" class="img-fluid">
+              </nuxt-link>
+              <h4 class="mt-4">Blog Details</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Different Demo Section End -->
+
+    <section id="sepcial_features_demo" class="orientation-featurs-area section-t-space section-b-40-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="andshop-section-title text-center">
+              <h2>Template Features</h2>
+              <p class="andshop-subtitle w-50 mx-auto mt-3 mb-5">And there is many more features.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/vue.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Vue js</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/nuxt-emoji.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Nuxt js</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/html.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">HTML5</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/css.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">CSS3</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/bootstrap.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Bootstrap</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/sass.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Sass</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/w3c.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">W3 Validate</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/google-font.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Google fonts</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/documentation.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Well Documentation</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/count.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Count Down</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/multilevel-menu.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">Multilevel Menu</h6>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="orientation-feature-box text-center">
+              <div class="orientation-feature-img">
+                <img :src="require('@/assets/images/orientation-demo/features/seo.png')" alt="demo" class="img-fluid">
+              </div>
+              <h6 class="mt-4">SEO Friendly</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Orientation Footer -->
+    <section class="orientation-footer section-t-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="orientation-footer-content text-center">
+              <h3 class="mb-3 text-white">Purchase the Andshop Template & <br> make your Multivendor Ecommerce Store </h3>
+              <a href="https://themeforest.net/user/andit_themes/portfolio" target="_blank" class="theme-button rounded">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
 <script>
-
 export default {
   layout: 'public',
-  name: 'OrientationPage'
+  name: 'OrientationPage',
 }
 </script>
+<style>
+.orientation-banner-area {
+  position: relative;
+  background-color: #0f1b27;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+.orientation-banner-area .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.orientation-title  h2 {
+  line-height: 29px;
+}
+.demos-area .orientation-demo-box, .orientation-feature-box {
+  margin-bottom: 30px;
+}
+.demos-area .orientation-demo-box img {
+  box-shadow: 3px 5px 25px 0 rgb(0 0 0 / 10%);
+  transition: all .5s ease;
+}
+.demos-area .orientation-demo-box:hover img {
+  transform: translateY(-3px);
+  transition: all .5s ease;
+}
+.orientation-feature-img {
+  box-shadow: 0 0 26px 3px #e2e2e2;
+  padding: 50px;
+}
+.orientation-footer.section-t-space {
+  background-color: #1d2531;
+}
+</style>

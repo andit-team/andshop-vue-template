@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="shop-profile-banner">
-      <img src="~/assets/images/banners/shop-profile.jpg" alt="banner" class="img-fluid">
+      <img :src="require('@/assets/images/banners/shop-profile.jpg')" alt="banner" class="img-fluid">
     </div>
 
     <div class="shop-profile-details-container">

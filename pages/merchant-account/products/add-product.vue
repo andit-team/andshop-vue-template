@@ -3,7 +3,7 @@
     <div class="card dashboard-table border-0 mt-0">
       <div class="card-body">
         <div class="merchant-add-product">
-          <h4 class="text-capitalize mb-4 pb-2 border-bottom">all products</h4>
+          <h4 class="text-capitalize mb-4 pb-2 border-bottom">Add product</h4>
           <form>
             <div class="form-row">
               <div class="form-group col">
@@ -140,7 +140,7 @@ export default {
 
 <style>
 #datepicker {
-  padding: 7px 10px 12px;
+  padding: 7px 10px 12px 0;
 }
 #datepicker svg {
     height: 18px;

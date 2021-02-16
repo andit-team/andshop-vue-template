@@ -1,6 +1,6 @@
 <template>
   <!-- Best Seller Area Start -->
-  <section class="best-seller-area section-t-space section-b-40-space bg-different">
+  <section class="best-seller-area section-t-space bg-white section-b-40-space bg-different">
     <div class="container">
       <div class="row">
         <div class="col-12">

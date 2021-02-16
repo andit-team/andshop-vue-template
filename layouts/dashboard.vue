@@ -1,8 +1,6 @@
 <template>
   <div>
-    <FullPageLoader />
-
-    <MenuBar2 />
+    <MenuBar />
 
     <section class="dashboard-home-page bg-white section-t-space">
       <div class="container">

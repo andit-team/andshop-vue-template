@@ -1,6 +1,6 @@
 <template>
   <!-- Popular Categories Area Start -->
-  <section class="popular-categories-area section-t-space section-b-40-space">
+  <section class="popular-categories-area bg-different section-t-space section-b-40-space">
     <div class="container">
       <div class="row">
         <div class="col-12">

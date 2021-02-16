@@ -1,6 +1,6 @@
 <template>
   <!-- Upcoming Products Area Start -->
-  <section class="featured-products-area section-t-space section-b-40-space bg-different">
+  <section class="featured-products-area section-t-space section-b-40-space">
     <div class="container">
       <div class="row">
         <div class="col-12">

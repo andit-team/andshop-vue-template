@@ -234,7 +234,6 @@ export default {
   data() {
     return {
       showImg: false,
-      loading: true,
       ratingValue: 4,
       isLogin: true,
       reqularSaleQty: 0,

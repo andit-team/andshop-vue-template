@@ -31,19 +31,17 @@
           <!-- Shop Page Right /Product Search Page Right Side-->
           <div class="col-12 col-md-9">
 
-            <div class="col-12">
-              <div class="shop-search-bar mb-4 d-flex align-items-center justify-content-between">
-                <h4>Shops</h4>
-                <div class="search-bar-right-wrap d-flex align-items-center">
-                  <form>
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search...">
-                      <div class="input-group-append">
-                        <button class="theme-button rounded-right" type="button"><i class="fa fa-search"></i></button>
-                      </div>
+            <div class="shop-search-bar mb-4 d-flex align-items-center justify-content-between">
+              <h4>Shops</h4>
+              <div class="search-bar-right-wrap d-flex align-items-center">
+                <form>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <div class="input-group-append">
+                      <button class="theme-button rounded-right" type="button"><i class="fa fa-search"></i></button>
                     </div>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
             </div>
 

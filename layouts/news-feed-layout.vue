@@ -1,13 +1,13 @@
 <template>
   <div>
-    <MenuBar2 />
+    <MenuBar />
 
     <section class="dashboard-home-page section-t-space">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-4 col-lg-3">
               <!-- Left Menu Item List -->
-            <div class="dashboard-menu-wrap feed-dashboard-menu-wrap bg-different pb-2 my-4">
+            <div class="dashboard-menu-wrap feed-dashboard-menu-wrap bg-different pb-2 pt-4">
 
               <nav class="mb-3 dashboard-left-menu-list">
                 <b-nav vertical>
